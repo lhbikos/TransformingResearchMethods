@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 1 The APA Style Manuscript | Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist</title>
+  <meta name="description" content="“Analysis of Variance” is a mini-volume in the ReCentering Psych Stats series that provides workflows and worked examples in R. A core focus of the ReCentering series is simulate data from published examples that recenter psychological research in a socially and culturally responsive manner." />
+  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 1 The APA Style Manuscript | Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist" />
+  <meta property="og:type" content="book" />
+  <meta property="og:image" content="https://lhbikos.github.io/ReCenterPsychStats/images/ReC_ANOVA_bookcover.png" />
+  <meta property="og:description" content="“Analysis of Variance” is a mini-volume in the ReCentering Psych Stats series that provides workflows and worked examples in R. A core focus of the ReCentering series is simulate data from published examples that recenter psychological research in a socially and culturally responsive manner." />
+  <meta name="github-repo" content="lhbikos/ReCenterPsychStats" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 1 The APA Style Manuscript | Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist" />
+  
+  <meta name="twitter:description" content="“Analysis of Variance” is a mini-volume in the ReCentering Psych Stats series that provides workflows and worked examples in R. A core focus of the ReCentering series is simulate data from published examples that recenter psychological research in a socially and culturally responsive manner." />
+  <meta name="twitter:image" content="https://lhbikos.github.io/ReCenterPsychStats/images/ReC_ANOVA_bookcover.png" />
+
+<meta name="author" content="Lynette H. Bikos, PhD, ABPP" />
+
+
+<meta name="date" content="2022-06-27" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="writing-empirical-manuscripts.html"/>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>BOOK COVER</a></li>
+<li class="chapter" data-level="" data-path="writing-empirical-manuscripts.html"><a href="writing-empirical-manuscripts.html"><i class="fa fa-check"></i>WRITING EMPIRICAL MANUSCRIPTS</a></li>
+<li class="chapter" data-level="1" data-path="APAstyle.html"><a href="APAstyle.html"><i class="fa fa-check"></i><b>1</b> The APA Style Manuscript</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="APAstyle.html"><a href="APAstyle.html#navigating-this-lesson"><i class="fa fa-check"></i><b>1.1</b> Navigating this Lesson</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="APAstyle.html"><a href="APAstyle.html#learning-objectives"><i class="fa fa-check"></i><b>1.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.1.2" data-path="APAstyle.html"><a href="APAstyle.html#readings-resources"><i class="fa fa-check"></i><b>1.1.2</b> Readings &amp; Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="APAstyle.html"><a href="APAstyle.html#apa-style-as-epistemology-or-worse"><i class="fa fa-check"></i><b>1.2</b> APA Style as Epistemology (or Worse)</a></li>
+<li class="chapter" data-level="1.3" data-path="APAstyle.html"><a href="APAstyle.html#as-we-dive-into-the-specifics"><i class="fa fa-check"></i><b>1.3</b> As We Dive into the Specifics</a></li>
+<li class="chapter" data-level="1.4" data-path="APAstyle.html"><a href="APAstyle.html#the-jars-the-core-of-apa-style"><i class="fa fa-check"></i><b>1.4</b> The JARS: The Core of APA Style</a>
+<ul>
+<li class="chapter" data-level="1.4.1" data-path="APAstyle.html"><a href="APAstyle.html#title-authorship-author-note-apa-2.3"><i class="fa fa-check"></i><b>1.4.1</b> Title, Authorship, Author Note (APA 2.3)</a></li>
+<li class="chapter" data-level="1.4.2" data-path="APAstyle.html"><a href="APAstyle.html#abstract-apa-2.8-3.3"><i class="fa fa-check"></i><b>1.4.2</b> Abstract (APA 2.8, 3.3)</a></li>
+<li class="chapter" data-level="1.4.3" data-path="APAstyle.html"><a href="APAstyle.html#introduction-apa-2.11"><i class="fa fa-check"></i><b>1.4.3</b> Introduction (APA 2.11)</a></li>
+<li class="chapter" data-level="1.4.4" data-path="APAstyle.html"><a href="APAstyle.html#method-apa-2.06-chapter-3"><i class="fa fa-check"></i><b>1.4.4</b> Method (APA 2.06; Chapter 3)</a></li>
+<li class="chapter" data-level="1.4.5" data-path="APAstyle.html"><a href="APAstyle.html#results-discussion-chapter-3"><i class="fa fa-check"></i><b>1.4.5</b> Results &amp; Discussion (Chapter 3)</a></li>
+<li class="chapter" data-level="1.4.6" data-path="APAstyle.html"><a href="APAstyle.html#headings-apa-2.7"><i class="fa fa-check"></i><b>1.4.6</b> Headings (APA 2.7)</a></li>
+<li class="chapter" data-level="1.4.7" data-path="APAstyle.html"><a href="APAstyle.html#reference-list"><i class="fa fa-check"></i><b>1.4.7</b> Reference List</a></li>
+<li class="chapter" data-level="1.4.8" data-path="APAstyle.html"><a href="APAstyle.html#stylistic-issues-apa-chapter-4-on-writing-style-and-grammar"><i class="fa fa-check"></i><b>1.4.8</b> Stylistic Issues (APA Chapter 4 on <em>Writing Style and Grammar</em>)</a></li>
+<li class="chapter" data-level="1.4.9" data-path="APAstyle.html"><a href="APAstyle.html#reducing-bias-apa-chapter-5"><i class="fa fa-check"></i><b>1.4.9</b> Reducing Bias (APA Chapter 5)</a></li>
+<li class="chapter" data-level="1.4.10" data-path="APAstyle.html"><a href="APAstyle.html#closing-thoughts"><i class="fa fa-check"></i><b>1.4.10</b> Closing Thoughts</a></li>
+</ul></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="APAstyle" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Chapter 1</span> The APA Style Manuscript<a href="APAstyle.html#APAstyle" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><a href="https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=8ca9d96d-0ff6-4068-a570-ac290189a4d4">Screencasted Lecture Link</a></p>
+<p>This lesson focuses on APA style. While a significant portion of the material focuses on the mechanics of APA style, I also consider:</p>
+<ul>
+<li>APA style as epistemology – and its relationship with power, privilege, and racism.</li>
+<li>JARS: Journal Article Reporting Standards</li>
+<li>Section by section</li>
+<li>Consideration of writing as a developmental process that occurs throughout grad school and into the profession</li>
+<li>Stylistic issues</li>
+<li>Hallmarks of APA style</li>
+<li>Reducing bias</li>
+</ul>
+<div id="navigating-this-lesson" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> Navigating this Lesson<a href="APAstyle.html#navigating-this-lesson" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>There is about 1 hour and 45 minutes of lecture.</p>
+<p>The R markdown file used to create this lecture as well as all of the figures are available at the <a href="https://github.com/lhbikos/ReC_Topics">OER’s GitHub site</a>.</p>
+<div id="learning-objectives" class="section level3 hasAnchor" number="1.1.1">
+<h3><span class="header-section-number">1.1.1</span> Learning Objectives<a href="APAstyle.html#learning-objectives" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Learning objectives from this lecture include the following:</p>
+<ul>
+<li>Identify the cultural characteristics of APA style.</li>
+<li>Identify two ways that Thompson (2004) has suggested that APA style perpetuates Whiteness and patriarchy in the academy.</li>
+<li>List the components of an abstract.</li>
+<li>Describe why JARS matters.</li>
+<li>Begin memorizing the minutia of APA Style for writing empirical manuscripts/journal articles (no particular order).</li>
+</ul>
+</div>
+<div id="readings-resources" class="section level3 hasAnchor" number="1.1.2">
+<h3><span class="header-section-number">1.1.2</span> Readings &amp; Resources<a href="APAstyle.html#readings-resources" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In preparing this chapter, I drew heavily from the following resource(s). Other resources are cited (when possible, linked) in the text with complete citations in the reference list.</p>
+<ul>
+<li>American Psychological Association. (2020). <em>Publication manual of the American Psychological Association: The official guide to APA style. (Seventh edition.).</em> American Psychological Association.
+<ul>
+<li>I’m guessing you’ll use this more days than not, for the rest of your education.</li>
+</ul></li>
+<li>Tran, A. G. T. T., &amp; Lee, R. M. (2014). You speak English well! Asian Americans’ reactions to an exceptionalizing stereotype. <em>Journal of Counseling Psychology, 61</em>(3), 484–490. <a href="https://doi.org/10.1037/cou0000034" class="uri">https://doi.org/10.1037/cou0000034</a>
+<ul>
+<li>I use this article in several analyses in the ANOVA series as well as in this lesson when I compare/contrast it to the requirements of APA Style. This article was pubbed in 2014; but I will compare it to the 7th edition (2019) standards.</li>
+</ul></li>
+<li>Cooper, H. (2020). <em>Reporting quantitative research in psychology: How to meet APA style journal article reporting standards (Second edition, revised.).</em> American Psychological Association. <a href="https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/rpqmv/CP71332049420001451" class="uri">https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/rpqmv/CP71332049420001451</a>
+<ul>
+<li>The e-text version of this may be available at your library. This resource offers section-by-section instruction of the reporting standards and provides numerous examples of writing APA empirical manuscripts.</li>
+</ul></li>
+<li>Madigan, R., Johnson, S., &amp; Linton, P. (1995). The language of psychology: APA style as epistemology. American Psychologist, 50(6), 428–436. <a href="https://doi.org/10.1037/0003-066X.50.6.428" class="uri">https://doi.org/10.1037/0003-066X.50.6.428</a>
+<ul>
+<li>Madigan et al. (1995) argued that as we learn APA style we are inculcating the professional values of our discipline (and we do this without awareness).</li>
+</ul></li>
+<li>Thompson, A. (2004). Gentlemanly Orthodoxy: Critical Race Feminism, Whiteness Theory, and the APA Manual. <em>Educational Theory, 54</em>(1), 27–57. <a href="https://doi.org/10.1111/j.0013-2004.2004.00002.x" class="uri">https://doi.org/10.1111/j.0013-2004.2004.00002.x</a></li>
+<li>Critiquing the 5th edition of the style manual (we’re now on the 7th) Thompson (2004) pointed out how aspects of APA style contribute to preserving Whiteness.</li>
+<li>Appelbaum, M., Cooper, H., Kline, R. B., Mayo-Wilson, E., Nezu, A. M., &amp; Rao, S. M. (2018). Journal article reporting standards for quantitative research in psychology: The APA Publications and Communications Board task force report. <em>American Psychologist, 73</em>(1), 3–25. <a href="https://doi.org/10.1037/amp0000191" class="uri">https://doi.org/10.1037/amp0000191</a>
+<ul>
+<li>Yet another copy of the most current JARS. You can also find them in the style manual and on their own website: <a href="https://apastyle.apa.org/jars/glossary" class="uri">https://apastyle.apa.org/jars/glossary</a></li>
+</ul></li>
+<li><em>White Supremacy Culture.</em> (n.d.). DRworksBook. Retrieved August 8, 2020, from <a href="https://www.dismantlingracism.org/white-supremacy-culture.html" class="uri">https://www.dismantlingracism.org/white-supremacy-culture.html</a>
+<ul>
+<li>Identifies characteristics of White Supremacy Culture in organizations (often used to describe academia).</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="apa-style-as-epistemology-or-worse" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> APA Style as Epistemology (or Worse)<a href="APAstyle.html#apa-style-as-epistemology-or-worse" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A 1995 article <span class="citation">(<a href="#ref-madigan_language_1995" role="doc-biblioref">Madigan et al., 1995</a>)</span> in the American Psychologist compared APA style to that of other disciplines (history, literary criticism) and argued that APA Style is its own writing genre characterized by (among other things):</p>
+<ul>
+<li>A story schema: introduction, method, results, discussion
+– Seems so linear; but this is rarely the case (research is messy)</li>
+<li>A depersonalized language of disagreement that focuses on the empirical process and away from investigators as individuals (e.g., “The primary criticism is that the threshold-setting procedures used in previous experiments are not adequate to ensure that…”). The goal is a collaborative, cumulative endeavor based on research data.</li>
+<li>Hedged conclusions: balancing a need to have substantive conclusions that do not extend beyond the data. We use the words, “tend,” “suggest,” and “may.” See Table1.</li>
+<li>A system of headings/subheadings (rather than narrative transitions)</li>
+<li>Paraphrasing rather than directly quoting other works.
+– Giving authors more flexibility in representing others’ perspectives.</li>
+<li>Multiple authors (perhaps contributing to “more subdued prose”).</li>
+<li>Heavy use of citations introduction and discussion so that the research is placed within an ongoing stream of empirical studies.</li>
+<li>Language that “does not call attention to itself.” It can be described as: self-effacing and low-profile.</li>
+</ul>
+<p>The style manual has grown from its 7-page writers guide in the Psychological Bulletin (1929) to 427 in the 7th edition (2019), today. Madigan et al. <span class="citation">(<a href="#ref-madigan_language_1995" role="doc-biblioref">1995</a>)</span> suggests that the process of mastering APA style, one is enculturated into psychology. That is, we learn APA style – we inculcate empiricist values (i.e., “unarticulated practices that reflect fundamental attitudes and values of psychologists” (p. 428). As such, APA style is epistemological.</p>
+<p>Nearly a decade later, Thompson <span class="citation">(<a href="#ref-thompson_gentlemanly_2004" role="doc-biblioref">2004</a>)</span> examined APA style through the lens of critical race feminism and Whiteness Theory. Thompson argued that the expectations regarding clarity precision, appropriateness, sensitivity, and objectivity likely contribute to the academy’s investments in Whiteness and patriarchy. While her focus was on APA Style, she suspected that her critique would generalize to other style guides (e.g., Chicago, MLA).</p>
+<p>Thompson’s <span class="citation">(<a href="#ref-thompson_gentlemanly_2004" role="doc-biblioref">2004</a>)</span> article focused around the gender/sexuality and race values codified by the APA manual (at the time of her article it was the 5th edition). She conducted an analysis of its <em>power and property investments</em> and organized her arguments in five themes:</p>
+<p><strong>Property Rights</strong>: PWIs have treated refereed scholarship (but not indigenous or community knowledge) as intellectual property, demarcated with a certain class. That is, individuals “own knowledge.” Evidence includes:</p>
+<ul>
+<li>Using last names as a shorthand reference for work (e.g., “Dik &amp; Duffy’s 2012 CVQ”).</li>
+<li>Tendency to cite own work rather than say, “When I previously said…”</li>
+<li>The style manual indicates that principal authorship and order of authorship credit should reflect the relative contributions of persons involved (7th ed, APA 1.22) and that relative status should not determine authorship order. Thompson argued that power dynamics (especially around race and gender) likely interfere with this principle.</li>
+<li>The 7th edition has reduced citations of articles with three and more articles to “First author et al., YEAR” for all citations.<br />
+</li>
+<li>Regarding, ownership of knowledge – does it belong to the researcher or the community from which it came? Community knowledge can be studied but not cited. And what about institutions. What if knowledge came from the Black Church? How does one cite that?</li>
+</ul>
+<p><strong>Precedent and pedigree</strong>: In the social sciences, we are expected to cite and give credit to relevant earlier works. Knowledge is seen as cumulative. Citations are essential.</p>
+<ul>
+<li>No “unhedged statement” (p. 45) is made without a citation; and in introductory sections, citations are often included with claims that seem obvious! This establishes the requisite lineage.</li>
+<li>Self-citations, expected citations (of the gurus), citations of colleagues exist IN TENSION with a citation economy (page limits, afterall).</li>
+<li>The requirement that scholars locate their project in the context of the existing peer-reviewed literature serves to keep out ideas/projects that would be challenging to the existing power structure.</li>
+</ul>
+<p><strong>Proceduralism</strong>: APA authors learn to address an audience unmarked (as if they were white, male, heterosexual) by gender or race as a “sign of professionalism” (p. 48).</p>
+<ul>
+<li>Standardized Format: a four section structure: Introduction, Method, Results Discussion; it could be that the experiences of marginalized and oppressed groups cannot be captured by this scientific narrative structure.</li>
+<li>Standardized Style: prizing scientific appearance and elegance. Thompson (2004) follows the guidelines regarding the use of the “slash” (/) and how it is impossible to standardize to the degree that it works for all groups.
+<ul>
+<li>The “First author et al., (year)” citation contributes to both gender- and color-blindness. ON the one hand is it “fair.” On the other hand, it obscures the person of the author.</li>
+<li>APA’s prohibition against footnotes minimizes “the good stuff” (the most juicy arguments are always in the footnotes).</li>
+</ul></li>
+</ul>
+<p><strong>Protocol</strong>: Propriety or protocol represents conduct that signifies one’s understanding of prevailing relations of power, authority and legitimacy.</p>
+<ul>
+<li>The style manual (7th ed, Chapter 5, e.g., 5.2) acknowledges the importance of sensitivity and the avoidance of pejoratives to reference groups of people. Thompson indicates that this is “admirable” it fails to address unequal power relations. Further, distinctions between what is insensitive and pejorative may be invisible to those in positions of privilege.</li>
+</ul>
+<p><strong>The gentleman’s agreement</strong>: APA style is characterized “language that conveys professionalism and formality” (7th ed, 4.7, 4.8) and “differences should be presented in a professional and noncombative manner” (7th ed, 4.7).</p>
+<ul>
+<li>Thompson <span class="citation">(<a href="#ref-thompson_gentlemanly_2004" role="doc-biblioref">2004</a>)</span> is concerned that while this is offered with the hope of pluralism and the creation of safe spaces, it causes controversies to be ignored or dismissed and may bolster complicity in racism.</li>
+</ul>
+</div>
+<div id="as-we-dive-into-the-specifics" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> As We Dive into the Specifics<a href="APAstyle.html#as-we-dive-into-the-specifics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Please keep the perspectives of these authors in mind.</p>
+<p>Let’s also look at the characteristics of White Supremacy Culture in organizations <span class="citation">(<a href="#ref-noauthor_white_nodate" role="doc-biblioref"><span>“White <span>Supremacy</span> <span>Culture</span>,”</span> n.d.</a>)</span>. As we tour through the components of APA style, what resonates with this list? Refer to the .pdf handout or website for more definitions, descriptions, examples, and antidotes.</p>
+<ul>
+<li>Perfectionism
+<ul>
+<li>Perfectionistic culture</li>
+<li>Worship of the written word</li>
+<li>Only one right way</li>
+<li>Either/or thinking</li>
+</ul></li>
+<li>Concentration of power
+<ul>
+<li>Power hoarding</li>
+</ul></li>
+<li>Paternalism
+<ul>
+<li>Defensiveness</li>
+</ul></li>
+<li>Right to comfort
+<ul>
+<li>Fear of open conflict</li>
+</ul></li>
+<li>Individualism
+<ul>
+<li>I’m the only one</li>
+</ul></li>
+<li>Progress is more/bigger
+<ul>
+<li>Objectivity</li>
+<li>Quantity over quality</li>
+<li>Sense of urgency</li>
+</ul></li>
+</ul>
+</div>
+<div id="the-jars-the-core-of-apa-style" class="section level2 hasAnchor" number="1.4">
+<h2><span class="header-section-number">1.4</span> The JARS: The Core of APA Style<a href="APAstyle.html#the-jars-the-core-of-apa-style" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The JARS [Journal Article Reporting Standards; <span class="citation">Appelbaum et al. (<a href="#ref-appelbaum_journal_2018" role="doc-biblioref">2018</a>)</span>] were first introduced in a 2008 feature in the American Psychologist <span class="citation">(<a href="#ref-noauthor_reporting_2008" role="doc-biblioref"><span>“Reporting Standards for Research in Psychology,”</span> 2008</a>)</span> and were included in the 6th edition of the style manual. The updated JARS, published in 2018, expanded the types of quantitative research (JARS-Quant) and included standards for reporting qualitative (JARS-Qual) and mixed methods (JARS-Mixed). Chapter 3 of the 7th edition is devoted to JARS. It contains numerous tables, definitions/explanations, and a flowchart.</p>
+<p>The JARS are an attempt to represent what is common across approaches. There is a recognition that specialties/sub-specialties use different terminology. The terms, therefore, should be treated as placeholders and be updated to reflect the various research traditions.</p>
+<p>In each of the sections below, I list both the APA style recommendations and JARS elements – which are somewhat annoyingly separate, adjacent, and overlapping.</p>
+<p>In the next section I used text-citations to also refer to the section numbers of the 7th edition of the APA style manual. Additionally, because this OER is publicly available (i.e., not just used in my classroom), I have not copied the JARS elements into this document. They are freely available <a href="https://apastyle.apa.org/jars/quantitative">here</a></p>
+<div id="title-authorship-author-note-apa-2.3" class="section level3 hasAnchor" number="1.4.1">
+<h3><span class="header-section-number">1.4.1</span> Title, Authorship, Author Note (APA 2.3)<a href="APAstyle.html#title-authorship-author-note-apa-2.3" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>QUIZLET:
+A manuscript title should</p>
+<ol style="list-style-type: lower-alpha">
+<li>Use abbreviations whenever possible</li>
+<li>Contain at least 30 words</li>
+<li>Be fully explanatory when standing alone</li>
+<li>Begin with the words, A Study of</li>
+</ol>
+<p>The title page of a manuscript includes the</p>
+<ol style="list-style-type: lower-alpha">
+<li>Author’s name</li>
+<li>Author’s institutional affiliation’</li>
+<li>Running head</li>
+<li>Short title</li>
+<li>All of the above</li>
+</ol>
+<div id="title-apa-2.4" class="section level4 hasAnchor" number="1.4.1.1">
+<h4><span class="header-section-number">1.4.1.1</span> Title (APA 2.4)<a href="APAstyle.html#title-apa-2.4" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li>Concise statement of main topic of the research,</li>
+<li>Identify the variables or theoretical issues under investigation (and the relationship between t Addhem),</li>
+<li>Focused and succinct (no prescribed word or character limit per the style manual; but a journal might have one).</li>
+<li>Avoid empty words/phrases like “A study of,” “An investigation of”</li>
+</ul>
+<p><em>The lecture further reviews JARS elements.</em></p>
+</div>
+<div id="authorshipbyline-apa-2.5-affiliation-apa-2.6" class="section level4 hasAnchor" number="1.4.1.2">
+<h4><span class="header-section-number">1.4.1.2</span> Authorship/Byline (APA 2.5) &amp; Affiliation (APA 2.6)<a href="APAstyle.html#authorshipbyline-apa-2.5-affiliation-apa-2.6" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li>Primary contributors;</li>
+<li>Institutional affiliation AT THE TIME of the study, no more than 2 institutional affiliations (and they both need to have contributed equally)</li>
+<li>Very specific style guidelines (with superscript notations) for connecting authors and their affiliations</li>
+<li>In the order of contribution – lots of ethical, practical, and sensitive considerations about who gets to be an author and in what order.</li>
+</ul>
+<p><strong>Sticky Issues about Authorship</strong></p>
+<ul>
+<li>Faculty as first authors</li>
+<li>Ongoing projects with years of investment sponsored by faculty</li>
+<li>Who gets “the call”?</li>
+<li>Order between equal contributors (e.g., Singer &amp; Willett)</li>
+<li>In equal contributions it’s ok (not ideal) to mention in the author note</li>
+<li>GOAL: name on a project, less concerned about author order</li>
+<li>Generally, graduate projects include the faculty sponsor as an author (last at SPFC conference; likely elsewhere at professional conferences or publication)</li>
+<li>Author-order rubrics can be useful to guide the decision</li>
+</ul>
+</div>
+<div id="author-note-apa-2.7" class="section level4 hasAnchor" number="1.4.1.3">
+<h4><span class="header-section-number">1.4.1.3</span> Author Note (APA 2.7)<a href="APAstyle.html#author-note-apa-2.7" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Place the author note at the bottom half of title page. There are more specific instructions in style manual. Generally author note has four paragraphs:</p>
+<ul>
+<li>ORCID iDs <a href="https://orcid.org" class="uri">https://orcid.org</a></li>
+<li>Changes in affiliation subsequent to the time of the study, “[Author’s name] is now at [new affiliation].” Can also be used if an author is deceased.</li>
+<li>Disclosures and acknowledgements (i.e., study registration, open practices and data sharing, related reports, conflicts of interest, financial or other assistance).</li>
+<li>Contact information for corresponding author. Requires full name, complete mailing address, and e-mail. Prescribed format: Correspondence concerning this article should be addressed to [author’s name’], [complete mailing address]. Email: <a href="mailto:author@institution.edu" class="email">author@institution.edu</a></li>
+</ul>
+<p><em>The lecture further reviews JARS elements.</em></p>
+</div>
+<div id="running-head-apa-2.8" class="section level4 hasAnchor" number="1.4.1.4">
+<h4><span class="header-section-number">1.4.1.4</span> Running Head (APA 2.8)<a href="APAstyle.html#running-head-apa-2.8" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li>Abbreviated title printed at the top of the pages of a ms or pubbed article to identify it for the readers</li>
+<li>Max of 50 characters (counting letters, punctuation, spaces between words). If the title is already 50 characters or fewer, the full title can be sued. Avoid abbreviations in the running head, although the ampersand can be swapped (&amp; for “and”).</li>
+<li>Appears flush left in all uppercase letters at the top of the title and subsequent pages</li>
+</ul>
+</div>
+<div id="manuscript-page-headerspage-numbers-apa-8.03" class="section level4 hasAnchor" number="1.4.1.5">
+<h4><span class="header-section-number">1.4.1.5</span> Manuscript Page Headers/Page Numbers (APA 8.03)<a href="APAstyle.html#manuscript-page-headerspage-numbers-apa-8.03" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li>Number consecutively, beginning with the title</li>
+<li>Identify each page with the running head along with the page number</li>
+<li>To facilitate a blinded review, do not include your name in these</li>
+<li>Use the automatic functions of the word-processer to generate page headers and page numbers</li>
+</ul>
+</div>
+</div>
+<div id="abstract-apa-2.8-3.3" class="section level3 hasAnchor" number="1.4.2">
+<h3><span class="header-section-number">1.4.2</span> Abstract (APA 2.8, 3.3)<a href="APAstyle.html#abstract-apa-2.8-3.3" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>QUIZLET:
+An abstract should</p>
+<ol style="list-style-type: lower-alpha">
+<li>Appear on the same page above the title and introduction</li>
+<li>Be single-spaced and set with larger margins</li>
+<li>Begin on page 2</li>
+<li>Be no longer than 3% of the text</li>
+</ol>
+<p>Abstract lengths vary from journal to journal; the typical range is from ___ to___ words.</p>
+<p>For real…a good abstract is:</p>
+<ul>
+<li>Concise and specific</li>
+<li>Nonevaluative</li>
+<li>Coherent and readable</li>
+<li>Loaded with keywords</li>
+<li>May be a single paragraph (no indentation of first line) or structured (still no indentation, but labels inserted for the prescribed sections).</li>
+</ul>
+<div id="recipe-for-an-abstract" class="section level4 hasAnchor" number="1.4.2.1">
+<h4><span class="header-section-number">1.4.2.1</span> Recipe for an Abstract<a href="APAstyle.html#recipe-for-an-abstract" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li>Identify the problem under investigation (1 sentence)</li>
+<li>Identify the participants and salient characteristics</li>
+<li>Identify the experimental method, including the apparatus, data gathering procedures, complete test names, etc.</li>
+<li>Identify findings (including statistical significance levels)</li>
+<li>Identify conclusions and implications/applications.</li>
+<li>Avoid <em>boilerplate</em> sentences.
+– At the end of an abstract, I often read, “Findings and implications will be discussed.” This is boilerplate because “everyone says it.” It’s also empty and a waste of words because it tells us NOTHING about the study.</li>
+<li>The style manual includes outlines for a variety of types of manuscripts.</li>
+</ul>
+<p><em>The lecture further reviews JARS elements.</em></p>
+</div>
+<div id="keywords" class="section level4 hasAnchor" number="1.4.2.2">
+<h4><span class="header-section-number">1.4.2.2</span> Keywords<a href="APAstyle.html#keywords" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Keywords include single words, phrases, or acronyms that describe the most important aspects of the paper. The purpose is indexing in databases (it’s what we search on in database like PsychInfo).</p>
+</div>
+</div>
+<div id="introduction-apa-2.11" class="section level3 hasAnchor" number="1.4.3">
+<h3><span class="header-section-number">1.4.3</span> Introduction (APA 2.11)<a href="APAstyle.html#introduction-apa-2.11" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>QUIZLET:
+The introduction section of a research report should:</p>
+<ol style="list-style-type: lower-alpha">
+<li>Include a thorough historical review of the literature</li>
+<li>Define all of the terms that would be unintelligible to a reader with no previous exposure to the field</li>
+<li>Present the specific problem to be explored and described in the research strategy</li>
+<li>Be clearly labeled.</li>
+</ol>
+<p>What question should the introduction section of a research report attempt to answer?
+a. What are the theoretical implications of the current research?
+b. What is the point of the study?
+c. What is the logical link between the problem and the research strategy?
+d. All of the above are correct.
+e. Only a and c of the above are correct.</p>
+<p>Before you write, consider this:</p>
+<ul>
+<li>Why is this problem important?</li>
+<li>How does this study link to previous work?</li>
+<li>What are the primary/secondary hypotheses/objectives? What are their links to theory?</li>
+<li>How do the hypotheses and research design relate to each other?</li>
+<li>What are the theoretical and practical implications?</li>
+</ul>
+<p>Three parts to the Introduction</p>
+<ul>
+<li>Brief introduction, 1-2 paragraphs</li>
+<li>Review of relevant scholarship, 1-2 pages</li>
+<li>Purpose, rational, hypotheses, 1-2 paragraph’s at the section’s close.</li>
+</ul>
+<div id="the-brief-introduction" class="section level4 hasAnchor" number="1.4.3.1">
+<h4><span class="header-section-number">1.4.3.1</span> The Brief Introduction<a href="APAstyle.html#the-brief-introduction" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>A good introduction paragraph answers the following questions in 1-2 paragraphs</p>
+<ul>
+<li>What is the point of the study?</li>
+<li>How do the hypothesis and experimental design relate to the problem?</li>
+<li>What are the theoretical implications of the study and how does the study relate to previous work in the area?</li>
+<li>What are the theoretical propositions tested and how were they derived?</li>
+</ul>
+<p>In the middle…above ALL</p>
+<ul>
+<li>Demonstrate that the problem is IMPORTANT</li>
+<li>Narrative thread.</li>
+<li>Always refer to the THEORETICAL BACKGROUND</li>
+<li>Narrative thread.</li>
+<li>Closing paragraph a statement of purpose and rationale of project.</li>
+<li>Narrative thread.</li>
+</ul>
+<p>The closing paragraph(s) of the Introduction</p>
+<ul>
+<li>What variables did I plan to manipulate?</li>
+<li>What results did I expect and why did I expect them? (the logic of this should also be made clear)</li>
+<li>What is my rationale for each hypothesis?</li>
+</ul>
+<p><em>The lecture further reviews JARS elements.</em></p>
+</div>
+<div id="bikos-developmental-perspective-on-learning-to-write-the-empirical-manuscript" class="section level4 hasAnchor" number="1.4.3.2">
+<h4><span class="header-section-number">1.4.3.2</span> Bikos’ Developmental Perspective on Learning to Write the Empirical Manuscript<a href="APAstyle.html#bikos-developmental-perspective-on-learning-to-write-the-empirical-manuscript" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Over the years I have been learning writing skills of my own and, in my roles as instructor and peer reviewer, providing feedback to others. Below is an oversimplified model of what I think I’m observing as students and scholars learn to write empirical manuscripts (in the specific APA style).</p>
+<p>Figure 1. The first stage of writing.</p>
+<div class="figure">
+<img src="images/APAstyle/Stage1.jpg" alt="" />
+<p class="caption">Image of the first stage of writing</p>
+</div>
+<p>Figure 2. The second stage of writing.</p>
+<div class="figure">
+<img src="images/APAstyle/Stage2.jpg" alt="" />
+<p class="caption">Image of the second stage of writing</p>
+</div>
+<p>Figure 3. The third stage of writing.</p>
+<div class="figure">
+<img src="images/APAstyle/Stage3.jpg" alt="" />
+<p class="caption">Image of the third stage of writing</p>
+</div>
+<p>Figure 4. The fourth stage of writing.</p>
+<div class="figure">
+<img src="images/APAstyle/Stage4.jpg" alt="" />
+<p class="caption">Image of the fourth stage of writing</p>
+</div>
+</div>
+<div id="perennial-notes-from-research-project-faculty-graders" class="section level4 hasAnchor" number="1.4.3.3">
+<h4><span class="header-section-number">1.4.3.3</span> Perennial Notes from Research-Project Faculty Graders<a href="APAstyle.html#perennial-notes-from-research-project-faculty-graders" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li>Start with your problem statement
+– What is your DV and why does the reader care?</li>
+<li>Theory must drive your model/manuscript.
+– “A list of variables does not a theory-driven model make.”</li>
+<li>Active headers are your friends
+– Not helpful: “Gender &amp; RSB”
+– More helpful: “RSB vary across Genders”</li>
+</ul>
+</div>
+</div>
+<div id="method-apa-2.06-chapter-3" class="section level3 hasAnchor" number="1.4.4">
+<h3><span class="header-section-number">1.4.4</span> Method (APA 2.06; Chapter 3)<a href="APAstyle.html#method-apa-2.06-chapter-3" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Describes in detail how the study was conducted.</li>
+<li>Includes conceptual and operational definitions of variables.</li>
+<li>How much info is enough? Readers must be able to…
+– Evaluate the appropriateness of the method
+– Judge the reliability and validity of your results
+– Replicate the study</li>
+</ul>
+<p>Many of the JARS elements have even more detail in the text that follows the table. In your first few papers, make sure to review and imitate.</p>
+<p><em>The lecture further reviews JARS elements.</em></p>
+<p>Regarding these tables – flowchart and tables in style manual, Appelbaum (2018) article, or <a href="https://apastyle.apa.org/jars/jars-quant-decision-flowchart.pdf">website</a>.</p>
+</div>
+<div id="results-discussion-chapter-3" class="section level3 hasAnchor" number="1.4.5">
+<h3><span class="header-section-number">1.4.5</span> Results &amp; Discussion (Chapter 3)<a href="APAstyle.html#results-discussion-chapter-3" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>The lecture references the JARS elements in detail.</em></p>
+<p>Section 6.43 of the APA style manual details the basic form for statistical output (“statistical strings”); 6.44 provides statistical abbreviations and symbols.</p>
+</div>
+<div id="headings-apa-2.7" class="section level3 hasAnchor" number="1.4.6">
+<h3><span class="header-section-number">1.4.6</span> Headings (APA 2.7)<a href="APAstyle.html#headings-apa-2.7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The 7th edition of the style manual updated the levels of headings. The change is to the L3 heading – making it a little easier for Word processing programs.</p>
+<p>There are now 5 levels of headings. A useful table that illustrates them can be found <a href="https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings">here</a>.</p>
+<p>Headings follow a top-down progression.</p>
+<ul>
+<li>Each section (i.e., Title [on first page], Method, Results, Discussion) starts with an L2 heading.</li>
+<li>Do not include an “Introduction” heading – the first paragraphs of a paper are automatically expected to be introductory in nature.
+Here’s the heading structure in the paper (a “brief report”) we are investigating:</li>
+</ul>
+<p><strong>You Speak English Well! Asian American’s Reactions to an Exceptionalizing Stereotype Microaggressions Against Asian Americans</strong> (L1, centered, bold, title case)</p>
+<p><strong>Method</strong> (L1, centered, bold, title case)</p>
+<p><strong>Sample</strong> (L2, flush left, bold, title case)
+<strong>Procedure and Materials</strong> (L2, flush left, bold, title case)
+<strong>Analysis and Manipulation Check</strong> (L2, flush left, bold, title case)</p>
+<p><strong>Results</strong> (L1, centered, bold, title case)</p>
+<p><strong>Discussion</strong> (L1, centered, bold, title case)</p>
+<p><strong>Conclusion</strong> (L1, centered, bold, title case)</p>
+</div>
+<div id="reference-list" class="section level3 hasAnchor" number="1.4.7">
+<h3><span class="header-section-number">1.4.7</span> Reference List<a href="APAstyle.html#reference-list" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The reference list should start on a new page with “References” in bold and centered (an L1 heading – like the title).</p>
+<p>The general format of the reference is: Author (Date). Title. Source. The 7th edition has made significant improvements in making this format consistent throughout the many types of references. Plus, Chapter 9 in the 7th edition has a number of tools for problematic reference entries.</p>
+<p>One substantial change in the 7th edition is the immediate use of “et al.” after the first author’s name there are three or more authors. In contrast, up to 20 authors can be included in the entry in the reference list.</p>
+<p>Use a hanging indent and format this with the paragraph-formatting function of your word processor’s ruler. This means that the first line of each reference is flush left and subsequent lines are indented by 0.5 inches:</p>
+<p>The text-citations and reference lists must be 100% consistent. If you have consistently (and properly) used your reference management system, this will happen by magic. Even so, one of the last things I do is a text-ref/ref-list cross check. I open 2 copies of the manuscript and put them side-by-side on the monitor. Starting with the text (and in track changes), each time I come to a reference, I put an X in front of it on the ref list. I go through the entire document. If there are items in the ref list missing, I note it (then add it). If there are additional references in the ref list that I haven’t checked, I do a quick search to see if they are really missing, and if so, I delete them. For dissertation proposals and defenses, we ask first and second year students to do this for us – it familiarizes them with RVT topics, the dissertation process, and the literature.</p>
+<p>Because of Zotero, Mendeley, RefWorks, EndNote, and other reference management systems (as well as the good tools in the style manual), I won’t say more about text-citations and reference lists.</p>
+</div>
+<div id="stylistic-issues-apa-chapter-4-on-writing-style-and-grammar" class="section level3 hasAnchor" number="1.4.8">
+<h3><span class="header-section-number">1.4.8</span> Stylistic Issues (APA Chapter 4 on <em>Writing Style and Grammar</em>)<a href="APAstyle.html#stylistic-issues-apa-chapter-4-on-writing-style-and-grammar" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>APA (4.0) is committed to a literary style characterized by continuity (logical consistency of expression throughout a written work), flow (smooth cadence of words and sentences), conciseness (say only what you need to say), and clarity. I encourage the authors to read Chapter 4 of the style manual for examples of how to increase the effectiveness with which they write.</p>
+<ul>
+<li>Transitional words between sentences and phrases (or sentences) between paragraphs and sections assist with continuity and flow
+– Time: then, next, after, while, since
+– Cause-effect: therefore, consequently, as a result
+– Addition links: in addition, moreover, furthermore, similarly
+– Contrast links: but, conversely, nevertheless, however, although
+– Think twice about using adverbs (certainly, consequently, importantly, interestingly) as transition words.</li>
+<li>Active headings/subheadings contribute to continuity and flow.</li>
+<li>Don’t add any more words than necessary. Say <em>only</em> what needs to be said:
+– No “fluff” (avoid: very, really)
+– Maintain a professional tone (avoid cliché’s, rhymes, alliteration, metaphors, slang – remember a global audience)</li>
+<li>Clarity is improved with a varied sentence length; long sentences can be confusing.</li>
+<li>APA style permits both active (subject, verb, object: “students completed surveys) and passive (object of verb is presented first: “surveys were completed by students”) voice. The active voice contributes to direct, clear, and concise statements.</li>
+</ul>
+<p>More style-congruent advice:
+* Avoid abstract stacking.
+* Avoid organizing by an author(s)’ name(s).
+– Organize by ideas – Unless it is important, citations should be at the end of a sentence. Ask yourself why you are starting a sentence with an author’s name – Is he or she the point of your sentence? Could be but most likely not.
+* Use quotations sparingly: short ones, infrequently.
+* Precision, continuity, clarity, efficiency (stop with the long sentences)
+* Active voice (“It” is banned as first word in paragraphs and sentences).
+* Manuscript must be written in first person.
+– Avoid this: “Hypotheses for the present study included…”
+– Do this instead: “In our study, we hypothesized…”
+* Past tense or present perfect tense for the literature review, method, and results sections; present tense for the discussion section.</p>
+</div>
+<div id="reducing-bias-apa-chapter-5" class="section level3 hasAnchor" number="1.4.9">
+<h3><span class="header-section-number">1.4.9</span> Reducing Bias (APA Chapter 5)<a href="APAstyle.html#reducing-bias-apa-chapter-5" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Chapter 5, “Bias-Free Language Guidelines” is new to the 7th edition. A big message is that this is-and-will-continue-to-be-evolving.</p>
+<p>Here are some of the highlights</p>
+<ul>
+<li>Describe relevant characteristics; it is likely unnecessary to collect and/or report on all personal characteristics for the topic being explored.</li>
+<li>Don’t shy away/hide/gloss over actual differences in the target population from the general population. Describe them clearly and professionally.</li>
+<li>There are specific guidelines for level of specificity in labels/language for various topics (e.g., disability, age, gender identity, race/ethnicity/nationality, sexual orientation, SES). Look them up.</li>
+<li>A few guiding principles (but there are so many more…read the chapter):
+– Call people what they call themselves (especially in qualitative or participant-informed research designs). Also recognize that no group is monolithic so there may be within-group differences about this.
+– Accept that language changes with time – stay open minded.
+– There is debate about person-first language (“a child with autism”) and identity-first language (“an autistic child”). Get consultation and listen to the research participants.
+– “White,” “cis-gendered,” “heterosexual,” and “U.S.” is often the standard against which others are judged. This centers Whiteness. Avoid these false hierarchies. When these comparisons are made, placing the socially dominant group on the left side of a graph or at the top of a table may imply these groups are the universal standard.</li>
+</ul>
+<p>A (very) few specific details:
+* On identification of race:
+– “African American” is discouraged as an umbrella term for people of African ancestry worldwide because it obscures other ethnicities or national origins (e.g, Jamaica). In these cases use Black (with a capital “B”).
+– “Caucasian” is discouraged as an umbrella term for White or European because it originated as a way of classifying White people as a superior race. Use White (with a capital “W”).
+– “Native American” and “Native North American” seem to be preferred in North America.
+– “Latin@” is now widely accepted for Latino and Latina; as is “Latino/a.” “Latinx” can also be used as a gender-neutral or nonbinary term inclusive of all genders.<br />
+* Avoid writing about “minorities.” Terms like “people of color” or “underrepresented groups” are preferred. Do not assume that members of any of these groups are “underprivileged.” Terms like “economically marginalized” or “economically exploited” may be preferred.
+* Use “sexual orientation” not “sexual preference,” “sexual identity,” or “sexual orientation identity.” The term “sexual and gender minorities” refers to multiple sexual and/or gender minority groups or write about “sexual orientation and gender diversity.”<br />
+– LGBT is considered outdated, but LGBTQ, LGBTQ+, LGBTQIA, AND LGBTQIA+ may be used to refer to multiple groups (but be careful and specific; if you are researching transgender people…then talk about transgender people).
+* “They” is now acceptable to use in the singular. There are a number of circumstances when this is recommended. A few include:
+– When it is the person’s preferred pronoun.
+– When the pronoun is unknown.
+– In place of “he or she,” “s/he,” and “(s)he.”</p>
+</div>
+<div id="closing-thoughts" class="section level3 hasAnchor" number="1.4.10">
+<h3><span class="header-section-number">1.4.10</span> Closing Thoughts<a href="APAstyle.html#closing-thoughts" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Fluency in APA style is a long journey. One of my own strategies in an APA Cheat Sheet (presently 38 pages long).</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>I wrote it to help with reviewing/editing/grading (and also for my own writing), so I can search on words/phrases that I’m likely to say.</li>
+<li>I can add/update it.</li>
+<li>Each element in my cheatsheet has the section number (for papers I review as well as my own self-doubt when I wonder, later).</li>
+</ol>
+<ol start="2" style="list-style-type: decimal">
+<li>Having now toured the 7th ed, what are your thoughts about its relation to power, privilege, racism/anti-racism, and White supremacy culture?</li>
+</ol>
+<p>Repeated are the characteristics of White supremacy culture. I have italized those that strike me as being reflected in APA Style.</p>
+<ul>
+<li>Perfectionism
+<ul>
+<li><em>Perfectionistic culture</em></li>
+<li><em>Worship of the written word</em></li>
+<li><em>Only one right way</em></li>
+<li>Either/or thinking</li>
+</ul></li>
+<li>Concentration of power
+<ul>
+<li><em>Power hoarding</em></li>
+</ul></li>
+<li>Paternalism
+<ul>
+<li>Defensiveness</li>
+</ul></li>
+<li>Right to comfort
+<ul>
+<li><em>Fear of open conflict</em></li>
+</ul></li>
+<li>Individualism
+<ul>
+<li>I’m the only one</li>
+</ul></li>
+<li>Progress is more/bigger
+<ul>
+<li><em>Objectivity</em></li>
+<li>Quantity over quality</li>
+<li>Sense of urgency</li>
+</ul></li>
+</ul>
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div class="csl-entry">
+Appelbaum, M., Cooper, H., Kline, R. B., Mayo-Wilson, E., Nezu, A. M., &amp; Rao, S. M. (2018). Journal article reporting standards for quantitative research in psychology: <span>The</span> <span>APA</span> <span>Publications</span> and <span>Communications</span> <span>Board</span> task force report. <em>American Psychologist</em>, <em>73</em>(1), 3–25. <a href="https://doi.org/10.1037/amp0000191">https://doi.org/10.1037/amp0000191</a>
+</div>
+<div class="csl-entry">
+Madigan, R., Johnson, S., &amp; Linton, P. (1995). The language of psychology: <span>APA</span> style as epistemology. <em>American Psychologist</em>, <em>50</em>(6), 428–436. <a href="https://doi.org/10.1037/0003-066X.50.6.428">https://doi.org/10.1037/0003-066X.50.6.428</a>
+</div>
+<div class="csl-entry">
+Reporting standards for research in psychology: <span>Why</span> do we need them? <span>What</span> might they be? (2008). <em>American Psychologist</em>, <em>63</em>(9), 839–851. <a href="https://doi.org/10.1037/0003-066X.63.9.839">https://doi.org/10.1037/0003-066X.63.9.839</a>
+</div>
+<div class="csl-entry">
+Thompson, A. (2004). Gentlemanly <span>Orthodoxy</span>: <span>Critical</span> <span>Race</span> <span>Feminism</span>, <span>Whiteness</span> <span>Theory</span>, and the <span>APA</span> <span>Manual</span>. <em>Educational Theory</em>, <em>54</em>(1), 27–57. <a href="https://doi.org/10.1111/j.0013-2004.2004.00002.x">https://doi.org/10.1111/j.0013-2004.2004.00002.x</a>
+</div>
+<div class="csl-entry">
+White <span>Supremacy</span> <span>Culture</span>. (n.d.). In <em>dRworksBook</em>. Retrieved August 8, 2020, from <a href="https://www.dismantlingracism.org/white-supremacy-culture.html">https://www.dismantlingracism.org/white-supremacy-culture.html</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-appelbaum_journal_2018" class="csl-entry">
+Appelbaum, M., Cooper, H., Kline, R. B., Mayo-Wilson, E., Nezu, A. M., &amp; Rao, S. M. (2018). Journal article reporting standards for quantitative research in psychology: <span>The</span> <span>APA</span> <span>Publications</span> and <span>Communications</span> <span>Board</span> task force report. <em>American Psychologist</em>, <em>73</em>(1), 3–25. <a href="https://doi.org/10.1037/amp0000191">https://doi.org/10.1037/amp0000191</a>
+</div>
+<div id="ref-madigan_language_1995" class="csl-entry">
+Madigan, R., Johnson, S., &amp; Linton, P. (1995). The language of psychology: <span>APA</span> style as epistemology. <em>American Psychologist</em>, <em>50</em>(6), 428–436. <a href="https://doi.org/10.1037/0003-066X.50.6.428">https://doi.org/10.1037/0003-066X.50.6.428</a>
+</div>
+<div id="ref-noauthor_reporting_2008" class="csl-entry">
+Reporting standards for research in psychology: <span>Why</span> do we need them? <span>What</span> might they be? (2008). <em>American Psychologist</em>, <em>63</em>(9), 839–851. <a href="https://doi.org/10.1037/0003-066X.63.9.839">https://doi.org/10.1037/0003-066X.63.9.839</a>
+</div>
+<div id="ref-thompson_gentlemanly_2004" class="csl-entry">
+Thompson, A. (2004). Gentlemanly <span>Orthodoxy</span>: <span>Critical</span> <span>Race</span> <span>Feminism</span>, <span>Whiteness</span> <span>Theory</span>, and the <span>APA</span> <span>Manual</span>. <em>Educational Theory</em>, <em>54</em>(1), 27–57. <a href="https://doi.org/10.1111/j.0013-2004.2004.00002.x">https://doi.org/10.1111/j.0013-2004.2004.00002.x</a>
+</div>
+<div id="ref-noauthor_white_nodate" class="csl-entry">
+White <span>Supremacy</span> <span>Culture</span>. (n.d.). In <em>dRworksBook</em>. Retrieved August 8, 2020, from <a href="https://www.dismantlingracism.org/white-supremacy-culture.html">https://www.dismantlingracism.org/white-supremacy-culture.html</a>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="writing-empirical-manuscripts.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["TransformingResearchMethods.pdf", "TransformingResearchMethods.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

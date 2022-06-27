@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>WRITING EMPIRICAL MANUSCRIPTS | Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist</title>
+  <meta name="description" content="“Analysis of Variance” is a mini-volume in the ReCentering Psych Stats series that provides workflows and worked examples in R. A core focus of the ReCentering series is simulate data from published examples that recenter psychological research in a socially and culturally responsive manner." />
+  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="WRITING EMPIRICAL MANUSCRIPTS | Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist" />
+  <meta property="og:type" content="book" />
+  <meta property="og:image" content="https://lhbikos.github.io/ReCenterPsychStats/images/ReC_ANOVA_bookcover.png" />
+  <meta property="og:description" content="“Analysis of Variance” is a mini-volume in the ReCentering Psych Stats series that provides workflows and worked examples in R. A core focus of the ReCentering series is simulate data from published examples that recenter psychological research in a socially and culturally responsive manner." />
+  <meta name="github-repo" content="lhbikos/ReCenterPsychStats" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="WRITING EMPIRICAL MANUSCRIPTS | Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist" />
+  
+  <meta name="twitter:description" content="“Analysis of Variance” is a mini-volume in the ReCentering Psych Stats series that provides workflows and worked examples in R. A core focus of the ReCentering series is simulate data from published examples that recenter psychological research in a socially and culturally responsive manner." />
+  <meta name="twitter:image" content="https://lhbikos.github.io/ReCenterPsychStats/images/ReC_ANOVA_bookcover.png" />
+
+<meta name="author" content="Lynette H. Bikos, PhD, ABPP" />
+
+
+<meta name="date" content="2022-06-27" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="APAstyle.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>BOOK COVER</a></li>
+<li class="chapter" data-level="" data-path="writing-empirical-manuscripts.html"><a href="writing-empirical-manuscripts.html"><i class="fa fa-check"></i>WRITING EMPIRICAL MANUSCRIPTS</a></li>
+<li class="chapter" data-level="1" data-path="APAstyle.html"><a href="APAstyle.html"><i class="fa fa-check"></i><b>1</b> The APA Style Manuscript</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="APAstyle.html"><a href="APAstyle.html#navigating-this-lesson"><i class="fa fa-check"></i><b>1.1</b> Navigating this Lesson</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="APAstyle.html"><a href="APAstyle.html#learning-objectives"><i class="fa fa-check"></i><b>1.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.1.2" data-path="APAstyle.html"><a href="APAstyle.html#readings-resources"><i class="fa fa-check"></i><b>1.1.2</b> Readings &amp; Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="APAstyle.html"><a href="APAstyle.html#apa-style-as-epistemology-or-worse"><i class="fa fa-check"></i><b>1.2</b> APA Style as Epistemology (or Worse)</a></li>
+<li class="chapter" data-level="1.3" data-path="APAstyle.html"><a href="APAstyle.html#as-we-dive-into-the-specifics"><i class="fa fa-check"></i><b>1.3</b> As We Dive into the Specifics</a></li>
+<li class="chapter" data-level="1.4" data-path="APAstyle.html"><a href="APAstyle.html#the-jars-the-core-of-apa-style"><i class="fa fa-check"></i><b>1.4</b> The JARS: The Core of APA Style</a>
+<ul>
+<li class="chapter" data-level="1.4.1" data-path="APAstyle.html"><a href="APAstyle.html#title-authorship-author-note-apa-2.3"><i class="fa fa-check"></i><b>1.4.1</b> Title, Authorship, Author Note (APA 2.3)</a></li>
+<li class="chapter" data-level="1.4.2" data-path="APAstyle.html"><a href="APAstyle.html#abstract-apa-2.8-3.3"><i class="fa fa-check"></i><b>1.4.2</b> Abstract (APA 2.8, 3.3)</a></li>
+<li class="chapter" data-level="1.4.3" data-path="APAstyle.html"><a href="APAstyle.html#introduction-apa-2.11"><i class="fa fa-check"></i><b>1.4.3</b> Introduction (APA 2.11)</a></li>
+<li class="chapter" data-level="1.4.4" data-path="APAstyle.html"><a href="APAstyle.html#method-apa-2.06-chapter-3"><i class="fa fa-check"></i><b>1.4.4</b> Method (APA 2.06; Chapter 3)</a></li>
+<li class="chapter" data-level="1.4.5" data-path="APAstyle.html"><a href="APAstyle.html#results-discussion-chapter-3"><i class="fa fa-check"></i><b>1.4.5</b> Results &amp; Discussion (Chapter 3)</a></li>
+<li class="chapter" data-level="1.4.6" data-path="APAstyle.html"><a href="APAstyle.html#headings-apa-2.7"><i class="fa fa-check"></i><b>1.4.6</b> Headings (APA 2.7)</a></li>
+<li class="chapter" data-level="1.4.7" data-path="APAstyle.html"><a href="APAstyle.html#reference-list"><i class="fa fa-check"></i><b>1.4.7</b> Reference List</a></li>
+<li class="chapter" data-level="1.4.8" data-path="APAstyle.html"><a href="APAstyle.html#stylistic-issues-apa-chapter-4-on-writing-style-and-grammar"><i class="fa fa-check"></i><b>1.4.8</b> Stylistic Issues (APA Chapter 4 on <em>Writing Style and Grammar</em>)</a></li>
+<li class="chapter" data-level="1.4.9" data-path="APAstyle.html"><a href="APAstyle.html#reducing-bias-apa-chapter-5"><i class="fa fa-check"></i><b>1.4.9</b> Reducing Bias (APA Chapter 5)</a></li>
+<li class="chapter" data-level="1.4.10" data-path="APAstyle.html"><a href="APAstyle.html#closing-thoughts"><i class="fa fa-check"></i><b>1.4.10</b> Closing Thoughts</a></li>
+</ul></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="writing-empirical-manuscripts" class="section level1 unnumbered hasAnchor">
+<h1>WRITING EMPIRICAL MANUSCRIPTS<a href="writing-empirical-manuscripts.html#writing-empirical-manuscripts" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="APAstyle.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["TransformingResearchMethods.pdf", "TransformingResearchMethods.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
