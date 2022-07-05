@@ -1,32 +1,3 @@
---- 
-title: "Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist"
-author: "Lynette H. Bikos, PhD, ABPP"
-date: "`r format (Sys.Date(), '%d %b %Y')`" 
-site: bookdown::bookdown_site
-documentclass: book
-fontsize: 11pt
-geometry: margin=1in
-highlight: tango
-urlcolor: blue #without this the links in the PDF do not show
-citation-style: apa-single-spaced.csl #if you want APA style
-bibliography: STATSnMETH.bib #This is my own bibtex file from my Zotero account. If this file is not in the project folder there will be an error and the book will not build.
-link-citations: yes
-#DID NOT WORK, BUT DID NOT HURT EITHER I THINK IT NEEDS TO BE CONNECTED TO A PKG
-#line-wrapping-in-code: true #wrap overflowing lines in code blocks? 
-url: https://lhbikos.github.io/ReCenterPsychStats/ #a link to the GitHub pages where it is rendered
-cover-image: images/ReC_ANOVA_bookcover.png #link to the image for the book which will show up in any previews
-description: |
-  "Analysis of Variance" is a mini-volume in the ReCentering Psych Stats series that provides workflows and worked examples in R. A core focus of the ReCentering series is simulate data from published examples that recenter psychological research in a socially and culturally responsive manner. 
-github-repo: lhbikos/ReCenterPsychStats
-
----
-
-# BOOK COVER {-}
-
-![An image of the book cover. Description to follow](images/bookcover.png)
-
-<!--chapter:end:index.Rmd-->
-
 
 # WRITING EMPIRICAL MANUSCRIPTS {-}
 
@@ -524,7 +495,4 @@ Repeated are the characteristics of White supremacy culture.  I have italized th
 sessionInfo()
 ```
 
-
-
-<!--chapter:end:01-APAstyle.Rmd-->
 

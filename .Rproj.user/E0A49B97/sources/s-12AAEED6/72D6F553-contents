@@ -1,6 +1,6 @@
 --- 
 title: "Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist"
-author: "Lynette H. Bikos, PhD, ABPP"
+author: "Lynette H. Bikos, PhD, ABPP & Cirlene DeBlaere, PhD"
 date: "`r format (Sys.Date(), '%d %b %Y')`" 
 site: bookdown::bookdown_site
 documentclass: book
@@ -13,8 +13,8 @@ bibliography: STATSnMETH.bib #This is my own bibtex file from my Zotero account.
 link-citations: yes
 #DID NOT WORK, BUT DID NOT HURT EITHER I THINK IT NEEDS TO BE CONNECTED TO A PKG
 #line-wrapping-in-code: true #wrap overflowing lines in code blocks? 
-url: https://lhbikos.github.io/ReCenterPsychStats/ #a link to the GitHub pages where it is rendered
-cover-image: images/ReC_ANOVA_bookcover.png #link to the image for the book which will show up in any previews
+url: https://lhbikos.github.io/TransformingResearchMethods/ #a link to the GitHub pages where it is rendered
+cover-image: images/bookcover.png #link to the image for the book which will show up in any previews
 description: |
   "Analysis of Variance" is a mini-volume in the ReCentering Psych Stats series that provides workflows and worked examples in R. A core focus of the ReCentering series is simulate data from published examples that recenter psychological research in a socially and culturally responsive manner. 
 github-repo: lhbikos/ReCenterPsychStats
