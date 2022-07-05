@@ -11,7 +11,7 @@ knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits
 ```
 
 This is sample text as we learn how to use the Github.
-Ridiculous sentence on line 14
+Ridiculous sentence on line 14. Another ridiculous line to volley it back.
 
 ```{r include=FALSE}
 options(scipen=999)#eliminates scientific notation
