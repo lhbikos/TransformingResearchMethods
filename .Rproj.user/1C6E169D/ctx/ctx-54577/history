@@ -1,0 +1,5 @@
+install.packages("bookdown")
+install.packages("bookdown")
+install.packages("tinytex")
+library(tinytex)
+install.packages("MacTex-2022")
