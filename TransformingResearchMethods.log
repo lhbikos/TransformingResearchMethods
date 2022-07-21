@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.5)  21 JUL 2022 10:32
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.5)  21 JUL 2022 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -768,7 +768,7 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 File: images/bookcover.png Graphic file (type bmp)
 <images/bookcover.png>
 
-LaTeX Warning: Float too large for page by 25.08257pt on input line 105.
+LaTeX Warning: Float too large for page by 50.14732pt on input line 105.
 
 [5
 
@@ -779,7 +779,7 @@ LaTeX Warning: Float too large for page by 25.08257pt on input line 105.
 ]
 Chapter 1.
 [9] [10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 285--287
+Underfull \hbox (badness 10000) in paragraph at lines 301--303
 
  []
 
