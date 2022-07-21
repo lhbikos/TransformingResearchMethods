@@ -197,7 +197,7 @@ e.	All of the above
 *	In equal contributions it is okay (but not ideal) to mention in the author note
 *	GOAL:  name on a project, less concerned about author order
 *	Generally, graduate projects include the faculty sponsor as an author
-*	Author-order rubrics can be useful to guide the decision
+*	Author-order [rubrics](https://github.com/lhbikos/TransformingResearchMethods/blob/main/Authorship%20Rubric220721.xlsx) can be useful to guide the decision
 
 #### Author Note (APA 2.7)
 
