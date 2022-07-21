@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.5)  21 JUL 2022 14:30
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.5)  21 JUL 2022 15:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -781,7 +781,7 @@ LaTeX Warning: Float too large for page by 50.14732pt on input line 105.
 ]
 Chapter 1.
 [11] [12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 341--343
+Underfull \hbox (badness 10000) in paragraph at lines 363--365
 
  []
 
@@ -828,13 +828,13 @@ Underfull \hbox (badness 1694) in paragraph at lines 41--50
 
 ] (./TransformingResearchMethods.aux)
 Package rerunfilecheck Info: File `TransformingResearchMethods.out' has not changed.
-(rerunfilecheck)             Checksum: 98B97D188BD3F2A4C114A2F1B5DEFC15;6981.
+(rerunfilecheck)             Checksum: 94303469DCCFCE0EE2F009284BF430A8;7404.
  ) 
 Here is how much of TeX's memory you used:
- 17999 strings out of 477877
- 332190 string characters out of 5845601
- 816742 words of memory out of 5000000
- 38670 multiletter control sequences out of 15000+600000
+ 18001 strings out of 477877
+ 332253 string characters out of 5845601
+ 815847 words of memory out of 5000000
+ 38672 multiletter control sequences out of 15000+600000
  475716 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  86i,6n,121p,990b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
