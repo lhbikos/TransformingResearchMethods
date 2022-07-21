@@ -1,26 +1,26 @@
 {
-    "id": "4BDBA3E4",
+    "id": "47B37373",
     "path": "~/Documents/GitHub/TransformingResearchMethods/01-APAstyle.Rmd",
     "project_path": "01-APAstyle.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "3516365568",
     "contents": "",
     "dirty": false,
-    "created": 1657043475392.0,
+    "created": 1657045936134.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "10,3",
+        "cursorPosition": "13,30",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1657043011,
+    "lastKnownWriteTime": 1657045908,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1657043011,
+    "last_content_update": 1657045908,
     "read_only": false,
     "read_only_alternatives": []
 }
