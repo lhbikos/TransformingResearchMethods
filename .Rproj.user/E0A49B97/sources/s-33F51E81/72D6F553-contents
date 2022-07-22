@@ -1,6 +1,8 @@
 --- 
 title: "Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist"
-author: "Lynette H. Bikos, PhD, ABPP & Cirlene DeBlaere, PhD"
+author: 
+  - Lynette H. Bikos, PhD, ABPP & Cirlene DeBlaere, PhD, Editors
+  - Kiana Clay, Editorial Assistant
 date: "`r format (Sys.Date(), '%d %b %Y')`" 
 site: bookdown::bookdown_site
 documentclass: book
