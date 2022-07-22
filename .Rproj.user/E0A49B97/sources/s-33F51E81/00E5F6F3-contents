@@ -3,7 +3,13 @@
 
 # The APA Style Manuscript {#APAstyle}
 
-[Screencasted Lecture Link](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=8ca9d96d-0ff6-4068-a570-ac290189a4d4) 
+<center>
+*Lynette H. Bikos (she/her) & Kiana Clay (she/her)*\
+*Seattle Pacific University*\
+*Seattle Pacific University was built on the unceded ancestral lands of the Duwamish people*\
+Chapter Status:  In Progress/Placeholder
+</center>
+<br>
  
 ```{r  include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
