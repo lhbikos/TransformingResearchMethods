@@ -67,6 +67,8 @@ At this stage in the OER's development, authors are still writing and revising c
 
 Financial support, supporting the copy editing and desktop publishing for this project was provided by the Office of Education, Technology, & Media, Seattle Pacific University (Summer 2022).
 
+The book cover was designed by Dominic Williamson, Senior Instructional Designer in Graphics & Illustrations, in the Office of Education, Technology, & Media at Seattle Pacific University.
+
 ## Copyright with Open Access {-}
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
