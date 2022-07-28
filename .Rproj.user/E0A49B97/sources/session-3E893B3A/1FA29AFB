@@ -3,7 +3,7 @@
     "path": "C:/Users/lhbikos/OneDrive - Seattle Pacific University/D17/TransformingResearchMethods/README.md",
     "project_path": "README.md",
     "type": "markdown",
-    "hash": "3940805310",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1656351410059.0,
@@ -11,14 +11,16 @@
     "relative_order": 1,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "3,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1656351405,
+    "lastKnownWriteTime": 1659029167,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1656351405,
+    "last_content_update": 1659029167582,
     "read_only": false,
     "read_only_alternatives": []
 }

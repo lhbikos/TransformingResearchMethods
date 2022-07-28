@@ -18,7 +18,7 @@ link-citations: yes
 url: https://lhbikos.github.io/TransformingResearchMethods/ #a link to the GitHub pages where it is rendered
 cover-image: images/bookcover.png #link to the image for the book which will show up in any previews
 description: |
-  "Analysis of Variance" is a mini-volume in the ReCentering Psych Stats series that provides workflows and worked examples in R. A core focus of the ReCentering series is simulate data from published examples that recenter psychological research in a socially and culturally responsive manner. 
+  "Transforming Research Methods in Health Services Psychology:  Applications for the Advocate ~ Practitioner ~ Scientist" is an open educational resource (OER) that is intended to be a socially responsive approach to teaching research methods. This OER is offered uner a CC by-SA 4.0 license. If you teach research methods (or are a student in such classes) and have feedback about the text, please contact us.
 github-repo: lhbikos/ReCenterPsychStats
 
 ---
