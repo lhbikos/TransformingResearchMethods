@@ -1,8 +1,4 @@
----
-output:
-  word_document: default
-  html_document: default
----
+
 ```{r  include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits

@@ -1,24 +1,26 @@
 {
-    "id": "9741EA18",
+    "id": "1C72FB21",
     "path": "C:/Users/lhbikos/OneDrive - Seattle Pacific University/D17/TransformingResearchMethods/02-OpenScience.Rmd",
     "project_path": "02-OpenScience.Rmd",
     "type": "r_markdown",
-    "hash": "4203554683",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1658981493608.0,
+    "created": 1659032150500.0,
     "source_on_save": false,
     "relative_order": 3,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "13,3",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1658981077,
+    "lastKnownWriteTime": 1659032110,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1658981077,
+    "last_content_update": 1659032110,
     "read_only": false,
     "read_only_alternatives": []
 }
