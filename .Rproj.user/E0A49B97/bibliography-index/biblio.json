@@ -5141,7 +5141,7 @@
             },
             "author": [
                 {
-                    "dropping-particle": "van ’t",
+                    "dropping-particle": "van’t",
                     "family": "Veer",
                     "given": "Anna Elisabeth"
                 },
@@ -5152,7 +5152,7 @@
             ],
             "collection-title": "Special Issue: Confirmatory",
             "container-title": "Journal of Experimental Social Psychology",
-            "id": "van_t_veer_pre-registration_2016",
+            "id": "vant_veer_pre-registration_2016",
             "issued": {
                 "date-parts": [
                     [
@@ -5234,7 +5234,7 @@
                     ]
                 ]
             },
-            "keyword": "Experimental Replication, false positives, hypothesis testing, Hypothesis Testing, open science, pre-registration, selective reporting, Statistical Probability, Statistics",
+            "keyword": "Statistical Probability, Statistics, open science, Experimental Replication, false positives, hypothesis testing, Hypothesis Testing, pre-registration, selective reporting",
             "note": "Publisher: American Psychological Association",
             "page": "238-239",
             "title": "Preregister if you want to",
@@ -5304,7 +5304,7 @@
                     ]
                 ]
             },
-            "keyword": "2018, Best Practices, data sharing, Data Sharing, Databases, Experimental Ethics, Experimental Subjects, Experimentation, Informed Consent, Privileged Communication, Psychology, reproducible research, research ethics",
+            "keyword": "Psychology, Experimentation, data sharing, Data Sharing, Best Practices, Databases, Experimental Ethics, Experimental Subjects, Informed Consent, Privileged Communication, reproducible research, research ethics, 2018",
             "note": "Place: US Publisher: American Psychological Association",
             "page": "146-156",
             "title": "Responsible practices for data sharing",
@@ -5390,7 +5390,7 @@
                     ]
                 ]
             },
-            "keyword": "big data, Big Data, Collaboration, culture of science, data sharing, Data Sharing, open science, Psychology, Sciences, Sociocultural Factors, Technology",
+            "keyword": "Psychology, Sciences, big data, Big Data, Collaboration, culture of science, data sharing, Data Sharing, open science, Sociocultural Factors, Technology",
             "note": "Publisher: American Psychological Association",
             "page": "126-137",
             "title": "Can psychology walk the walk of open science?",
@@ -13878,7 +13878,7 @@
                     ]
                 ]
             },
-            "keyword": "Open Science, Training, Translational skills, Vocational training",
+            "keyword": "Training, Open Science, Translational skills, Vocational training",
             "publisher": "Zenodo",
             "title": "Open Science Training Handbook",
             "type": "book"
@@ -13981,7 +13981,7 @@
                     ]
                 ]
             },
-            "keyword": "open peer review, Open Science, publishing, research evaluation, scholarly communication",
+            "keyword": "Open Science, open peer review, publishing, research evaluation, scholarly communication",
             "note": "Type: article",
             "number": "6:588",
             "publisher": "F1000Research",
@@ -14043,7 +14043,7 @@
                     ]
                 ]
             },
-            "keyword": "American Psychological Association, Behavioral Sciences, Experimental Replication, open science, preregistration, PRP-QUANT Template, Quantitative Methods, replicability, reproducibility, Sciences",
+            "keyword": "Sciences, American Psychological Association, Quantitative Methods, open science, Experimental Replication, Behavioral Sciences, preregistration, PRP-QUANT Template, replicability, reproducibility",
             "note": "Publisher: American Psychological Association",
             "title": "A template for preregistration of quantitative research in psychology: Report of the joint psychological societies preregistration task force",
             "title-short": "A template for preregistration of quantitative research in psychology",
@@ -14139,7 +14139,7 @@
                     ]
                 ]
             },
-            "keyword": "Methodology, open science, Other Psychology, Other Social and Behavioral Sciences, preregistration, Psychology, qualitative inquiry, qualitative research, registries, Social and Behavioral Sciences, Sociology, transparency",
+            "keyword": "Psychology, Methodology, qualitative research, open science, Social and Behavioral Sciences, preregistration, Other Psychology, Other Social and Behavioral Sciences, qualitative inquiry, registries, Sociology, transparency",
             "note": "type: article",
             "publisher": "SocArXiv",
             "title": "Preregistering Qualitative Research: A Delphi Study",
@@ -14174,7 +14174,7 @@
                     ]
                 ]
             },
-            "keyword": "asymmetric information, common agency contracting, evolution of institutions, invisible colleges, new economics of science, open science, patronage, principal-agent problems, scientific academies, social networks",
+            "keyword": "open science, asymmetric information, common agency contracting, evolution of institutions, invisible colleges, new economics of science, patronage, principal-agent problems, scientific academies, social networks",
             "number": "2209188",
             "publisher": "Social Science Research Network",
             "publisher-place": "Rochester, NY",
@@ -14471,7 +14471,7 @@
                     ]
                 ]
             },
-            "keyword": "Antidepressant drug therapy, Antidepressants, Clinical psychology, Depression, Drug therapy, Mental health therapies, Psychotherapy, Publication ethics",
+            "keyword": "Psychotherapy, Depression, Antidepressant drug therapy, Antidepressants, Clinical psychology, Drug therapy, Mental health therapies, Publication ethics",
             "note": "Publisher: Public Library of Science",
             "page": "e0137864",
             "title": "Does Publication Bias Inflate the Apparent Efficacy of Psychological Treatment for Major Depressive Disorder? A Systematic Review and Meta-Analysis of US National Institutes of Health-Funded Trials",
@@ -14510,7 +14510,7 @@
                     ]
                 ]
             },
-            "keyword": "Experimentation, Scientific Communication, Statistical Probability, Statistical Tests, tolerance for null results bias in publication of research with Type I errors & estimation of unpublished domain, Type I Errors",
+            "keyword": "Statistical Probability, Experimentation, Type I Errors, Scientific Communication, Statistical Tests, tolerance for null results bias in publication of research with Type I errors & estimation of unpublished domain",
             "note": "Publisher: American Psychological Association",
             "page": "638-641",
             "title": "The file drawer problem and tolerance for null results",
@@ -14852,7 +14852,7 @@
                     ]
                 ]
             },
-            "keyword": "Data Collection, Experimental Psychologists, Experimentation, legal & ethical & pragmatic reasons for unwillingness to share data from research projects supported by tax dollars, Legal Processes, Professional Ethics, psychologists, Statistical Data",
+            "keyword": "Statistical Data, Experimentation, Data Collection, psychologists, Professional Ethics, Experimental Psychologists, legal & ethical & pragmatic reasons for unwillingness to share data from research projects supported by tax dollars, Legal Processes",
             "note": "Publisher: American Psychological Association",
             "page": "414-423",
             "title": "Private archives and public needs",
@@ -15231,7 +15231,7 @@
                     ]
                 ]
             },
-            "keyword": "Ethics, Peer review, Publishing, Research management",
+            "keyword": "Publishing, Ethics, Peer review, Research management",
             "note": "Number: 7415 Publisher: Nature Publishing Group",
             "page": "179-179",
             "title": "Predatory publishers are corrupting open access",
@@ -15316,6 +15316,28 @@
             "title": "Data sharing in psychology",
             "type": "article-journal",
             "volume": "73"
+        },
+        {
+            "abstract": "\"The Publication Manual of the American Psychological Association, Seventh Edition is the official source for APA Style. With millions of copies sold worldwide in multiple languages, it is the style manual of choice for writers, researchers, editors, students, and educators in the social and behavioral sciences, natural sciences, nursing, communications, education, business, engineering, and other fields. Known for its authoritative, easy-to-use reference and citation system, the Publication Manual also offers guidance on choosing the headings, tables, figures, language, and tone that will result in powerful, concise, and elegant scholarly communication. It guides users through the scholarly writing process-from the ethics of authorship to reporting research through publication. The seventh edition is an indispensable resource for students and professionals to achieve excellence in writing and make a impact with their work.\"– Page 4 of cover",
+            "author": [
+                {
+                    "literal": "American Psychological Association"
+                }
+            ],
+            "id": "american_psychological_association_publication_2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "keyword": "Academic & Scholarly, Art d’écrire, authorship, Authorship, Codes typographiques, Documentation, Édition, Gidsen (vorm), Guides, Guides et manuels, Handbook, handbooks, Handbooks and manuals, Informational works, LANGUAGE ARTS & DISCIPLINES, Literature, manuals (instructional materials), Methode, Methods, Psychological literature, Psychologie, Psychology, Publishing, Reference materials, Report writing, Research, Richtlijnen, Richtlinie, Schrijfvaardigheid, Sciences sociales, Social science literature, Social sciences, Sozialwissenschaften, style manuals, Style manuals, Uitgeven, Veröffentlichung, Wetenschappelijke teksten, Wissenschaft, Wissenschaftliche Publikation, Wissenschaftliches Manuskript, Writing",
+            "note": "Book Title: Publication manual of the American Psychological Association : the official guide to APA style. Edition: Seventh edition. ISBN: 9781433832154 Place: Washington, DC",
+            "publisher": "American Psychological Association",
+            "title": "Publication manual of the American Psychological Association: The official guide to APA style.",
+            "title-short": "Publication manual of the American Psychological Association",
+            "type": ""
         }
     ],
     "project_biblios": [
