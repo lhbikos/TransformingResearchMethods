@@ -3,7 +3,7 @@
     "path": "C:/Users/lhbikos/OneDrive - Seattle Pacific University/D17/TransformingResearchMethods/index.Rmd",
     "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "360316858",
     "contents": "",
     "dirty": false,
     "created": 1656351410310.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "22,0",
-        "scrollLine": "0"
+        "cursorPosition": "20,312",
+        "scrollLine": "7"
     },
     "folds": "",
-    "lastKnownWriteTime": 1659029129,
+    "lastKnownWriteTime": 1659033533,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1659029129564,
+    "last_content_update": 1659033533426,
     "read_only": false,
     "read_only_alternatives": []
 }
