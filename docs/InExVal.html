@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 1 Internal and External Validity in Health Service Psychology | Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist</title>
+  <meta name="description" content="“Analysis of Variance” is a mini-volume in the ReCentering Psych Stats series that provides workflows and worked examples in R. A core focus of the ReCentering series is simulate data from published examples that recenter psychological research in a socially and culturally responsive manner." />
+  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 1 Internal and External Validity in Health Service Psychology | Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist" />
+  <meta property="og:type" content="book" />
+  <meta property="og:image" content="https://lhbikos.github.io/TransformingResearchMethods/images/bookcover.png" />
+  <meta property="og:description" content="“Analysis of Variance” is a mini-volume in the ReCentering Psych Stats series that provides workflows and worked examples in R. A core focus of the ReCentering series is simulate data from published examples that recenter psychological research in a socially and culturally responsive manner." />
+  <meta name="github-repo" content="lhbikos/ReCenterPsychStats" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 1 Internal and External Validity in Health Service Psychology | Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist" />
+  
+  <meta name="twitter:description" content="“Analysis of Variance” is a mini-volume in the ReCentering Psych Stats series that provides workflows and worked examples in R. A core focus of the ReCentering series is simulate data from published examples that recenter psychological research in a socially and culturally responsive manner." />
+  <meta name="twitter:image" content="https://lhbikos.github.io/TransformingResearchMethods/images/bookcover.png" />
+
+<meta name="author" content="Lynette H. Bikos, PhD, ABPP &amp; Cirleen DeBlaere, PhD, Editors" />
+<meta name="author" content="Kiana Clay, Editorial Assistant" />
+
+
+<meta name="date" content="2022-07-27" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="preface.html"/>
+<link rel="next" href="OpSci.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>BOOK COVER</a></li>
+<li class="chapter" data-level="" data-path="preface.html"><a href="preface.html"><i class="fa fa-check"></i>PREFACE</a>
+<ul>
+<li class="chapter" data-level="" data-path="preface.html"><a href="preface.html#strategies-for-a-social-responsivity"><i class="fa fa-check"></i>Strategies for a Social Responsivity</a></li>
+<li class="chapter" data-level="" data-path="preface.html"><a href="preface.html#perpetually-in-progress"><i class="fa fa-check"></i>Perpetually in Progress</a></li>
+<li class="chapter" data-level="" data-path="preface.html"><a href="preface.html#under-construction"><i class="fa fa-check"></i>Under Construction</a></li>
+<li class="chapter" data-level="" data-path="preface.html"><a href="preface.html#acknowledgements"><i class="fa fa-check"></i>Acknowledgements</a></li>
+<li class="chapter" data-level="" data-path="preface.html"><a href="preface.html#copyright-with-open-access"><i class="fa fa-check"></i>Copyright with Open Access</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="InExVal.html"><a href="InExVal.html"><i class="fa fa-check"></i><b>1</b> Internal and External Validity in Health Service Psychology</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="InExVal.html"><a href="InExVal.html#learning-objectives"><i class="fa fa-check"></i><b>1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.2" data-path="InExVal.html"><a href="InExVal.html#recommended-readings"><i class="fa fa-check"></i><b>1.2</b> Recommended Readings</a></li>
+<li class="chapter" data-level="1.3" data-path="InExVal.html"><a href="InExVal.html#internal-validity"><i class="fa fa-check"></i><b>1.3</b> Internal Validity</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="InExVal.html"><a href="InExVal.html#threats-to-internal-validity"><i class="fa fa-check"></i><b>1.3.1</b> Threats to Internal Validity</a></li>
+<li class="chapter" data-level="1.3.2" data-path="InExVal.html"><a href="InExVal.html#controlling-for-threats-to-internal-validity"><i class="fa fa-check"></i><b>1.3.2</b> Controlling for Threats to Internal Validity</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="InExVal.html"><a href="InExVal.html#external-validity"><i class="fa fa-check"></i><b>1.4</b> External Validity</a>
+<ul>
+<li class="chapter" data-level="1.4.1" data-path="InExVal.html"><a href="InExVal.html#threats-to-external-validity"><i class="fa fa-check"></i><b>1.4.1</b> Threats to External Validity</a></li>
+<li class="chapter" data-level="1.4.2" data-path="InExVal.html"><a href="InExVal.html#controlling-for-threats-to-external-validity"><i class="fa fa-check"></i><b>1.4.2</b> Controlling for Threats to External Validity</a></li>
+</ul></li>
+<li class="chapter" data-level="1.5" data-path="InExVal.html"><a href="InExVal.html#current-issues-trends-and-considerations"><i class="fa fa-check"></i><b>1.5</b> Current Issues, Trends, and Considerations</a>
+<ul>
+<li class="chapter" data-level="1.5.1" data-path="InExVal.html"><a href="InExVal.html#validity-issues-related-to-cultural-diversity"><i class="fa fa-check"></i><b>1.5.1</b> Validity Issues Related to Cultural Diversity</a></li>
+<li class="chapter" data-level="1.5.2" data-path="InExVal.html"><a href="InExVal.html#validity-issues-related-to-replication-studies"><i class="fa fa-check"></i><b>1.5.2</b> Validity Issues related to Replication Studies</a></li>
+<li class="chapter" data-level="1.5.3" data-path="InExVal.html"><a href="InExVal.html#internet-research-and-the-use-of-crowdsourcing-platforms"><i class="fa fa-check"></i><b>1.5.3</b> Internet Research and the use of Crowdsourcing Platforms</a></li>
+</ul></li>
+<li class="chapter" data-level="1.6" data-path="InExVal.html"><a href="InExVal.html#a-consideration-for-practice"><i class="fa fa-check"></i><b>1.6</b> A Consideration for Practice</a></li>
+<li class="chapter" data-level="1.7" data-path="InExVal.html"><a href="InExVal.html#activity"><i class="fa fa-check"></i><b>1.7</b> Activity</a></li>
+<li class="chapter" data-level="1.8" data-path="InExVal.html"><a href="InExVal.html#references"><i class="fa fa-check"></i><b>1.8</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="OpSci.html"><a href="OpSci.html"><i class="fa fa-check"></i><b>2</b> Open Science as a Step Toward Social Responsivity in Research</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="OpSci.html"><a href="OpSci.html#learning-objectives-1"><i class="fa fa-check"></i><b>2.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="2.2" data-path="OpSci.html"><a href="OpSci.html#recommended-readings-1"><i class="fa fa-check"></i><b>2.2</b> Recommended Readings</a></li>
+<li class="chapter" data-level="2.3" data-path="OpSci.html"><a href="OpSci.html#defining-open-science"><i class="fa fa-check"></i><b>2.3</b> Defining “Open Science”</a></li>
+<li class="chapter" data-level="2.4" data-path="OpSci.html"><a href="OpSci.html#transparency-of-the-research-process"><i class="fa fa-check"></i><b>2.4</b> Transparency of the Research Process</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="OpSci.html"><a href="OpSci.html#preregistration"><i class="fa fa-check"></i><b>2.4.1</b> Preregistration</a></li>
+<li class="chapter" data-level="2.4.2" data-path="OpSci.html"><a href="OpSci.html#data-sharing"><i class="fa fa-check"></i><b>2.4.2</b> Data sharing</a></li>
+<li class="chapter" data-level="2.4.3" data-path="OpSci.html"><a href="OpSci.html#open-peer-review"><i class="fa fa-check"></i><b>2.4.3</b> Open peer review</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="OpSci.html"><a href="OpSci.html#access-to-the-scientific-literature"><i class="fa fa-check"></i><b>2.5</b> Access to the Scientific Literature</a></li>
+<li class="chapter" data-level="2.6" data-path="OpSci.html"><a href="OpSci.html#tools-for-an-open-science"><i class="fa fa-check"></i><b>2.6</b> Tools for an Open Science</a>
+<ul>
+<li class="chapter" data-level="2.6.1" data-path="OpSci.html"><a href="OpSci.html#statistical-software"><i class="fa fa-check"></i><b>2.6.1</b> Statistical Software</a></li>
+<li class="chapter" data-level="2.6.2" data-path="OpSci.html"><a href="OpSci.html#reference-management-software"><i class="fa fa-check"></i><b>2.6.2</b> Reference management software</a></li>
+<li class="chapter" data-level="2.6.3" data-path="OpSci.html"><a href="OpSci.html#persistent-identifiers"><i class="fa fa-check"></i><b>2.6.3</b> Persistent identifiers</a></li>
+<li class="chapter" data-level="2.6.4" data-path="OpSci.html"><a href="OpSci.html#data-repositories"><i class="fa fa-check"></i><b>2.6.4</b> Data repositories</a></li>
+<li class="chapter" data-level="2.6.5" data-path="OpSci.html"><a href="OpSci.html#collaborative-platforms"><i class="fa fa-check"></i><b>2.6.5</b> Collaborative platforms</a></li>
+<li class="chapter" data-level="2.6.6" data-path="OpSci.html"><a href="OpSci.html#open-education-resources"><i class="fa fa-check"></i><b>2.6.6</b> Open education resources</a></li>
+<li class="chapter" data-level="2.6.7" data-path="OpSci.html"><a href="OpSci.html#bearing-the-costs-of-open"><i class="fa fa-check"></i><b>2.6.7</b> Bearing the Costs of “Open”</a></li>
+</ul></li>
+<li class="chapter" data-level="2.7" data-path="OpSci.html"><a href="OpSci.html#summary-conclusions-andor-recommendations"><i class="fa fa-check"></i><b>2.7</b> Summary, Conclusions, and/or Recommendations</a></li>
+<li class="chapter" data-level="2.8" data-path="OpSci.html"><a href="OpSci.html#suggestions-for-practice-further-learning-andor-conversation"><i class="fa fa-check"></i><b>2.8</b> Suggestions for Practice, Further Learning, and/or Conversation</a></li>
+<li class="chapter" data-level="2.9" data-path="OpSci.html"><a href="OpSci.html#references-1"><i class="fa fa-check"></i><b>2.9</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="writing-empirical-manuscripts.html"><a href="writing-empirical-manuscripts.html"><i class="fa fa-check"></i>WRITING EMPIRICAL MANUSCRIPTS</a></li>
+<li class="chapter" data-level="3" data-path="APAstyle.html"><a href="APAstyle.html"><i class="fa fa-check"></i><b>3</b> The APA Style Manuscript</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="APAstyle.html"><a href="APAstyle.html#navigating-this-lesson"><i class="fa fa-check"></i><b>3.1</b> Navigating this Lesson</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="APAstyle.html"><a href="APAstyle.html#learning-objectives-2"><i class="fa fa-check"></i><b>3.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="3.1.2" data-path="APAstyle.html"><a href="APAstyle.html#readings-resources"><i class="fa fa-check"></i><b>3.1.2</b> Readings &amp; Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="APAstyle.html"><a href="APAstyle.html#apa-style-as-epistemology-or-worse"><i class="fa fa-check"></i><b>3.2</b> APA Style as Epistemology (or Worse)</a></li>
+<li class="chapter" data-level="3.3" data-path="APAstyle.html"><a href="APAstyle.html#as-we-dive-into-the-specifics"><i class="fa fa-check"></i><b>3.3</b> As We Dive into the Specifics</a></li>
+<li class="chapter" data-level="3.4" data-path="APAstyle.html"><a href="APAstyle.html#the-jars-the-core-of-apa-style"><i class="fa fa-check"></i><b>3.4</b> The JARS: The Core of APA Style</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="APAstyle.html"><a href="APAstyle.html#title-authorship-author-note-apa-2.3"><i class="fa fa-check"></i><b>3.4.1</b> Title, Authorship, Author Note (APA 2.3)</a></li>
+<li class="chapter" data-level="3.4.2" data-path="APAstyle.html"><a href="APAstyle.html#abstract-apa-2.8-3.3"><i class="fa fa-check"></i><b>3.4.2</b> Abstract (APA 2.8, 3.3)</a></li>
+<li class="chapter" data-level="3.4.3" data-path="APAstyle.html"><a href="APAstyle.html#introduction-apa-2.11"><i class="fa fa-check"></i><b>3.4.3</b> Introduction (APA 2.11)</a></li>
+<li class="chapter" data-level="3.4.4" data-path="APAstyle.html"><a href="APAstyle.html#method-apa-2.06-chapter-3"><i class="fa fa-check"></i><b>3.4.4</b> Method (APA 2.06; Chapter 3)</a></li>
+<li class="chapter" data-level="3.4.5" data-path="APAstyle.html"><a href="APAstyle.html#results-discussion-chapter-3"><i class="fa fa-check"></i><b>3.4.5</b> Results &amp; Discussion (Chapter 3)</a></li>
+<li class="chapter" data-level="3.4.6" data-path="APAstyle.html"><a href="APAstyle.html#headings-apa-2.7"><i class="fa fa-check"></i><b>3.4.6</b> Headings (APA 2.7)</a></li>
+<li class="chapter" data-level="3.4.7" data-path="APAstyle.html"><a href="APAstyle.html#reference-list"><i class="fa fa-check"></i><b>3.4.7</b> Reference List</a></li>
+<li class="chapter" data-level="3.4.8" data-path="APAstyle.html"><a href="APAstyle.html#stylistic-issues-apa-chapter-4-on-writing-style-and-grammar"><i class="fa fa-check"></i><b>3.4.8</b> Stylistic Issues (APA Chapter 4 on <em>Writing Style and Grammar</em>)</a></li>
+<li class="chapter" data-level="3.4.9" data-path="APAstyle.html"><a href="APAstyle.html#reducing-bias-apa-chapter-5"><i class="fa fa-check"></i><b>3.4.9</b> Reducing Bias (APA Chapter 5)</a></li>
+<li class="chapter" data-level="3.4.10" data-path="APAstyle.html"><a href="APAstyle.html#closing-thoughts"><i class="fa fa-check"></i><b>3.4.10</b> Closing Thoughts</a></li>
+</ul></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="InExVal" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Chapter 1</span> Internal and External Validity in Health Service Psychology<a href="InExVal.html#InExVal" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<center>
+<em>Franco Dispenza, PhD &amp; Alec Prince, MPA</em><br />
+<em>Georgia State University</em><br />
+Chapter Status: Under Review
+</center>
+<p><br></p>
+<p>The focus of this lesson is to provide a review of internal validity, external validity, threats to validity, and current trends and considerations in relation to validity. Internal and external validity are foundational to experimental and quasi-experimental research. In experimental and quasi-experimental research designs, health service psychologists work thoughtfully and diligently to ensure that a line of systematic inquiry demonstrates some degree of internal and external validity. This is because psychologists and behavioral health researchers are concerned with making reasonable epistemological claims that could directly impact the lives of diverse communities and populations, especially in research studies attempting to show if particular interventions, treatments, or programs have a true effect on specific outcomes.</p>
+<p>Whereas researchers utilizing qualitative frameworks may be more interested in methodological integrity (e.g., credibility and transferability; Levitt et al., 2017), researchers employing quantitative-based paradigms are especially interested in internal and external validity. You will notice that the term “validity” is used in many concepts and research frameworks, including construct validity, content validity, predictive validity, criterion validity, and statistical conclusion validity. These are all specific types of validity attempting to establish a degree of accuracy or truthfulness in research. Further, the aforementioned forms of validity often have statistical computations and procedures that accompany them (e.g., bivariate correlations, beta weights, etc.). This chapter will not address those forms of validity. Instead, we will focus on internal and external validity, conceptual constructs that rely on methodological procedures and considerations versus statistical calculations.</p>
+<div id="learning-objectives" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> Learning Objectives<a href="InExVal.html#learning-objectives" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Learning objectives for this chapter include the following:</p>
+<ul>
+<li>Students will be able to explain the dimensional features of internal and external validity in experimental and quasi-experimental research.</li>
+<li>Students will be able to list and discuss threats associated with internal and external validity in experimental and quasi-experimental research.</li>
+<li>Students will be able to discuss and apply established methods for controlling the various threats associated with internal and external validity in experimental and quasi-experimental research.</li>
+<li>Students will be able to identify and apply their knowledge of internal validity, external validity, and their associated threats to current trends and issues in psychological research.</li>
+<li>Students will be able to critique and distinguish the strengths and limitations of internal and external validity when applied to socially responsive research.</li>
+</ul>
+</div>
+<div id="recommended-readings" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> Recommended Readings<a href="InExVal.html#recommended-readings" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The following served as critical references in the development of this chapter. We encourage you to review them.</p>
+<ul>
+<li>Campbell, D. T., &amp; Stanley, J. C. (1963). Experimental and quasi- experimental designs for research. Chicago, IL: Rand McNally.</li>
+</ul>
+<p>This classic and foundational text introduces readers to internal validity, external validity, and threats to validity as originally proposed by Campbell and Stanley. It also provides readers with an overview of the various experimental and quasi-experimental methodological designs, and how various methodological designs could be used to minimize threats to validity.</p>
+<ul>
+<li>Ferguson L. (2004). External validity, generalizability, and knowledge utilization. Journal of Nursing Scholarship, 36(1), 16-22. <a href="https://doi.org/10.1111/j.1547-5069.2004.04006.x" class="uri">https://doi.org/10.1111/j.1547-5069.2004.04006.x</a></li>
+</ul>
+<p>Although aimed for a nursing audience, there is much to be gained from Ferguson’s (2004) review of external validity, generalizability, and evidence-based practice. Ferguson reviews much of the major conceptual tenets of external validity, including its threats and control strategies. Ferguson also discusses ways in which researchers and practitioners could enhance external validity of research.</p>
+<ul>
+<li>Schmuckler, M.A.(2001).What Is Ecological Validity? A Dimensional Analysis. Infancy, 2(4), 419-436. <a href="https://doi.org/10.1207/S15327078IN0204_02" class="uri">https://doi.org/10.1207/S15327078IN0204_02</a></li>
+</ul>
+<p>Schmuckler (2001) introduces readers to a subset of external validity, namely ecological validity. Schmuckler provides an historical review of ecological validity, and a discussion of the various dimensions, advantages, and criticisms of ecological validity.</p>
+</div>
+<div id="internal-validity" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> Internal Validity<a href="InExVal.html#internal-validity" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Health service psychologists are committed to accuracy, honesty, and truthfulness when engaging in the research process. Whether representing research findings fairly, capturing the essence of people’s lived experiences with precision, or using research to advocate against harmful psychological practices, researchers are compelled to uphold the integrity of the knowledge claims they make through their scholarship. Researchers are committed to ensuring that their research is justifiable, well-grounded, and internally valid.</p>
+<p><em>Internal validity</em> is the extent to which a researcher can infer cause-effect relationships between a set of variables, while simultaneously excluding the influence of confounding or extraneous variables (Campbell &amp; Stanley, 1963; Cook &amp; Campbell, 1979). In an attempt to establish internal validity, it is important to rule out the effects of confounding or extraneous variables. <em>Confounding or extraneous variables</em> can serve as potential rivals to inferred relationships, leading a researcher to be less confident about the conclusions and implications that can be made between an independent (or treatment) variable and a dependent (or outcome) variable.</p>
+<p><em>Methodological control</em> is also paramount in experimental and quasi-experimental research. In an ideal research scenario, a researcher will have identified and controlled for all possible confounds and extraneous variables that may be inherent in the methodological design of a study. Since determining causality is the goal in experimental and quasi-experimental research, such a scenario would render a study to be high in internal validity. However, we know in practice there is no such thing as a perfect study, especially when there exist numerous <em>threats to internal validity</em>. Threats consist of factors or conditions that endanger a researcher’s capacity to amplify a study’s level of internal validity (Onwuegbuzie &amp; McLean, 2003).</p>
+<div id="threats-to-internal-validity" class="section level3 hasAnchor" number="1.3.1">
+<h3><span class="header-section-number">1.3.1</span> Threats to Internal Validity<a href="InExVal.html#threats-to-internal-validity" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Researchers often execute considerable forethought when identifying and eliminating potential threats to internal validity. Psychological researchers are encouraged to use a variety of logic-informed heuristics, “what if” sensitivity analyses, or consider any new data or findings to rule out rival hypotheses (Kenny, 2019). Researchers are also encouraged to consider more classically identified threats to their research design (Campbell &amp; Stanley, 1963). Some of the most common threats to internal validity consist of history, maturation, instrumentation, statistical regression, selection, attrition, and experimenter bias (Campbell &amp; Stanley, 1963; Cook &amp; Campbell, 1979; Shadish et al., 2002). Threats to internal validity can occur, or be discovered, at any point during the research process, including design, implementation, data collection, and analyses. There can exist multiple threats in a given study, and these threats can also intersect with one another. Keep in mind that threats are never something a researcher just “checks off” in a box, but rather a researcher continuously monitors their methods to ensure the credibility of the concluded findings (Onwuegbuzie &amp; McLean, 2003). Each threat to internal validity is discussed in more detail below.</p>
+<div id="history" class="section level4 hasAnchor" number="1.3.1.1">
+<h4><span class="header-section-number">1.3.1.1</span> History<a href="InExVal.html#history" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>No researcher can control the potential of geological, sociopolitical, financial, cultural, climate-related, pandemic, and other national and global events from impacting individuals in a research study. But inevitably such events happen, and unfortunately with what seems to be at higher frequencies these days. Historical events can influence the manner in which participants respond to a study’s dependent variable, making it difficult for researchers to determine whether an observed outcome was the result of a study’s independent variable or the historical event. In some instances, the historical event could directly intersect with objectives of the study itself making it even more difficult for researchers to make valid conclusions. Imagine you are evaluating the effectiveness of a new stress-reduction intervention for survivors of catastrophic hurricanes in a low-income, rural community in the southeast United States. In the middle of implementing the intervention, a tornado hits the same community, leading to severe damage and loss of life. What impact will this historical event have on the research study?</p>
+</div>
+<div id="maturation" class="section level4 hasAnchor" number="1.3.1.2">
+<h4><span class="header-section-number">1.3.1.2</span> Maturation<a href="InExVal.html#maturation" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Development and growth are natural processes that occur for individuals during their lifespan. These processes could be physiological, cognitive, social, or emotional. Given the length of a particular study, sometimes results from a study may be more indicative of naturally occurring growth and developmental factors, versus any manipulated independent variable.</p>
+</div>
+<div id="instrumentation" class="section level4 hasAnchor" number="1.3.1.3">
+<h4><span class="header-section-number">1.3.1.3</span> Instrumentation<a href="InExVal.html#instrumentation" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>No tool, test, or measure used in research can be entirely valid and reliable one hundred percent of the time. Instruments can produce low reliability scores or even produce inadequate psychometric properties (e.g., construct and predictive validity) with a study’s particular sample. This is an important consideration as some tests and measures were never validated or normed with diverse samples. Consider a measure of marital satisfaction that was created using heterosexual couples in the Netherlands. The measure may have great face validity, and even demonstrate adequate levels of content, criterion, and construct validity. But it may not produce the same psychometrics if used in married couples in the United States. It may be entirely inappropriate to use this measure if the United States sample also includes same-sex couples. Lastly, human beings administering instruments could contribute additional error, making instrumentation a serious threat to research studies. For example, some researchers may become fatigued when administering some measures, may not be consistent with measurement, or may not accurately observe a phenomenon during a research study.</p>
+</div>
+<div id="testing" class="section level4 hasAnchor" number="1.3.1.4">
+<h4><span class="header-section-number">1.3.1.4</span> Testing<a href="InExVal.html#testing" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>It is common to test participants multiple times throughout the course of a research study. Researchers often use the same test, measure, scale, or inventory when testing participants, but it begs the question as to whether changes in a test—that had been given multiple times—reflect true change? Sometimes referred to either as a <em>practice effect</em> or <em>fatigue effect</em>, changes in scores on the same test may be the result of familiarity with the test or becoming tired with the test.</p>
+</div>
+<div id="statistical-regression-or-regression-to-the-mean" class="section level4 hasAnchor" number="1.3.1.5">
+<h4><span class="header-section-number">1.3.1.5</span> Statistical Regression, or Regression to the Mean<a href="InExVal.html#statistical-regression-or-regression-to-the-mean" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Sometimes researchers select participants based on high or low scores on a particular test or measure (Campbell &amp; Kenny, 1999). For example, researchers may be interested in examining people who score high on measures of academic or cognitive functioning. If retested, those same participants may continue to score high or low. However, not all would score as high or low because of statistical regression, or regression to the mean. When participants are retested, researchers find that scores are less extreme and center toward an average score. Imagine a researcher was interested in testing a career counseling intervention with first generation college students who reported high scores on career indecision and anxiety in a career battery of questionnaires. After the intervention is complete, the researchers issue a final battery of questionnaires. These same first generation college students may appear less anxious and indecisive due to statistical regression to the mean and not necessarily the intervention.</p>
+</div>
+<div id="attrition-or-differential-mortality" class="section level4 hasAnchor" number="1.3.1.6">
+<h4><span class="header-section-number">1.3.1.6</span> Attrition, or Differential Mortality<a href="InExVal.html#attrition-or-differential-mortality" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Ethically, participants have the right to withdraw from participating in a research study at any given time during the research process. When participants withdraw, or drop from a study, researchers refer to this as attrition. A major concern of attrition is that it leads to potential biases in scores between groups (or observations in the case of longitudinal studies) that may not reflect whether an independent variable had any effect on the dependent variable. If there is substantial attrition in one group, or across the entire study, it leads a researcher to question why participants are withdrawing. Researchers may further wonder if participants dropping from the study are characteristically different from those who are remaining in the study. Attrition limits the type of conclusions that can be made because observations made across time or between groups may not reflect true differences as a function of the independent variable. Rather, there may be some other underlying issue with the research study.</p>
+<p>Imagine a researcher has been evaluating the effects of a six-session mindfulness cognitive behavioral group intervention for the reduction of race related stress among Black and African American women employed in a large healthcare setting. The researcher used a longitudinal, between group experimental design with an intervention group (treatment) and a control group (education), but found that attrition rates were higher for those in the control than for the intervention group. Equivalent and adequate comparisons could not be reliably made between the two groups at completion of study, so the researcher decided to send surveys to those dropped from the study and inquire why they dropped. The surveys return and the researcher finds that a significant portion of the control group were made up of on-call, ambulatory nurses who were unable to commit to the scheduled sessions. Therefore, the attrition was the result of some characteristic that differentiated the two groups.</p>
+</div>
+<div id="experimenter-bias" class="section level4 hasAnchor" number="1.3.1.7">
+<h4><span class="header-section-number">1.3.1.7</span> Experimenter Bias<a href="InExVal.html#experimenter-bias" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Researchers need to ensure they do not engage in verbal or nonverbal behaviors that inadvertently alter the results of a study. Sometimes this is referred to as an <em>experimenter expectancy</em>, and it is even known as the <em>Rosenthal Effect</em>. This becomes a threat when a participant’s response in a study is the result of the experimenter’s expectations versus the manipulated or independent variable. Examples include emphasizing particular words when reading prompts or scripts, or excessive nodding and smiling when certain favorable responses are solicited by study participants.</p>
+</div>
+<div id="selection-bias" class="section level4 hasAnchor" number="1.3.1.8">
+<h4><span class="header-section-number">1.3.1.8</span> Selection Bias<a href="InExVal.html#selection-bias" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Differences between groups in experimental studies can sometimes be the result of characteristics of the participants themselves, versus the manipulated or independent variable. For instance, a researcher may have accidentally grouped people along the same characteristic, such as sex, gender, sexual orientation, race, ethnicity, or age group. This potentially sets up nonequivalent groups in experimental or quasi-experimental research, and makes it difficult for researchers to determine whether any changes in dependent or outcome variables were the result of an independent variable or the characteristic itself. This also pertains to self-selection bias commonly seen in survey and questionnaire research, in which participants self-select to participate in a study.</p>
+</div>
+</div>
+<div id="controlling-for-threats-to-internal-validity" class="section level3 hasAnchor" number="1.3.2">
+<h3><span class="header-section-number">1.3.2</span> Controlling for Threats to Internal Validity<a href="InExVal.html#controlling-for-threats-to-internal-validity" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Researchers have identified a number of methodological procedures that could be used to control for threats to internal validity (Campbell &amp; Stanley, 1963; Cook &amp; Campbell, 1979; Fabrigar et al., 2020; Onwuegbuzie &amp; McLean, 2003; Shadish et al., 2002). Below we discuss the importance of considering control groups, random assignment, matching, blocking and holding variables constant.</p>
+<div id="control-groups" class="section level4 hasAnchor" number="1.3.2.1">
+<h4><span class="header-section-number">1.3.2.1</span> Control Groups<a href="InExVal.html#control-groups" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Control groups are commonly used in experimental and quasi-experimental human subjects research, and there is an important logic to its use. Individuals are assigned to a group (or condition) in which they do not receive the treatment or manipulated variable. However, participants do partake in similar tasks and conditions (e.g., complete surveys, questionnaires, physiological markers, etc.) as those in the experimental condition. Upon completion of the study, researchers then compare how the intervention or experimental condition performed alongside the control condition or group. Control groups are particularly effective at controlling for the effects of history, maturation, testing, instrumentation, and regression toward the mean (Campbell &amp; Stanley, 1963; Cook &amp; Campbell, 1979).</p>
+</div>
+<div id="random-assignment" class="section level4 hasAnchor" number="1.3.2.2">
+<h4><span class="header-section-number">1.3.2.2</span> Random Assignment<a href="InExVal.html#random-assignment" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Considered one of the most robust methods to control against threats to internal validity, researchers randomly place volunteer participants in various study conditions at the very beginning of a research study. This assures the researcher that each participant had the same or equally probable chance of being placed in either an experimental condition (or group) or a control condition (or group), while helping to decrease any unknown or intentional influence on assignment of participants to different groups. It further assures the researcher that the groups are equitable in terms of various characteristics of the participants (e.g., demographics, temperament, etc.; Fabrigar et al., 2020). Any observed differences or changes seen among the groups or conditions could then be accounted for by the manipulated independent variable or the applied intervention. More importantly, any observed difference between the groups is not the result of any sort of systematic bias that might have occurred during the initial phases of the research study.</p>
+<p>Take a hypothetical scenario in which a researcher is evaluating the ways in which implicit sexist messaging influences women’s responses to a cognitive motor task. Women are recruited from the community to participate in the study. One group receives the implicit sexist messaging while the other group does not. However, nearly all members in one group happened to be women between the ages of 21 and 29, while the majority of those in another group were women between the age of 43 and 56 This could constitute a systematic bias since there are generational differences between members in one group versus the other. Random assignment is incredibly important when controlling for the effects of selection (Campbell &amp; Stanley, 1963; Cook &amp; Campbell, 1979; Shadish et al., 2002).</p>
+<p>It is important to keep in mind that random assignment and random sampling are not synonymous with one another. <strong>Random sampling</strong> is when researchers utilize a variety of probable sampling techniques (e.g., simple, systematic, stratified, or cluster) to recruit participants who approximate the general population. It also means that all members of a given population have an equal chance of being recruited to participate.</p>
+</div>
+<div id="matching" class="section level4 hasAnchor" number="1.3.2.3">
+<h4><span class="header-section-number">1.3.2.3</span> Matching<a href="InExVal.html#matching" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>To further avoid the threat of selection bias, researchers may engage in the process of participant matching. This is especially helpful if a researcher cannot guarantee equivalent groups through randomization, or when sample size may be too small. Participants are matched on a variety of characteristics (e.g., cognitive or intelligence pre-test scores, gender, age, etc.), by placing members of similar characteristics in either an experimental/intervention condition or in the control condition. This helps a researcher establish some degree of equivalence between groups within a particular sample.</p>
+</div>
+<div id="blocking-and-holding-variables-constant" class="section level4 hasAnchor" number="1.3.2.4">
+<h4><span class="header-section-number">1.3.2.4</span> Blocking and Holding Variables Constant<a href="InExVal.html#blocking-and-holding-variables-constant" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Researchers may also choose to use some characteristic in the study’s sample (e.g., cognitive or intelligence scores, ethnicity or race) as an additional independent variable. This is referred to as <em>blocking</em>. Unlike matching, researchers may employ this strategy to see if a particular characteristic of the sample has an effect on the dependent variable. Alternatively, some researchers may choose to hold a particular characteristic constant or homogenize some sample characteristic so as to eliminate any undue influence from extraneous characteristics of a sample. For instance, a researcher may choose to only recruit high school aged adolescent boys between the ages of 14 and 15 who score above a certain threshold on an anxiety and depression measure to participate in a short-term emotional regulation treatment study.</p>
+</div>
+</div>
+</div>
+<div id="external-validity" class="section level2 hasAnchor" number="1.4">
+<h2><span class="header-section-number">1.4</span> External Validity<a href="InExVal.html#external-validity" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Many researchers invest time and resources with the hopes of expanding their research findings to larger communities and contexts, especially if the research is aimed at alleviating any suffering or influence larger systemic change efforts. Thus, researchers are not only concerned with internal validity, but also the external validity of their study. <strong>External validity</strong> is the degree towhich research findings can be generalized to the population that approximate the original context of the study (Campbell &amp; Stanley, 1963; Cook &amp; Campbell, 1979; Shadish et al., 2002).</p>
+<p>External validity is also concerned with the degree in which a study can be generalized across broader populations, treatments, settings, and conditions (Ferguson, 2004). Researchers wish to move beyond the controlled setting in which the study originally took place, and further consider ways that the findings may apply in other diverse applicational settings, time, persons, or slightly different variables or targets (Kenny, 2019; Shadish et al., 2002). For instance, a researcher who evaluated the effectiveness of a minority stress reduction intervention for transgender and gender nonbinary individuals in a controlled laboratory setting at a university, might have interest in seeing the intervention applied or replicated with transgender and gender nonbinary individuals in community based clinics, private practices, college counseling centers, and other agencies across the United States. That same researcher may have further interest in having their research used to inform policy on affirming psychological care for transgender and gender nonbinary individuals for all mental health practitioners.</p>
+<p>Researchers always have the hope that the finding of their research will have some degree of relevance and importance in “real-world” settings, particularly if study findings are replicated in other contexts. Replicated studies that support original study findings are considered to demonstrate high levels of external validity, as well as other forms of validity (e.g., internal validity, construct validity; Fabrigar et al., 2020). As a variation, or subcategory of external validity, <strong>ecological validity</strong> is concerned with whether a study’s results can be applied to naturalistic or representative settings in every-day life (Andrade, 2018; Schmuckler, 2001). With this in mind, it is important to consider that there also exist threats that could interfere with a researcher’s confidence in the external validity of their study’s findings.</p>
+<div id="threats-to-external-validity" class="section level3 hasAnchor" number="1.4.1">
+<h3><span class="header-section-number">1.4.1</span> Threats to External Validity<a href="InExVal.html#threats-to-external-validity" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Campbell and Stanley (1963) identified four particular threats, including reactive or interaction effects of testing, interaction effects of selection bias, reactive effects of arrangement, and multiple treatment interference.</p>
+<div id="reactive-or-interaction-effect-of-testing" class="section level4 hasAnchor" number="1.4.1.1">
+<h4><span class="header-section-number">1.4.1.1</span> Reactive or Interaction Effect of Testing<a href="InExVal.html#reactive-or-interaction-effect-of-testing" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Sometimes researchers need to be cognizant that research studies, experiments, and testing procedures—in and of themselves—may be the catalyst producing some of the findings we see from research. In many “real-world” conditions, people are not tested or observed as much as they are in research. In particular, Campbell and Stanley (1963) discussed how exposure to a pre-test condition, or multiple testing conditions, may influence a study participant’s degree of sensitivity to the experimental variable. Consider an example in which a researcher is interested in examining a clinical supervisor’s attitudes toward racial and ethnic microaggressions in counseling. The clinical supervisor is asked to view a fictitious counseling session of a supervisee, and then asked to identify any subtle instances of discrimination from a 10 minute clip of a counseling session. Afterwards, the researcher follows up with another post-test to see if there have been any changes in attitudes toward racial and ethnic microaggressions in counseling. The potential threat to external validity in this example is that the clinical supervisors in the study have been sensitized by the pre-test condition (i.e., the fictitious counseling session), increasing their potential chances of identifying microaggressions in a counseling session. If generalized out, clinical supervisors may not respond the same way since they’ve not been pre-tested and sensitized.</p>
+</div>
+<div id="interaction-effects-of-selection-bias" class="section level4 hasAnchor" number="1.4.1.2">
+<h4><span class="header-section-number">1.4.1.2</span> Interaction Effects of Selection Bias<a href="InExVal.html#interaction-effects-of-selection-bias" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Health service psychologists pay close attention to samples, and work diligently to recruit adequate samples to participate. However, there are situations in which a particular sample in a research study would not generalize to the entire population. This could be the result of selection bias. For instance, many university researchers utilize an undergraduate psychology research pool to recruit participants for their research. But undergraduate students represent a biased sample, and do not reflect the larger population in terms of representative demographics. Thus, researchers replicating a study with a different sample may not obtain the same findings.</p>
+</div>
+<div id="reactive-effects-of-experimental-arrangements" class="section level4 hasAnchor" number="1.4.1.3">
+<h4><span class="header-section-number">1.4.1.3</span> Reactive Effects of Experimental Arrangements<a href="InExVal.html#reactive-effects-of-experimental-arrangements" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Research conducted in highly controlled settings (e.g., sterile laboratories) run the risk of not generalizing well in “real world” diverse settings or populations. This is mainly to do with the fact that research participants are willing volunteers who understand they are fully participating in experimental or study-related activities. In some instances, research participants may respond or behave a certain way because they are being observed. Frey (2018) reports that a participant may even have the desire to please a researcher by altering their performance on a particular outcome. This may sound familiar because you may understand this to be the <strong>Hawthorne effect</strong>, a phenomenon in which human beings change their behavior as a result of being observed.</p>
+</div>
+<div id="multiple-treatment-interference" class="section level4 hasAnchor" number="1.4.1.4">
+<h4><span class="header-section-number">1.4.1.4</span> Multiple Treatment Interference<a href="InExVal.html#multiple-treatment-interference" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Depending on the sequencing of a particular study, researchers may provide the same subject different treatments or interventions at different intervals. For example, a researcher may be testing multiple formats to examine the combination of psychotropic medication along with some type of psychotherapy. However, this makes it difficult for researchers to determine if the sequencing of the differing treatments played any role in any of the observed outcomes. Because of this type of sequencing, we would argue that there has been some level of treatment contamination, because it is difficult to control effects from previous treatments or studies.</p>
+</div>
+</div>
+<div id="controlling-for-threats-to-external-validity" class="section level3 hasAnchor" number="1.4.2">
+<h3><span class="header-section-number">1.4.2</span> Controlling for Threats to External Validity<a href="InExVal.html#controlling-for-threats-to-external-validity" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>It is important to note that external validity can never be assured, even when a researcher stringently addresses and controls for threats to internal validity (Ferguson, 2004). However, there are some threats to external validity that can be managed through some methodological considerations. Below we discuss only a few, including random selection, concealed research, as well as counterbalancing and strategies to control for pre-testing effects.
+#### Random Selection
+Sometimes confused with random assignment (already discussed above as a means of controlling threats to internal validity), random selection is about accessing and including a representative sample of the target population in a research study. Random sampling procedures, such as simple or stratified sampling, play a significant role when it comes to random selection. You may recall that random sampling is concerned with the notion that every individual (or observation) has an equal probability of being selected for a study. The equal probability of being selected then increases the probable chances that research findings can be generalized back to the target population (Ferguson, 2004). This form of control is particularly beneficial when considering the interaction effects of selection bias.</p>
+<div id="single-double-and-triple-concealed-research" class="section level4 hasAnchor" number="1.4.2.1">
+<h4><span class="header-section-number">1.4.2.1</span> Single, Double, and Triple-Concealed Research<a href="InExVal.html#single-double-and-triple-concealed-research" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>It is important to preface that the term often used in research texts is single, double, and triple “blind” research. However, we believe “blind” is often misused in a variety of contexts, and in this context we believe it perpetuates ableist ideologies. And so, we offer a slight modification by using the term “concealed.” In order to reduce overt and covert forms of researcher bias in a study, researchers attempt to conceal as much as possible from participants and other members of a research team. In a single-concealed research study, only the researcher knows if participants are in a control or experimental group. Participants do not know what condition they are in. In a double-concealed research study, neither the researcher or participant know which is the control or experimental group. In a triple-concealed research study, consistent with the double-concealed design, neither the researcher nor participant know if they are in the control or experimental group. Additionally, those responsible for analyzing or examining outcomes do not know which set of variables were the control or experimental condition. This form of control is especially helpful when addressing reactive effects of experimental arrangements.</p>
+</div>
+<div id="counterbalancing-and-controlling-for-pre-test-effects" class="section level4 hasAnchor" number="1.4.2.2">
+<h4><span class="header-section-number">1.4.2.2</span> Counterbalancing and Controlling for Pre-Test Effects<a href="InExVal.html#counterbalancing-and-controlling-for-pre-test-effects" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>In order to address the effects of multiple treatment interference, or carryover effects, a researcher may consider the use of counterbalancing. A researcher must decide <em>a priori</em> all the possible sequences for a treatment, implement those varying permutations, and evaluate study participants in those different orders in order minimize carryover effects. If pre-testing effects is a concern, a researcher may decide not to include a pre-test at all, and compare groups at post-test only. Relatedly, a researcher may want to consider the use of the <em>Solomon Four-Group Design</em> as a means of countering the effects of a pre-test (Allen, 2017). In a Solomon Four-Group Design, a researcher will have four groups, in which some groups receive a pre-test and other groups do not.</p>
+</div>
+</div>
+</div>
+<div id="current-issues-trends-and-considerations" class="section level2 hasAnchor" number="1.5">
+<h2><span class="header-section-number">1.5</span> Current Issues, Trends, and Considerations<a href="InExVal.html#current-issues-trends-and-considerations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>We will briefly review current issues, trends, and consideration of internal and external validity. It is vital that health service psychology researchers attend to matters of multiculturalism and diversity, since this has direct implications on the external and ecological validity of study findings. It is also incredibly important to consider evidence based practices with culturally diverse populations. Replication of research is another pressing trend in the field of psychology that requires researchers to consider how they present and disseminate their research findings to broader communities. Relatedly, Internet-based collection procedures require new concerted efforts in our conceptualization of internal control and generalizability of results. We end with a recommendation that researchers could consider when addressing internal and external validity of research.</p>
+<div id="validity-issues-related-to-cultural-diversity" class="section level3 hasAnchor" number="1.5.1">
+<h3><span class="header-section-number">1.5.1</span> Validity Issues Related to Cultural Diversity<a href="InExVal.html#validity-issues-related-to-cultural-diversity" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In a critique of psychological research, Sue (1999) wrote that researchers have overemphasized internal validity over external validity. As a result, the overemphasis on internal validity has hindered the development of research on ethnic and racial minority groups, as well as other marginalized groups. Unfortunately, this has further perpetuated psychology’s own history of reinforcing oppression and inequality (Lewis, 2021). This has also led to a tension between “basic” researchers who privilege statistical power and high degrees of internal validity and “applied” researchers who privilege the nuance of intersectional research and external or ecological validity (Lewis, 2021).</p>
+<p>As an issue of validity, psychological based research has often failed to include diverse participants, or it has failed to report on the diverse identities within samples. A 36-year review of randomized clinical trials of depression (from 1981-2016) found that less than half of the studies reported on the sample’s race/ethnicity, about one in six trials had a predominantly ethnic minority sample, and one in seven studies had a predominantly low socioeconomic (SES) sample (Polo et al., 2019). Similarly, researchers have found inconsistency in demographic data collection and reporting. Racial and ethnic minority groups are often underrepresented, along with disability, and diverse sexual orientations (Greenwell &amp; Hough, 2008). Within research on the lesbian, gay, bisexual, transgender, queer (LGBTQ+) communities, the needs of cisgender white gay men have been privileged, and the experiences of LGBTQ+ individuals who represent women, people of color, transgender, or bisexual communities have largely been omitted or excessively medicalized (American Psychological Association, 2015; American Psychological Association, 2021; Hegarty &amp; Rutherford, 2019).</p>
+<p>Researchers have noted the importance of consistently collecting and reporting demographic data on race, ethnicity, sexual orientation, gender identity, SES, disability, and other identities (dickey, Hendricks, &amp; Bockting, 2016; Greenwell &amp; Hough, 2008; Polo et al., 2019). For instance, dickey and colleagues (2016) stressed the importance of collecting and analyzing gender identity and sexual orientation data separately in population surveys, especially since gender identity is often conflated with sexual orientation. Parent and colleagues (2013) encourage researchers to focus on the context of intersecting oppressions in addition to intersecting identities, to ensure that diverse populations are included in psychological research.</p>
+<p>To redress the exclusion of marginalized identities from psychological research and scholarship, researchers recommend going beyond including marginalized individuals in samples to including them in creating the studies themselves. Participatory research is an umbrella term for research that engages those being studied in the production of knowledge to promote education and change (Cargo &amp; Mercer, 2008). Participatory research in its many forms has been implemented with gender and sexual minority populations, refugees, individuals with disabilities, and racial and ethnic minority communities around the globe (Cargo &amp; Mercer, 2008; Fine et al., 2021; Jacquez et al., 2021). Fine et al. (2021) argue that “the move to include and privilege those most impacted by injustice as co-researchers is not simply an act of empathy or decolonizing; it is a commitment to good science” (p.346).</p>
+</div>
+<div id="validity-issues-related-to-replication-studies" class="section level3 hasAnchor" number="1.5.2">
+<h3><span class="header-section-number">1.5.2</span> Validity Issues related to Replication Studies<a href="InExVal.html#validity-issues-related-to-replication-studies" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In recent years, psychologists have argued that the discipline of psychology suffers from a replication crisis (Fabrigar et al., 2020). This calls into question the validity of psychological research and the findings that have been reported over the years. Some notable cases of outright fraud, questionable research practices (Pashler &amp; Wagenmakers, 2012), flawed methodologies, and incorrect analysis of data (Fabrigar et al., 2020) have led to some of these replication issues. Others have argued that failures to replicate result from small sample sizes, subsequent low statistical power (Maxwell, Lau, &amp; Howard, 2015; Schmidt &amp; Oh, 2016), as well poor statistical conclusion validity (Fabrigar et al., 2020). Schmidt and Oh (2016) argue that “the real problem is not a lack of replication; it is the distortion of our research literatures caused by publication bias and questionable research practices” (p.32).</p>
+<p>Addressing the replication crisis is no easy task as it requires addressing journal review processes, research practices, and reward structures in academia (Pashler &amp; Wagenmakers, 2012). The Reproducibility Project, created by the Open Science Collaboration, aimed to address the replication crisis by replicating 100 experimental and correlational studies from key psychology journals (Open Science Collaboration, 2015). The Reproducibility Project found that while 97% of all the original studies had significant results, only 36% of replicated studies demonstrated significant results (Open Science Collaboration, 2015). Schmidt and Oh (2016) note the importance of replicating studies with nonsignificant results and recommend meta-analysis as a solution to this issue, provided publishing bias and questionable research practices are addressed.</p>
+<p>Some researchers argue that simply replicating studies is not enough to safeguard the validity of psychological research. In an analysis of the Reproducibility Project, Sabik and colleagues (2021) found that the studies reproduced by the Project seldom considered context and identity, even when it was central to the study’s design, and that study samples were predominantly WEIRD (people from Western, educated, industrialized, rich, and democratic countries). Further, intersectionality, power, discrimination, and historical contexts were rarely considered in the Project’s reports (Sabik et al., 2021). Sabik and colleagues argued that the Reproducibility Project and the discourse surrounding the replication crisis are more concerned with data transparency and methods than with the inclusion of historically oppressed and marginalized groups. To truly move the discipline forward, some argue it is necessary to set aside the emphasis on traditional research methods and reproducibility in favor of methods that center on the co-creation of knowledge (Grzanka &amp; Cole, 2021).</p>
+</div>
+<div id="internet-research-and-the-use-of-crowdsourcing-platforms" class="section level3 hasAnchor" number="1.5.3">
+<h3><span class="header-section-number">1.5.3</span> Internet Research and the use of Crowdsourcing Platforms<a href="InExVal.html#internet-research-and-the-use-of-crowdsourcing-platforms" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Many social science researchers utilize the Internet (e.g., social media, list servs, emails) for purposes of recruitment and data collection (e.g., Survey Monkey, Qualtrics, etc.). Although this has considerable implications for internal and external validity that go beyond the scope of this chapter, it is essential that we discuss some of the implications of crowdsourcing platforms. Crowdsourcing platforms are online websites that can be used by researchers to recruit potential participants who have access to Internet and an electronic device (Peer et al., 2017). And although we cannot review all of the available crowdsourcing platforms, researchers have several platforms to choose from, including CrowdFlower and Prolific Academic (see Peer et al., 2017 for a review of the various strengths and limitations of these crowdsourcing platforms). However, Amazon’s Mechanical Turk (MTurk) has garnered some of the most attention in recent years by methodologists and scholars. It is likely that many of the issues surrounding internal and external validity with MTurk are also applicable to other crowdsourcing platforms, but we will focus mostly on MTurk for this chapter.</p>
+<p>Created in 2005 by Amazon, MTurk is an online marketplace where workers (Turkers) complete Human Intelligence Tasks (HITs) for MTurk requesters for pay. This is equivalent to a psychology undergraduate pool, but using a larger sample of the population. Typical HITs are transcribing movies, copying text from images, and participating in surveys. In addition to regular MTurk workers, there are MTurk “masters” whose accuracy are validated by previous MTurk requesters. MTurk is used extensively by businesses, academic researchers, and nonprofits (Pew Research Center, 2016). A review of key journals in psychology, psychiatry, and other social sciences found that fewer than 50 studies using MTurk data were published in 2011; in 2015, over 500 studies using MTurk data were published (Chandler &amp; Shapiro, 2016).</p>
+<p>Although MTurk is a cost-effective, efficient method to collect large amounts of data, there are concerns about the reliability and validity of MTurk data. For instance, several researchers have called the external validity of MTurk data into question. Turkers are relatively young and well-educated compared to national averages (Hitlin, 2016; Walters et al., 2018). Walters et al. (2018) found that MTurk workers’ health status and behaviors were not comparable to a nationally representative sample. Compared to a national sample, MTurk users were over twice as likely to screen positive for depression, but they were less likely to exercise, smoke, have asthma, or have health insurance (Walters et al., 2018). Another concern regarding MTurk data is the overall decrease in data quality resulting from an influx of computer programs or “bots” that complete HITs and individual users bypassing location restrictions using server farms (“farmers”). Chmielewski and Kucker (2019) conducted the same study over four years and found a substantial increase in low-quality data from MTurkers, including failures to replicate well-established findings, decreases in the reliability and validity of the Big Five Inventory, a widely used personality measure, and increases in participants failing response validity indicators (Chmielewski &amp; Kucker, 2019).</p>
+<p>MTurk remains a valuable resource for collecting data, provided the necessary steps are taken to ensure data quality. Buhrmester et al. (2018) recommend that researchers take the time to work on MTurk themselves to understand the Turker experience. Other recommendations include screening responses before approving HITs, including validity indicators, and comprehensive reporting on screening and study designs (Buhrmester et al., 2018; Cheung et al., 2017; Chmielewski &amp; Kucker, 2019; Mason &amp; Suri, 2011). MTurk is particularly useful for researching hard-to-reach populations such as individuals with disabilities, LGBTQ+ individuals, and those with low socioeconomic status (Smith et al., 2015). To safeguard against Turkers lying about being part of the target group, Smith et al. (2015) recommend providing monetary incentives that are not overly attractive and asking participants to self-identify prior to sharing the purpose of the research. Walters at al. (2018) suggested that researchers would benefit from using MTurk workers over masters because the two groups were comparable in demographics and health characteristics; however, workers are a larger sample and more cost-effective. With adequate measures to ensure data quality, MTurk remains an efficient and cost-effective option for researchers, especially those studying hard-to-reach populations.</p>
+</div>
+</div>
+<div id="a-consideration-for-practice" class="section level2 hasAnchor" number="1.6">
+<h2><span class="header-section-number">1.6</span> A Consideration for Practice<a href="InExVal.html#a-consideration-for-practice" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>First introduced in 1999, the RE-AIM framework is a tool that can help researchers balance internal and external validity when planning, designing, and evaluating health-related interventions (Dzewaltowski et al., 2004). Originally intended as guidelines for reporting research results, the framework is now also used to organize literature reviews and to translate research into practice. This has incredible implications for both internal and external validity, as it attempts to take a study beyond just epistemology and into direct practice with populations.</p>
+<p>The RE-AIM framework’s five dimensions include: <em>Reach, Efficacy/Effectiveness, Adoption, Implementation, and Maintenance</em> (Dzewaltowski et al., 2004; Glasgow, Vogt, &amp; Boles, 1999). Reach and Efficacy/Effectiveness are both individual-level dimensions. Reach considers the percentage of the population of interest included in the intervention and how representative they are, whereas Efficacy/Effectiveness considers the impacts (both positive and negative) on participants (Dzewaltowski et al., 2004; Glasgow, Vogt, &amp; Boles, 1999). Adoption and Implementation are organizational-level dimensions that consider the type and proportions of settings that will adopt the intervention and the extent to which the intervention is implemented faithfully in the real world (Dzewaltowski et al., 2004; Glasgow, Vogt, &amp; Boles, 1999). Finally, Maintenance examines the continuity of the program over time at both the individual and the organizational levels (Glasgow, Vogt, &amp; Boles, 1999).</p>
+<p>RE-AIM is used in a variety of fields and settings, such as chronic illness management, mental health, smoking cessation, health policy, and diabetes prevention (Kwan et al., 2019). Although the RE-AIM framework is becoming more widely used, a systematic review noted that the framework is often used inconsistently (Gaglio, Shoup, &amp; Glasgow, 2013; Glasgow et al., 2019). Several adaptations and clarifications have been offered to mitigate confusion and inconsistency using the RE-AIM framework. Holtrop and colleagues (2018) offered guidance on integrating qualitative methods into the RE-AIM framework. Holtrop et al. (2021) offered clarifications on common misconceptions about the framework. The Practical, Robust, Implementation, and Sustainability (PRISM) model is an emerging complement to the RE-AIM framework that focuses on contextual factors (Glasgow et al., 2019). With the original goals of producing valid and relevant research and translating research into practice, RE-AIM and PRISM will continue to grow and evolve as researchers apply these frameworks to new populations and settings. Researchers and students can directly go to the website to learn more about how to implement these principles in their research, as well as access various resources, tools, and checklists (<a href="http://www.re-aim.org" class="uri">http://www.re-aim.org</a>).</p>
+</div>
+<div id="activity" class="section level2 hasAnchor" number="1.7">
+<h2><span class="header-section-number">1.7</span> Activity<a href="InExVal.html#activity" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Take a moment to locate the latest issue of a peer-refereed journal in your respective field. Some example psychology journals published by the American Psychological Association include the <em>Journal of Counseling Psychology, School Psychology, Journal of Consulting and Clinical Psychology, Health Psychology, Developmental Psychology, or Professional Psychology: Research and Practice</em>. Once you have located a recent issue, browse through the table of contents and select a quantitative article that may be of interest to you. Read the article and then consider the following prompts:</p>
+<ol style="list-style-type: decimal">
+<li>Which threats of internal validity were identified and controlled for in the study? Were any explicitly identified and addressed by the authors the article? Were there any that you noticed that were not addressed or controlled for in the study?</li>
+<li>How were study participants recruited or sampled for the study? In what ways were study participants diverse?</li>
+<li>What limitations were mentioned in the discussion section? Were issues of internal and external validity explicitly named? If so, which ones? If not, which internal and external validity issues were implied?</li>
+<li>How would you replicate the study you read? What additional validity factors would you consider to improve the new proposed study’s internal and external validity?</li>
+</ol>
+</div>
+<div id="references" class="section level2 hasAnchor" number="1.8">
+<h2><span class="header-section-number">1.8</span> References<a href="InExVal.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="preface.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="OpSci.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["TransformingResearchMethods.pdf", "TransformingResearchMethods.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
