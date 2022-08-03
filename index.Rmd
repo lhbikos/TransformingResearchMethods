@@ -11,7 +11,7 @@ geometry: margin=1in
 highlight: tango
 urlcolor: blue #without this the links in the PDF do not show
 citation-style: apa-single-spaced.csl #if you want APA style
-bibliography: STATSnMETH.bib #This is my own bibtex file from my Zotero account. If this file is not in the project folder there will be an error and the book will not build.
+bibliography: ["OpenScience.bib", "APAstyle.bib"] #This is my own bibtex file from my Zotero account. If this file is not in the project folder there will be an error and the book will not build.
 link-citations: yes
 #DID NOT WORK, BUT DID NOT HURT EITHER I THINK IT NEEDS TO BE CONNECTED TO A PKG
 #line-wrapping-in-code: true #wrap overflowing lines in code blocks? 

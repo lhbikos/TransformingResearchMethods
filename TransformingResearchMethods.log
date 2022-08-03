@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.5)  28 JUL 2022 11:39
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.30)  2 AUG 2022 20:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **TransformingResearchMethods.tex
 (./TransformingResearchMethods.tex
-LaTeX2e <2022-06-01> patch level 4
-L3 programming layer <2022-07-01> (c:/Users/lhbikos/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/book.cls
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-07-15> (c:/Users/lhbikos/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
 (c:/Users/lhbikos/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk11.clo
 File: bk11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
@@ -131,7 +131,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 ) (c:/Users/lhbikos/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ) (c:/Users/lhbikos/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (c:/Users/lhbikos/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-07-01 L3 programming layer (loader) 
+Package: expl3 2022-07-15 L3 programming layer (loader) 
 (c:/Users/lhbikos/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2022-07-01 L3 backend support: XeTeX
 \g__graphics_track_int=\count268
@@ -403,19 +403,19 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 \Fld@listcount=\count314
 \c@bookmark@seq@number=\count315
 (c:/Users/lhbikos/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 (c:/Users/lhbikos/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 ) (c:/Users/lhbikos/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip63
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 83.
-(./TransformingResearchMethods.aux)
+No file TransformingResearchMethods.aux.
 \openout1 = `TransformingResearchMethods.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
@@ -705,9 +705,11 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 89.
-(./TransformingResearchMethods.out) (./TransformingResearchMethods.out)
 \@outlinefile=\write3
 \openout3 = `TransformingResearchMethods.out'.
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 91.
@@ -743,28 +745,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [2
 
-] (./TransformingResearchMethods.toc
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.665pt on input line 3.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.475pt on input line 3.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.95099pt on input line 3.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.66568pt on input line 3.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.4755pt on input line 3.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 3.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.66417pt on input line 3.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.47441pt on input line 3.
-[3] [4])
+]
+No file TransformingResearchMethods.toc.
 \tf@toc=\write4
 \openout4 = `TransformingResearchMethods.toc'.
 
-[5] [6
+[3] [4
 
 ]
 File: images/bookcover.png Graphic file (type bmp)
@@ -772,18 +758,40 @@ File: images/bookcover.png Graphic file (type bmp)
 
 LaTeX Warning: Float too large for page by 50.14732pt on input line 105.
 
-[7] [8] [9
+[5] [6] [7
 
-] [10]
+] [8]
 Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 190--192
 
  []
 
-[11
+[9
 
 ]
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.665pt on input line 232.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.475pt on input line 232.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.95099pt on input line 232.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.66568pt on input line 232.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.4755pt on input line 232.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 10.94882pt on input line 232.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.66417pt on input line 232.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.47441pt on input line 232.
+
+Overfull \hbox (16.2851pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 10 \TU/lmr/m/sl/10.95 CHAPTER 1.  INTERNAL AND EXTERNAL VALIDITY IN HEALTH SERVICE PSYCHOLOGY
+ []
+
+[10] [11]
 Overfull \hbox (16.2851pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10.95 12 \TU/lmr/m/sl/10.95 CHAPTER 1.  INTERNAL AND EXTERNAL VALIDITY IN HEALTH SERVICE PSYCHOLOGY
  []
@@ -813,183 +821,597 @@ Overfull \hbox (16.2851pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10.95 22 \TU/lmr/m/sl/10.95 CHAPTER 1.  INTERNAL AND EXTERNAL VALIDITY IN HEALTH SERVICE PSYCHOLOGY
  []
 
-[22] [23]
-Overfull \hbox (16.2851pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 24 \TU/lmr/m/sl/10.95 CHAPTER 1.  INTERNAL AND EXTERNAL VALIDITY IN HEALTH SERVICE PSYCHOLOGY
- []
-
-[24]
+[22]
 Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 450--453
 
  []
 
-[25
+[23
 
 ]
+
+Package natbib Warning: Citation `noauthor_open_2022' on page 24 undefined on input line 503.
+
+
+Package natbib Warning: Citation `krathwohl_methods_2009' on page 24 undefined on input line 503.
+
+
+Package natbib Warning: Citation `merton_science_1942' on page 24 undefined on input line 505.
+
+
+Package natbib Warning: Citation `chubin_open_1985' on page 24 undefined on input line 505.
+
+
+Package natbib Warning: Citation `fecher_open_2013' on page 24 undefined on input line 507.
+
+
+Overfull \hbox (17.9033pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 24 \TU/lmr/m/sl/10.95 CHAPTER 2.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
+ []
+
+[24]
+
+Package natbib Warning: Citation `patil_statistical_2016' on page 25 undefined on input line 514.
+
+
+Package natbib Warning: Citation `open_science_collaboration_estimating_2015' on page 25 undefined on input line 514.
+
+
+Package natbib Warning: Citation `stevens_replicability_2017' on page 25 undefined on input line 516.
+
+
+Package natbib Warning: Citation `hengartner_raising_2018' on page 25 undefined on input line 516.
+
+
+Package natbib Warning: Citation `vant_veer_pre-registration_2016' on page 25 undefined on input line 516.
+
+
+Package natbib Warning: Citation `stevens_replicability_2017' on page 25 undefined on input line 518.
+
+
+Package natbib Warning: Citation `driessen_does_2015' on page 25 undefined on input line 518.
+
+
+Package natbib Warning: Citation `rosenthal_file_1979' on page 25 undefined on input line 518.
+
+
+Package natbib Warning: Citation `open_science_collaboration_estimating_2015' on page 25 undefined on input line 520.
+
+
+Package natbib Warning: Citation `vant_veer_pre-registration_2016' on page 25 undefined on input line 520.
+
+
+Package natbib Warning: Citation `stevens_replicability_2017' on page 25 undefined on input line 520.
+
+
+Package natbib Warning: Citation `stevens_replicability_2017' on page 25 undefined on input line 525.
+
+
+Package natbib Warning: Citation `bosnjak_template_2021' on page 25 undefined on input line 525.
+
+
+Package natbib Warning: Citation `bosnjak_template_2021' on page 25 undefined on input line 525.
+
+
+Package natbib Warning: Citation `haven_preregistering_2020' on page 25 undefined on input line 525.
+
+[25]
+
+Package natbib Warning: Citation `osf_open_2022' on page 26 undefined on input line 527.
+
+
+Package natbib Warning: Citation `chambers_past_2022' on page 26 undefined on input line 527.
+
+
+Package natbib Warning: Citation `chambers_past_2022' on page 26 undefined on input line 529.
+
+
+Package natbib Warning: Citation `chambers_past_2022' on page 26 undefined on input line 529.
+
+
+Package natbib Warning: Citation `vant_veer_pre-registration_2016' on page 26 undefined on input line 529.
+
+
+Package natbib Warning: Citation `vant_veer_pre-registration_2016' on page 26 undefined on input line 531.
+
+
+Package natbib Warning: Citation `moore_preregister_2016' on page 26 undefined on input line 533.
+
+
+Package natbib Warning: Citation `moore_preregister_2016' on page 26 undefined on input line 535.
+
+
+Package natbib Warning: Citation `preregistration_task_force_preregistration_2021' on page 26 undefined on input line 537.
+
+
+Package natbib Warning: Citation `bosnjak_template_2021' on page 26 undefined on input line 537.
+
+
+Package natbib Warning: Citation `haven_preregistering_2020' on page 26 undefined on input line 537.
+
+
+Package natbib Warning: Citation `american_psychological_association_publication_2020' on page 26 undefined on input line 537.
+
+
+Package natbib Warning: Citation `alter_responsible_2018' on page 26 undefined on input line 542.
+
+
+Package natbib Warning: Citation `martone_data_2018' on page 26 undefined on input line 542.
+
+
+Package natbib Warning: Citation `ross_ethical_2018' on page 26 undefined on input line 542.
+
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 26 undefined on input line 542.
+
+
 Overfull \hbox (17.9033pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10.95 26 \TU/lmr/m/sl/10.95 CHAPTER 2.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
  []
 
-[26] [27]
+[26]
+
+Package natbib Warning: Citation `ceci_private_1983' on page 27 undefined on input line 544.
+
+
+Package natbib Warning: Citation `american_psychological_association_ethical_2017' on page 27 undefined on input line 544.
+
+
+Package natbib Warning: Citation `martone_data_2018' on page 27 undefined on input line 544.
+
+
+Package natbib Warning: Citation `stevens_replicability_2017' on page 27 undefined on input line 546.
+
+
+Package natbib Warning: Citation `ross_ethical_2018' on page 27 undefined on input line 546.
+
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 27 undefined on input line 548.
+
+
+Package natbib Warning: Citation `martone_data_2018' on page 27 undefined on input line 550.
+
+
+Package natbib Warning: Citation `alter_responsible_2018' on page 27 undefined on input line 550.
+
+
+Package natbib Warning: Citation `martone_data_2018' on page 27 undefined on input line 552.
+
+
+Package natbib Warning: Citation `martone_data_2018' on page 27 undefined on input line 552.
+
+
+Package natbib Warning: Citation `alter_responsible_2018' on page 27 undefined on input line 552.
+
+
+Package natbib Warning: Citation `ross_ethical_2018' on page 27 undefined on input line 554.
+
+
+Package natbib Warning: Citation `ross_ethical_2018' on page 27 undefined on input line 554.
+
+
+Package natbib Warning: Citation `alter_responsible_2018' on page 27 undefined on input line 554.
+
+[27]
+
+Package natbib Warning: Citation `ross_ethical_2018' on page 28 undefined on input line 570.
+
+
 Overfull \hbox (17.9033pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10.95 28 \TU/lmr/m/sl/10.95 CHAPTER 2.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
  []
 
-[28] [29]
+[28]
+
+Package natbib Warning: Citation `ross_ethical_2018' on page 29 undefined on input line 572.
+
+
+Package natbib Warning: Citation `ross-hellauer_what_2017' on page 29 undefined on input line 577.
+
+
+Package natbib Warning: Citation `ross-hellauer_what_2017' on page 29 undefined on input line 577.
+
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 29 undefined on input line 577.
+
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 29 undefined on input line 586.
+
+
+Package natbib Warning: Citation `shah_open_2017' on page 29 undefined on input line 586.
+
+[29]
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 30 undefined on input line 588.
+
+
+Package natbib Warning: Citation `shah_open_2017' on page 30 undefined on input line 588.
+
+
+Package natbib Warning: Citation `hagger_developing_2022' on page 30 undefined on input line 588.
+
+
+Package natbib Warning: Citation `shah_open_2017' on page 30 undefined on input line 588.
+
+
+Package natbib Warning: Citation `beall_predatory_2012' on page 30 undefined on input line 590.
+
+
+Package natbib Warning: Citation `fortney_getting_2016' on page 30 undefined on input line 592.
+
+
+Package natbib Warning: Citation `fortney_getting_2016' on page 30 undefined on input line 594.
+
+
+Package natbib Warning: Citation `shah_open_2017' on page 30 undefined on input line 594.
+
+
+Package natbib Warning: Citation `martone_data_2018' on page 30 undefined on input line 594.
+
+
+Package natbib Warning: Citation `alter_responsible_2018' on page 30 undefined on input line 606.
+
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 30 undefined on input line 606.
+
+
 Overfull \hbox (17.9033pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10.95 30 \TU/lmr/m/sl/10.95 CHAPTER 2.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
  []
 
-[30] [31]
+[30]
+
+Package natbib Warning: Citation `noauthor_r_2022' on page 31 undefined on input line 608.
+
+
+Package natbib Warning: Citation `noauthor_rstudio_2022' on page 31 undefined on input line 610.
+
+
+Package natbib Warning: Citation `noauthor_rstudio_2022' on page 31 undefined on input line 610.
+
+
+Package natbib Warning: Citation `shoemann_determining_2017' on page 31 undefined on input line 614.
+
+
+Package natbib Warning: Citation `the_jamovi_project_about_2021' on page 31 undefined on input line 616.
+
+
+Package natbib Warning: Citation `the_jamovi_project_about_2021' on page 31 undefined on input line 616.
+
+
+Package natbib Warning: Citation `jasp_team_jasp_2022' on page 31 undefined on input line 618.
+
+
+Package natbib Warning: Citation `smith_software_2016' on page 31 undefined on input line 619.
+
+[31]
+
+Package natbib Warning: Citation `corporation_for_digital_scholarship_zotero_2022' on page 32 undefined on input line 624.
+
+
+Package natbib Warning: Citation `noauthor_mendeley_2022' on page 32 undefined on input line 626.
+
+
+Package natbib Warning: Citation `alter_responsible_2018' on page 32 undefined on input line 638.
+
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 32 undefined on input line 643.
+
+
 Overfull \hbox (17.9033pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10.95 32 \TU/lmr/m/sl/10.95 CHAPTER 2.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
  []
 
-[32] [33]
+[32]
+
+Package natbib Warning: Citation `noauthor_github_2022' on page 33 undefined on input line 645.
+
+
+Package natbib Warning: Citation `noauthor_github_2022-1' on page 33 undefined on input line 645.
+
+
+Package natbib Warning: Citation `osf_open_2022' on page 33 undefined on input line 647.
+
+
+Package natbib Warning: Citation `martone_data_2018' on page 33 undefined on input line 647.
+
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 33 undefined on input line 652.
+
+
+Package natbib Warning: Citation `open_science_collaboration_estimating_2015' on page 33 undefined on input line 662.
+
+
+Underfull \vbox (badness 1281) has occurred while \output is active []
+
+[33]
 Overfull \hbox (17.9033pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10.95 34 \TU/lmr/m/sl/10.95 CHAPTER 2.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
  []
 
-[34] [35]
-Overfull \hbox (17.9033pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 36 \TU/lmr/m/sl/10.95 CHAPTER 2.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
- []
-
-[36] [37
-
-]
-Overfull \hbox (17.9033pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 38 \TU/lmr/m/sl/10.95 CHAPTER 2.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
- []
-
-[38
-
-]
+[34]
 Chapter 3.
-[39] [40] [41]
-Underfull \hbox (badness 10000) in paragraph at lines 862--864
-
- []
-
-[42] [43] [44] [45] [46] [47]
-File: images/APAstyle/Stage1.jpg Graphic file (type bmp)
-<images/APAstyle/Stage1.jpg>
-File: images/APAstyle/Stage2.jpg Graphic file (type bmp)
-<images/APAstyle/Stage2.jpg>
-File: images/APAstyle/Stage3.jpg Graphic file (type bmp)
-<images/APAstyle/Stage3.jpg>
-File: images/APAstyle/Stage4.jpg Graphic file (type bmp)
-<images/APAstyle/Stage4.jpg>
-[48] [49] [50] [51] [52] [53] (./TransformingResearchMethods.bbl [54]
-Underfull \hbox (badness 1661) in paragraph at lines 14--23
-[][][][] [] [][] [] [] [] [][][]$\TU/lmr/m/n/10.95 .  URL [][]$[][][][][] [] [] [] [][][][][][][] [] [][][] [] [][][] [] [][][][][] [] [][][] [] [][][][] [] [] [] [][][][][][] [] [][][][][][][][][] [] [][][] [] [][][][][] []
- []
-
-
-Underfull \hbox (badness 7099) in paragraph at lines 29--33
-[]\TU/lmr/m/n/10.95 GitHub, July 2022b.  URL [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [] [] [][][][][] [] [][][] [] [][][][][] [] [][][][][][][][][][][][] []
- []
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 35--39
-[]\TU/lmr/m/n/10.95 Mendeley, June 2022c.  URL [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [] [] [][][][][] [] [][][] [] [][][][][] [] [][][][][][][][][][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--45
-[]\TU/lmr/m/n/10.95 Open science, May 2022d.  URL [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [] [] [][][][][] [] [][][] [] [][][][][] [] [][][][] []
- []
-
-
-Underfull \hbox (badness 5878) in paragraph at lines 53--57
-[]\TU/lmr/m/n/10.95 RStudio, July 2022f.  URL [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [] [] [][][][][] [] [][][] [] [][][][][] [] [][][][][][][][][][][][][] []
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 59--68
-[]\TU/lmr/m/n/10.95 George Alter and Richard Gonzalez.  Responsible practices for data sharing.  \TU/lmr/m/it/10.95 Amer-
- []
-
-
-Underfull \hbox (badness 2401) in paragraph at lines 59--68
-\TU/lmr/m/it/10.95 ican Psychologist\TU/lmr/m/n/10.95 , 73(2):146–156, February 2018.  ISSN 0003-066X.  doi: $[][] [] [][][][] []
- []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 86--98
-[]\TU/lmr/m/n/10.95 Mark Appelbaum, Harris Cooper, Rex B. Kline, Evan Mayo-Wilson, Arthur M. Nezu,
- []
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 86--98
-\TU/lmr/m/n/10.95 and Stephen M. Rao.  Journal article reporting standards for quantitative research
- []
-
-
-Underfull \hbox (badness 1917) in paragraph at lines 86--98
-\TU/lmr/m/n/10.95 in psychology: The APA Publications and Communications Board task force report.
- []
-
-
-Underfull \hbox (badness 1917) in paragraph at lines 86--98
-\TU/lmr/m/it/10.95 American Psychologist\TU/lmr/m/n/10.95 , 73(1):3–25, January 2018.  ISSN 0003-066X.  doi: $[][] [] [][][][] []
- []
-
-[55
+[35
 
 ]
-Underfull \hbox (badness 1297) in paragraph at lines 123--134
-\TU/lmr/m/n/10.95 titative research in psychology: Report of the joint psychological societies preregistra-
+
+Package natbib Warning: Citation `madigan_language_1995' on page 36 undefined on input line 729.
+
+
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 36 undefined on input line 734.
+
+
+Package natbib Warning: Citation `american_psychological_association_ethical_20170' on page 36 undefined on input line 759.
+
+
+Package natbib Warning: Citation `american_psychological_association_publication_2020' on page 36 undefined on input line 767.
+
+
+Package natbib Warning: Citation `madigan_language_1995' on page 36 undefined on input line 767.
+
+[36]
+
+Package natbib Warning: Citation `madigan_language_1995' on page 37 undefined on input line 772.
+
+
+Package natbib Warning: Citation `madigan_language_1995' on page 37 undefined on input line 774.
+
+
+Package natbib Warning: Citation `madigan_language_1995' on page 37 undefined on input line 776.
+
+
+Package natbib Warning: Citation `madigan_language_1995' on page 37 undefined on input line 778.
+
+
+Package natbib Warning: Citation `madigan_language_1995' on page 37 undefined on input line 783.
+
+
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 37 undefined on input line 783.
+
+[37]
+
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 38 undefined on input line 785.
+
+
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 38 undefined on input line 796.
+
+
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 38 undefined on input line 799.
+
+
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 38 undefined on input line 803.
+
+
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 38 undefined on input line 805.
+
+
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 38 undefined on input line 807.
+
+[38]
+
+Package natbib Warning: Citation `noauthor_white_nodate' on page 39 undefined on input line 812.
+
+
+Package natbib Warning: Citation `okun_white_2021' on page 39 undefined on input line 812.
+
+
+Package natbib Warning: Citation `madigan_language_1995' on page 39 undefined on input line 812.
+
+
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 39 undefined on input line 812.
+
+
+Package natbib Warning: Citation `appelbaum_journal_2018' on page 39 undefined on input line 881.
+
+
+Package natbib Warning: Citation `american_psychological_association_publication_2020' on page 39 undefined on input line 881.
+
+[39]
+
+Package natbib Warning: Citation `noauthor_reporting_2008' on page 40 undefined on input line 883.
+
+
+Package natbib Warning: Citation `huang_effects_2022' on page 40 undefined on input line 891.
+
+
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 905--906
+ []\TU/lmr/m/n/10.95 +/- 
  []
 
 
-Underfull \hbox (badness 2293) in paragraph at lines 123--134
-[][][][] [] [][][][][][][][][][]$\TU/lmr/m/n/10.95 .  URL [][]$[][][][][] [] [] [] [][][][][][][] [] [][][] [] [][][] [] [][][][][] [] [][][] [] [][][][][] [] [] [] [][][][][][] [] [][][][][][][][][] [] [][][] []
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 909--910
+ []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 136--145
-\TU/lmr/m/it/10.95 chologist\TU/lmr/m/n/10.95 , 38(4):414–423, April 1983.  ISSN 0003-066X.  doi: $[][] [] [][][][] [] [][][][] [][] [][][][] [] [][] [] [] []
- []
-
-[56]
-Underfull \hbox (badness 1231) in paragraph at lines 211--220
-\TU/lmr/m/it/10.95 ioral Medicine\TU/lmr/m/n/10.95 , 10(1):1–21, December 2022.  ISSN null.  doi: $[][] [] [][][][] [] [][][][][][][][] [] [][][][] []
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 912--913
+ []|\TU/lmr/m/n/10.95 +/- 
  []
 
 
-Underfull \hbox (badness 1694) in paragraph at lines 256--265
-[][][][] [][] [][][][] [] [][] [] [] [] [][][]$\TU/lmr/m/n/10.95 .  URL [][]$[][][][][] [] [] [] [][][][][][][] [] [][][] [] [][][] [] [][][][][] [] [][][] [] [][][][] [] [] [] [][][][][][] [] [][][][][][][][][] [] [][][] []
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 914--915
+ []|\TU/lmr/m/n/10.95 +/- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--291
-[] [] [][][][][][] [] [][][][][][][][][] [] [][][] [] [][][][][] [] [][][][] [] [][][][][][] [] [][][][][][][][][][][][][] [] [][][][][] [] [][][][][][][] [] [][][][] [][] [][][][][] [][]
- []
-
-[57]
-Underfull \hbox (badness 1038) in paragraph at lines 313--322
-[]\TU/lmr/m/n/10.95 Robert Rosenthal.  The file drawer problem and tolerance for null results.  \TU/lmr/m/it/10.95 Psychologi-
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 920--921
+ []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--333
-[] [] [][][][][][] [] [][][][][][][][][] [] [][][] [] [][][][][] [] [][][][] [] [][][][][][] [] [][][][][][][][][][][][][] [] [][][][][] [] [][][][][][][] [] [][][][] [][] [][][][][] [][]
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 924--925
+ []|\TU/lmr/bx/n/10.95 +/- 
  []
 
-) [58] (./TransformingResearchMethods.aux)
-Package rerunfilecheck Info: File `TransformingResearchMethods.out' has not changed.
-(rerunfilecheck)             Checksum: AC1520B225AC080230EA5AF58C5CDD27;18905.
+
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 929--930
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (2.91687pt too wide) in paragraph at lines 931--932
+ []|\TU/lmr/m/n/10.95 NA| 
+ []
+
+
+Overfull \hbox (2.91687pt too wide) in paragraph at lines 933--934
+ []|\TU/lmr/m/n/10.95 NA| 
+ []
+
+
+Overfull \hbox (2.91687pt too wide) in paragraph at lines 935--936
+ []|\TU/lmr/m/n/10.95 NA| 
+ []
+
+
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 937--938
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 938--939
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 940--941
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 941--942
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 942--943
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 943--944
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+[40] [41] [42] [43]
+
+Package natbib Warning: Citation `american_psychological_association_publication_2020' on page 44 undefined on input line 952.
+
+
+Package natbib Warning: Citation `american_psychological_association_ethical_2017' on page 44 undefined on input line 954.
+
+
+Package natbib Warning: Citation `singer_applied_2003' on page 44 undefined on input line 965.
+
+[44]
+
+Package natbib Warning: Citation `singer_applied_2003' on page 45 undefined on input line 967.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--981
+
+ []
+
+
+Package natbib Warning: Citation `huang_effects_2022' on page 45 undefined on input line 992.
+
+
+Package natbib Warning: Citation `AMERICAN_PSYCHOLOGICAL_ASSOCIATION_PUBLICATION_2020' on page 45 undefined on input line 1022.
+
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 1088--1090
+
+ []
+
+[46]
+
+Package natbib Warning: Citation `AMERICAN_PSYCHOLOGICAL_ASSOCIATION_PUBLICATION_2020' on page 47 undefined on input line 1138.
+
+[47]
+
+Package natbib Warning: Citation `madigan_language_1995' on page 48 undefined on input line 1167.
+
+
+Package natbib Warning: Citation `okun_white_2021' on page 48 undefined on input line 1169.
+
+[48]
+
+Package natbib Warning: Citation `madigan_language_1995' on page 49 undefined on input line 1250.
+
+[49]
+
+Package natbib Warning: Citation `gibbons_inaugural_2012' on page 50 undefined on input line 1301.
+
+
+Package natbib Warning: Citation `gibbons_ippquo_2016' on page 50 undefined on input line 1303.
+
+[50]
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1332--1333
+ []\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1336--1337
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1339--1340
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1341--1342
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1347--1348
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1351--1352
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1365--1366
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1369--1370
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+[51] [52]
+No file TransformingResearchMethods.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[53] (./TransformingResearchMethods.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `TransformingResearchMethods.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `TransformingResearchMethods.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  B64C9A2FABC77E6BC7D35E662E5C224D;16666.
  ) 
 Here is how much of TeX's memory you used:
- 18183 strings out of 477877
- 337693 string characters out of 5845601
- 842883 words of memory out of 5000000
- 38854 multiletter control sequences out of 15000+600000
- 475716 words of font info for 82 fonts, out of 8000000 for 9000
+ 17975 strings out of 477864
+ 331772 string characters out of 5844910
+ 846760 words of memory out of 5000000
+ 38674 multiletter control sequences out of 15000+600000
+ 475708 words of font info for 81 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 86i,6n,121p,1700b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,7n,121p,1709b,512s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on TransformingResearchMethods.pdf (58 pages).
+Output written on TransformingResearchMethods.pdf (53 pages).
