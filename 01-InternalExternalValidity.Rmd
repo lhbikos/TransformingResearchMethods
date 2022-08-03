@@ -44,11 +44,11 @@ The following served as critical references in the development of this chapter. 
 
 This classic and foundational text introduces readers to internal validity, external validity, and threats to validity as originally proposed by Campbell and Stanley. It also provides readers with an overview of the various experimental and quasi-experimental methodological designs, and how various methodological designs could be used to minimize threats to validity.
 
-* Ferguson L. (2004). External validity, generalizability, and knowledge utilization. Journal of Nursing Scholarship, 36(1), 16-22. https://doi.org/10.1111/j.1547-5069.2004.04006.x
+* Ferguson L. (2004). External validity, generalizability, and knowledge utilization. *Journal of Nursing Scholarship, 36*(1), 16-22. https://doi.org/10.1111/j.1547-5069.2004.04006.x
 
 Although aimed for a nursing audience, there is much to be gained from Ferguson’s (2004) review of external validity, generalizability, and evidence-based practice. Ferguson reviews much of the major conceptual tenets of external validity, including its threats and control strategies. Ferguson also discusses ways in which researchers and practitioners could enhance external validity of research. 
 
-* Schmuckler, M.A. (2001).What Is Ecological Validity? A Dimensional Analysis. Infancy, 2(4), 419-436. https://doi.org/10.1207/S15327078IN0204_02
+* Schmuckler, M.A. (2001).What Is Ecological Validity? A Dimensional Analysis. *Infancy, 2*(4), 419-436. https://doi.org/10.1207/S15327078IN0204_02
 
 Schmuckler (2001) introduces readers to a subset of external validity, namely ecological validity. Schmuckler provides an historical review of ecological validity, and a discussion of the various dimensions, advantages, and criticisms of ecological validity. 
   
