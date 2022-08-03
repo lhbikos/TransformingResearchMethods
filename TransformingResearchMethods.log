@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.30)  3 AUG 2022 05:11
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.30)  3 AUG 2022 16:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -930,23 +930,23 @@ Package natbib Warning: Citation `haven_preregistering_2020' on page 26 undefine
 Package natbib Warning: Citation `american_psychological_association_publication_2020' on page 26 undefined on input line 538.
 
 
-Package natbib Warning: Citation `alter_responsible_2018' on page 26 undefined on input line 543.
-
-
-Package natbib Warning: Citation `martone_data_2018' on page 26 undefined on input line 543.
-
-
-Package natbib Warning: Citation `ross_ethical_2018' on page 26 undefined on input line 543.
-
-
-Package natbib Warning: Citation `bezjak_open_2018' on page 26 undefined on input line 543.
-
-
 Overfull \hbox (17.9033pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10.95 26 \TU/lmr/m/sl/10.95 CHAPTER 2.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
  []
 
 [26]
+
+Package natbib Warning: Citation `alter_responsible_2018' on page 27 undefined on input line 543.
+
+
+Package natbib Warning: Citation `martone_data_2018' on page 27 undefined on input line 543.
+
+
+Package natbib Warning: Citation `ross_ethical_2018' on page 27 undefined on input line 543.
+
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 27 undefined on input line 543.
+
 
 Package natbib Warning: Citation `ceci_private_1983' on page 27 undefined on input line 545.
 
@@ -980,16 +980,16 @@ Package natbib Warning: Citation `martone_data_2018' on page 27 undefined on inp
 
 Package natbib Warning: Citation `alter_responsible_2018' on page 27 undefined on input line 553.
 
-
-Package natbib Warning: Citation `ross_ethical_2018' on page 27 undefined on input line 555.
-
-
-Package natbib Warning: Citation `ross_ethical_2018' on page 27 undefined on input line 555.
-
-
-Package natbib Warning: Citation `alter_responsible_2018' on page 27 undefined on input line 555.
-
 [27]
+
+Package natbib Warning: Citation `ross_ethical_2018' on page 28 undefined on input line 555.
+
+
+Package natbib Warning: Citation `ross_ethical_2018' on page 28 undefined on input line 555.
+
+
+Package natbib Warning: Citation `alter_responsible_2018' on page 28 undefined on input line 555.
+
 
 Package natbib Warning: Citation `ross_ethical_2018' on page 28 undefined on input line 571.
 
@@ -1046,10 +1046,7 @@ Package natbib Warning: Citation `shah_open_2017' on page 30 undefined on input 
 Package natbib Warning: Citation `martone_data_2018' on page 30 undefined on input line 595.
 
 
-Package natbib Warning: Citation `alter_responsible_2018' on page 30 undefined on input line 607.
-
-
-Package natbib Warning: Citation `bezjak_open_2018' on page 30 undefined on input line 607.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (17.9033pt too wide) has occurred while \output is active
@@ -1057,6 +1054,12 @@ Overfull \hbox (17.9033pt too wide) has occurred while \output is active
  []
 
 [30]
+
+Package natbib Warning: Citation `alter_responsible_2018' on page 31 undefined on input line 607.
+
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 31 undefined on input line 607.
+
 
 Package natbib Warning: Citation `noauthor_r_2022' on page 31 undefined on input line 609.
 
@@ -1092,14 +1095,14 @@ Package natbib Warning: Citation `noauthor_mendeley_2022' on page 32 undefined o
 Package natbib Warning: Citation `alter_responsible_2018' on page 32 undefined on input line 639.
 
 
-Package natbib Warning: Citation `bezjak_open_2018' on page 32 undefined on input line 644.
-
-
 Overfull \hbox (17.9033pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10.95 32 \TU/lmr/m/sl/10.95 CHAPTER 2.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
  []
 
 [32]
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 33 undefined on input line 644.
+
 
 Package natbib Warning: Citation `noauthor_github_2022' on page 33 undefined on input line 646.
 
@@ -1115,13 +1118,11 @@ Package natbib Warning: Citation `martone_data_2018' on page 33 undefined on inp
 
 Package natbib Warning: Citation `bezjak_open_2018' on page 33 undefined on input line 653.
 
-
-Package natbib Warning: Citation `open_science_collaboration_estimating_2015' on page 33 undefined on input line 663.
-
-
-Underfull \vbox (badness 1281) has occurred while \output is active []
-
 [33]
+
+Package natbib Warning: Citation `open_science_collaboration_estimating_2015' on page 34 undefined on input line 663.
+
+
 Overfull \hbox (17.9033pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10.95 34 \TU/lmr/m/sl/10.95 CHAPTER 2.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
  []
@@ -1226,264 +1227,272 @@ Overfull \hbox (305.81161pt too wide) has occurred while \output is active
 
 ]
 Chapter 4.
+
+Underfull \vbox (badness 1817) has occurred while \output is active []
+
 [53]
 
 Package natbib Warning: Citation `madigan_language_1995' on page 54 undefined on input line 1151.
 
 
-Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 54 undefined on input line 1156.
-
-
-Package natbib Warning: Citation `american_psychological_association_ethical_20170' on page 54 undefined on input line 1181.
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 54 undefined on input line 1159.
 
 
 Package natbib Warning: Citation `american_psychological_association_publication_2020' on page 54 undefined on input line 1189.
 
 
-Package natbib Warning: Citation `madigan_language_1995' on page 54 undefined on input line 1189.
+Package natbib Warning: Citation `american_psychological_association_publication_2020' on page 54 undefined on input line 1197.
+
+
+Package natbib Warning: Citation `madigan_language_1995' on page 54 undefined on input line 1197.
 
 [54]
 
-Package natbib Warning: Citation `madigan_language_1995' on page 55 undefined on input line 1194.
+Package natbib Warning: Citation `madigan_language_1995' on page 55 undefined on input line 1202.
 
 
-Package natbib Warning: Citation `madigan_language_1995' on page 55 undefined on input line 1196.
+Package natbib Warning: Citation `madigan_language_1995' on page 55 undefined on input line 1204.
 
 
-Package natbib Warning: Citation `madigan_language_1995' on page 55 undefined on input line 1198.
+Package natbib Warning: Citation `madigan_language_1995' on page 55 undefined on input line 1206.
 
 
-Package natbib Warning: Citation `madigan_language_1995' on page 55 undefined on input line 1200.
+Package natbib Warning: Citation `madigan_language_1995' on page 55 undefined on input line 1210.
 
 
-Package natbib Warning: Citation `madigan_language_1995' on page 55 undefined on input line 1205.
+Package natbib Warning: Citation `madigan_language_1995' on page 55 undefined on input line 1215.
 
 
-Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 55 undefined on input line 1205.
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 55 undefined on input line 1215.
 
 [55]
 
-Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 56 undefined on input line 1207.
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 56 undefined on input line 1217.
 
 
-Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 56 undefined on input line 1218.
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 56 undefined on input line 1228.
 
 
-Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 56 undefined on input line 1221.
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 56 undefined on input line 1231.
 
 
-Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 56 undefined on input line 1225.
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 56 undefined on input line 1235.
 
 
-Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 56 undefined on input line 1227.
-
-
-Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 56 undefined on input line 1229.
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 56 undefined on input line 1237.
 
 [56]
 
-Package natbib Warning: Citation `noauthor_white_nodate' on page 57 undefined on input line 1234.
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 57 undefined on input line 1239.
 
 
-Package natbib Warning: Citation `okun_white_2021' on page 57 undefined on input line 1234.
+Package natbib Warning: Citation `noauthor_white_nodate' on page 57 undefined on input line 1244.
 
 
-Package natbib Warning: Citation `madigan_language_1995' on page 57 undefined on input line 1234.
+Package natbib Warning: Citation `okun_white_2021' on page 57 undefined on input line 1244.
 
 
-Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 57 undefined on input line 1234.
+Package natbib Warning: Citation `madigan_language_1995' on page 57 undefined on input line 1244.
 
 
-Package natbib Warning: Citation `appelbaum_journal_2018' on page 57 undefined on input line 1303.
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 57 undefined on input line 1244.
 
 
-Package natbib Warning: Citation `american_psychological_association_publication_2020' on page 57 undefined on input line 1303.
+Package natbib Warning: Citation `appelbaum_journal_2018' on page 57 undefined on input line 1313.
+
+
+Package natbib Warning: Citation `american_psychological_association_publication_2020' on page 57 undefined on input line 1313.
 
 [57]
 
-Package natbib Warning: Citation `noauthor_reporting_2008' on page 58 undefined on input line 1305.
+Package natbib Warning: Citation `noauthor_reporting_2008' on page 58 undefined on input line 1315.
 
 
-Package natbib Warning: Citation `huang_effects_2022' on page 58 undefined on input line 1313.
+Package natbib Warning: Citation `huang_effects_2022' on page 58 undefined on input line 1323.
 
 
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1327--1328
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1337--1338
  []\TU/lmr/m/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1331--1332
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1341--1342
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1334--1335
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1344--1345
  []|\TU/lmr/m/n/10.95 +/- 
  []
 
 
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1336--1337
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1346--1347
  []|\TU/lmr/m/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1342--1343
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1352--1353
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1346--1347
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1356--1357
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1351--1352
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1361--1362
  []|\TU/lmr/m/n/10.95 +/- 
  []
 
 
-Overfull \hbox (2.91687pt too wide) in paragraph at lines 1353--1354
+Overfull \hbox (2.91687pt too wide) in paragraph at lines 1363--1364
  []|\TU/lmr/m/n/10.95 NA| 
  []
 
 
-Overfull \hbox (2.91687pt too wide) in paragraph at lines 1355--1356
+Overfull \hbox (2.91687pt too wide) in paragraph at lines 1365--1366
  []|\TU/lmr/m/n/10.95 NA| 
  []
 
 
-Overfull \hbox (2.91687pt too wide) in paragraph at lines 1357--1358
+Overfull \hbox (2.91687pt too wide) in paragraph at lines 1367--1368
  []|\TU/lmr/m/n/10.95 NA| 
  []
 
 
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1359--1360
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1369--1370
  []|\TU/lmr/m/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1360--1361
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1370--1371
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1362--1363
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1372--1373
  []|\TU/lmr/m/n/10.95 +/- 
  []
 
 
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1363--1364
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1373--1374
  []|\TU/lmr/m/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1364--1365
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1374--1375
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1365--1366
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1375--1376
  []|\TU/lmr/m/n/10.95 +/- 
  []
 
 [58] [59] [60] [61]
 
-Package natbib Warning: Citation `american_psychological_association_publication_2020' on page 62 undefined on input line 1374.
+Package natbib Warning: Citation `american_psychological_association_publication_2020' on page 62 undefined on input line 1384.
 
 
-Package natbib Warning: Citation `american_psychological_association_ethical_2017' on page 62 undefined on input line 1376.
+Package natbib Warning: Citation `american_psychological_association_ethical_2017' on page 62 undefined on input line 1386.
 
 
-Package natbib Warning: Citation `singer_applied_2003' on page 62 undefined on input line 1387.
+Package natbib Warning: Citation `singer_applied_2003' on page 62 undefined on input line 1397.
 
 [62]
 
-Package natbib Warning: Citation `singer_applied_2003' on page 63 undefined on input line 1389.
+Package natbib Warning: Citation `singer_applied_2003' on page 63 undefined on input line 1399.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1401--1403
-
- []
-
-
-Package natbib Warning: Citation `huang_effects_2022' on page 63 undefined on input line 1414.
-
-
-Package natbib Warning: Citation `AMERICAN_PSYCHOLOGICAL_ASSOCIATION_PUBLICATION_2020' on page 63 undefined on input line 1444.
-
-[63]
-Underfull \hbox (badness 10000) in paragraph at lines 1510--1512
+Underfull \hbox (badness 10000) in paragraph at lines 1411--1413
 
  []
 
-[64]
 
-Package natbib Warning: Citation `AMERICAN_PSYCHOLOGICAL_ASSOCIATION_PUBLICATION_2020' on page 65 undefined on input line 1560.
+Package natbib Warning: Citation `huang_effects_2022' on page 63 undefined on input line 1424.
+
+
+Package natbib Warning: Citation `AMERICAN_PSYCHOLOGICAL_ASSOCIATION_PUBLICATION_2020' on page 63 undefined on input line 1454.
+
+[63] [64]
+
+Package natbib Warning: Citation `AMERICAN_PSYCHOLOGICAL_ASSOCIATION_PUBLICATION_2020' on page 65 undefined on input line 1580.
 
 [65]
 
-Package natbib Warning: Citation `madigan_language_1995' on page 66 undefined on input line 1589.
+Package natbib Warning: Citation `madigan_language_1995' on page 66 undefined on input line 1603.
 
 
-Package natbib Warning: Citation `okun_white_2021' on page 66 undefined on input line 1591.
+Package natbib Warning: Citation `okun_white_2021' on page 66 undefined on input line 1605.
 
 [66]
 
-Package natbib Warning: Citation `madigan_language_1995' on page 67 undefined on input line 1672.
+Package natbib Warning: Citation `thompson_gentlemanly_2004' on page 67 undefined on input line 1660.
 
 [67]
 
-Package natbib Warning: Citation `gibbons_inaugural_2012' on page 68 undefined on input line 1723.
-
-
-Package natbib Warning: Citation `gibbons_ippquo_2016' on page 68 undefined on input line 1725.
+Package natbib Warning: Citation `madigan_language_1995' on page 68 undefined on input line 1688.
 
 [68]
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1754--1755
+
+Package natbib Warning: Citation `gibbons_inaugural_2012' on page 69 undefined on input line 1739.
+
+
+Package natbib Warning: Citation `gibbons_inaugural_2012' on page 69 undefined on input line 1745.
+
+
+Package natbib Warning: Citation `gibbons_ippquo_2016' on page 69 undefined on input line 1745.
+
+
+Package natbib Warning: Citation `madigan_language_1995' on page 69 undefined on input line 1745.
+
+[69]
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1797--1798
  []\TU/lmr/m/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1758--1759
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1801--1802
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1761--1762
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1804--1805
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1763--1764
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1806--1807
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1769--1770
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1812--1813
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1773--1774
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1816--1817
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1787--1788
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1830--1831
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1791--1792
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1834--1835
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
-[69] [70]
+[70] [71] [72]
 No file TransformingResearchMethods.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[71] (./TransformingResearchMethods.aux)
+[73] (./TransformingResearchMethods.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -1505,4 +1514,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  86i,7n,121p,2594b,512s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on TransformingResearchMethods.pdf (71 pages).
+Output written on TransformingResearchMethods.pdf (73 pages).

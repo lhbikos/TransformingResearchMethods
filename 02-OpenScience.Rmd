@@ -10,7 +10,7 @@ options(scipen=999)#eliminates scientific notation
 <center>
 *Lynette H. Bikos (she/her) & Jamie Layton (she/her)*\
 *Seattle Pacific University*\
-*Seattle Pacific University was built on the unceded ancestral lands of the Duwamish people*\
+*Seattle Pacific University was built on the unceded ancestral lands of the Duwamish people, a people that are still here, continuing to honor and bring light to their ancient heritage.  You can learn more about the Duwamish tribe [here](https://www.duwamishtribe.org/).  People who live and work on Duwamish land can pay rent [here](https://www.realrentduwamish.org/)*\
 </center>
 <br>
 
