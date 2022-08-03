@@ -115,11 +115,11 @@ options(scipen=999)#eliminates scientific notation
 Learning objectives for this chapter include the following:
 
 
-* Students will be able to explain the dimensional features of internal and external validity in experimental and quasi-experimental research.
-* Students will be able to list and discuss threats associated with internal and external validity in experimental and quasi-experimental research.
-* Students will be able to discuss and apply established methods for controlling the various threats associated with internal and external validity in experimental and quasi-experimental research.
-* Students will be able to identify and apply their knowledge of internal validity, external validity, and their associated threats to current trends and issues in psychological research.
-* Students will be able to critique and distinguish the strengths and limitations of internal and external validity when applied to socially responsive research.
+* Explain the dimensional features of internal and external validity in experimental and quasi-experimental research.
+* List and discuss threats associated with internal and external validity in experimental and quasi-experimental research.
+* Discuss and apply established methods for controlling the various threats associated with internal and external validity in experimental and quasi-experimental research.
+* Identify and apply their knowledge of internal validity, external validity, and their associated threats to current trends and issues in psychological research.
+* Critique and distinguish the strengths and limitations of internal and external validity when applied to socially responsive research.
 
 
 ## Recommended Readings
@@ -475,8 +475,6 @@ Researchers have demonstrated that psychological science is threatened by proble
 1.	Obtain an ORCID iD for yourself
 2.	Find a published study that had been preregistered. Trace it to its preregistered location. Is there also access to data, analytic code, and other materials? How easy was it to locate? How easy would it be to reproduce the study?
 3.	Download one of the preregistration templates (either quantitative or qualitative) and preregister a study of your own.
-
-## References
 
 
 ```{r include=FALSE}

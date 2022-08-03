@@ -183,8 +183,6 @@ Researchers have demonstrated that psychological science is threatened by proble
 2.	Find a published study that had been preregistered. Trace it to its preregistered location. Is there also access to data, analytic code, and other materials? How easy was it to locate? How easy would it be to reproduce the study?
 3.	Download one of the preregistration templates (either quantitative or qualitative) and preregister a study of your own.
 
-## References
-
 
 ```{r include=FALSE}
 # Just for our working group conversation
