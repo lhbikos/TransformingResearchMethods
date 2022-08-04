@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.30)  3 AUG 2022 16:43
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.30)  3 AUG 2022 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -819,418 +819,418 @@ Overfull \hbox (16.2851pt too wide) has occurred while \output is active
 [22]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--454
+Underfull \hbox (badness 10000) in paragraph at lines 451--455
 
  []
 
 [23
 
 ]
-
-Package natbib Warning: Citation `noauthor_open_2022' on page 24 undefined on input line 504.
-
-
-Package natbib Warning: Citation `krathwohl_methods_2009' on page 24 undefined on input line 504.
-
-
-Package natbib Warning: Citation `merton_science_1942' on page 24 undefined on input line 506.
-
-
-Package natbib Warning: Citation `chubin_open_1985' on page 24 undefined on input line 506.
-
-
-Package natbib Warning: Citation `fecher_open_2013' on page 24 undefined on input line 508.
-
-
-Overfull \hbox (17.9033pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 24 \TU/lmr/m/sl/10.95 CHAPTER 2.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
+Overfull \hbox (305.81161pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 24 \TU/lmr/m/sl/10.95 CHAPTER 2.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
  []
 
 [24]
-
-Package natbib Warning: Citation `patil_statistical_2016' on page 25 undefined on input line 515.
-
-
-Package natbib Warning: Citation `open_science_collaboration_estimating_2015' on page 25 undefined on input line 515.
-
-
-Package natbib Warning: Citation `stevens_replicability_2017' on page 25 undefined on input line 517.
-
-
-Package natbib Warning: Citation `hengartner_raising_2018' on page 25 undefined on input line 517.
-
-
-Package natbib Warning: Citation `vant_veer_pre-registration_2016' on page 25 undefined on input line 517.
-
-
-Package natbib Warning: Citation `stevens_replicability_2017' on page 25 undefined on input line 519.
-
-
-Package natbib Warning: Citation `driessen_does_2015' on page 25 undefined on input line 519.
-
-
-Package natbib Warning: Citation `rosenthal_file_1979' on page 25 undefined on input line 519.
-
-
-Package natbib Warning: Citation `open_science_collaboration_estimating_2015' on page 25 undefined on input line 521.
-
-
-Package natbib Warning: Citation `vant_veer_pre-registration_2016' on page 25 undefined on input line 521.
-
-
-Package natbib Warning: Citation `stevens_replicability_2017' on page 25 undefined on input line 521.
-
-
-Package natbib Warning: Citation `stevens_replicability_2017' on page 25 undefined on input line 526.
-
-
-Package natbib Warning: Citation `bosnjak_template_2021' on page 25 undefined on input line 526.
-
-
-Package natbib Warning: Citation `bosnjak_template_2021' on page 25 undefined on input line 526.
-
-
-Package natbib Warning: Citation `haven_preregistering_2020' on page 25 undefined on input line 526.
-
-[25]
-
-Package natbib Warning: Citation `osf_open_2022' on page 26 undefined on input line 528.
-
-
-Package natbib Warning: Citation `chambers_past_2022' on page 26 undefined on input line 528.
-
-
-Package natbib Warning: Citation `chambers_past_2022' on page 26 undefined on input line 530.
-
-
-Package natbib Warning: Citation `chambers_past_2022' on page 26 undefined on input line 530.
-
-
-Package natbib Warning: Citation `vant_veer_pre-registration_2016' on page 26 undefined on input line 530.
-
-
-Package natbib Warning: Citation `vant_veer_pre-registration_2016' on page 26 undefined on input line 532.
-
-
-Package natbib Warning: Citation `moore_preregister_2016' on page 26 undefined on input line 534.
-
-
-Package natbib Warning: Citation `moore_preregister_2016' on page 26 undefined on input line 536.
-
-
-Package natbib Warning: Citation `preregistration_task_force_preregistration_2021' on page 26 undefined on input line 538.
-
-
-Package natbib Warning: Citation `bosnjak_template_2021' on page 26 undefined on input line 538.
-
-
-Package natbib Warning: Citation `haven_preregistering_2020' on page 26 undefined on input line 538.
-
-
-Package natbib Warning: Citation `american_psychological_association_publication_2020' on page 26 undefined on input line 538.
-
-
-Overfull \hbox (17.9033pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 26 \TU/lmr/m/sl/10.95 CHAPTER 2.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
- []
-
-[26]
-
-Package natbib Warning: Citation `alter_responsible_2018' on page 27 undefined on input line 543.
-
-
-Package natbib Warning: Citation `martone_data_2018' on page 27 undefined on input line 543.
-
-
-Package natbib Warning: Citation `ross_ethical_2018' on page 27 undefined on input line 543.
-
-
-Package natbib Warning: Citation `bezjak_open_2018' on page 27 undefined on input line 543.
-
-
-Package natbib Warning: Citation `ceci_private_1983' on page 27 undefined on input line 545.
-
-
-Package natbib Warning: Citation `american_psychological_association_ethical_2017' on page 27 undefined on input line 545.
-
-
-Package natbib Warning: Citation `martone_data_2018' on page 27 undefined on input line 545.
-
-
-Package natbib Warning: Citation `stevens_replicability_2017' on page 27 undefined on input line 547.
-
-
-Package natbib Warning: Citation `ross_ethical_2018' on page 27 undefined on input line 547.
-
-
-Package natbib Warning: Citation `bezjak_open_2018' on page 27 undefined on input line 549.
-
-
-Package natbib Warning: Citation `martone_data_2018' on page 27 undefined on input line 551.
-
-
-Package natbib Warning: Citation `alter_responsible_2018' on page 27 undefined on input line 551.
-
-
-Package natbib Warning: Citation `martone_data_2018' on page 27 undefined on input line 553.
-
-
-Package natbib Warning: Citation `martone_data_2018' on page 27 undefined on input line 553.
-
-
-Package natbib Warning: Citation `alter_responsible_2018' on page 27 undefined on input line 553.
-
-[27]
-
-Package natbib Warning: Citation `ross_ethical_2018' on page 28 undefined on input line 555.
-
-
-Package natbib Warning: Citation `ross_ethical_2018' on page 28 undefined on input line 555.
-
-
-Package natbib Warning: Citation `alter_responsible_2018' on page 28 undefined on input line 555.
-
-
-Package natbib Warning: Citation `ross_ethical_2018' on page 28 undefined on input line 571.
-
-
-Overfull \hbox (17.9033pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 28 \TU/lmr/m/sl/10.95 CHAPTER 2.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
- []
-
-[28]
-
-Package natbib Warning: Citation `ross_ethical_2018' on page 29 undefined on input line 573.
-
-
-Package natbib Warning: Citation `ross-hellauer_what_2017' on page 29 undefined on input line 578.
-
-
-Package natbib Warning: Citation `ross-hellauer_what_2017' on page 29 undefined on input line 578.
-
-
-Package natbib Warning: Citation `bezjak_open_2018' on page 29 undefined on input line 578.
-
-
-Package natbib Warning: Citation `bezjak_open_2018' on page 29 undefined on input line 587.
-
-
-Package natbib Warning: Citation `shah_open_2017' on page 29 undefined on input line 587.
-
-[29]
-
-Package natbib Warning: Citation `bezjak_open_2018' on page 30 undefined on input line 589.
-
-
-Package natbib Warning: Citation `shah_open_2017' on page 30 undefined on input line 589.
-
-
-Package natbib Warning: Citation `hagger_developing_2022' on page 30 undefined on input line 589.
-
-
-Package natbib Warning: Citation `shah_open_2017' on page 30 undefined on input line 589.
-
-
-Package natbib Warning: Citation `beall_predatory_2012' on page 30 undefined on input line 591.
-
-
-Package natbib Warning: Citation `fortney_getting_2016' on page 30 undefined on input line 593.
-
-
-Package natbib Warning: Citation `fortney_getting_2016' on page 30 undefined on input line 595.
-
-
-Package natbib Warning: Citation `shah_open_2017' on page 30 undefined on input line 595.
-
-
-Package natbib Warning: Citation `martone_data_2018' on page 30 undefined on input line 595.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (17.9033pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 30 \TU/lmr/m/sl/10.95 CHAPTER 2.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
- []
-
-[30]
-
-Package natbib Warning: Citation `alter_responsible_2018' on page 31 undefined on input line 607.
-
-
-Package natbib Warning: Citation `bezjak_open_2018' on page 31 undefined on input line 607.
-
-
-Package natbib Warning: Citation `noauthor_r_2022' on page 31 undefined on input line 609.
-
-
-Package natbib Warning: Citation `noauthor_rstudio_2022' on page 31 undefined on input line 611.
-
-
-Package natbib Warning: Citation `noauthor_rstudio_2022' on page 31 undefined on input line 611.
-
-
-Package natbib Warning: Citation `shoemann_determining_2017' on page 31 undefined on input line 615.
-
-
-Package natbib Warning: Citation `the_jamovi_project_about_2021' on page 31 undefined on input line 617.
-
-
-Package natbib Warning: Citation `the_jamovi_project_about_2021' on page 31 undefined on input line 617.
-
-
-Package natbib Warning: Citation `jasp_team_jasp_2022' on page 31 undefined on input line 619.
-
-
-Package natbib Warning: Citation `smith_software_2016' on page 31 undefined on input line 620.
-
-[31]
-
-Package natbib Warning: Citation `corporation_for_digital_scholarship_zotero_2022' on page 32 undefined on input line 625.
-
-
-Package natbib Warning: Citation `noauthor_mendeley_2022' on page 32 undefined on input line 627.
-
-
-Package natbib Warning: Citation `alter_responsible_2018' on page 32 undefined on input line 639.
-
-
-Overfull \hbox (17.9033pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 32 \TU/lmr/m/sl/10.95 CHAPTER 2.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
- []
-
-[32]
-
-Package natbib Warning: Citation `bezjak_open_2018' on page 33 undefined on input line 644.
-
-
-Package natbib Warning: Citation `noauthor_github_2022' on page 33 undefined on input line 646.
-
-
-Package natbib Warning: Citation `noauthor_github_2022-1' on page 33 undefined on input line 646.
-
-
-Package natbib Warning: Citation `osf_open_2022' on page 33 undefined on input line 648.
-
-
-Package natbib Warning: Citation `martone_data_2018' on page 33 undefined on input line 648.
-
-
-Package natbib Warning: Citation `bezjak_open_2018' on page 33 undefined on input line 653.
-
-[33]
-
-Package natbib Warning: Citation `open_science_collaboration_estimating_2015' on page 34 undefined on input line 663.
-
-
-Overfull \hbox (17.9033pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 34 \TU/lmr/m/sl/10.95 CHAPTER 2.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
- []
-
-[34]
-Chapter 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 682--686
-
- []
-
-[35
-
-]
-Overfull \hbox (305.81161pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 36 \TU/lmr/m/sl/10.95 CHAPTER 3.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
- []
-
-[36]
-Overfull \hbox (55.11133pt too wide) in paragraph at lines 762--763
+Overfull \hbox (55.11133pt too wide) in paragraph at lines 531--532
 [][][][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
  []
 
-[37]
+[25]
 Overfull \hbox (305.81161pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 38 \TU/lmr/m/sl/10.95 CHAPTER 3.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
+\TU/lmr/m/n/10.95 26 \TU/lmr/m/sl/10.95 CHAPTER 2.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
  []
 
-[38]
+[26]
 Underfull \vbox (badness 1436) has occurred while \output is active []
 
 
 Overfull \hbox (8.47537pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10.95 3.4.  WHAT ARE HEALTH DISPARITIES, AND HOW DO WE PROMOTE HEALTH EQUITY? \TU/lmr/m/n/10.95 39
+\TU/lmr/m/sl/10.95 2.4.  WHAT ARE HEALTH DISPARITIES, AND HOW DO WE PROMOTE HEALTH EQUITY? \TU/lmr/m/n/10.95 27
  []
 
-[39]
+[27]
 Overfull \hbox (305.81161pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 40 \TU/lmr/m/sl/10.95 CHAPTER 3.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
+\TU/lmr/m/n/10.95 28 \TU/lmr/m/sl/10.95 CHAPTER 2.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
  []
 
-[40] [41]
+[28] [29]
 Overfull \hbox (305.81161pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 42 \TU/lmr/m/sl/10.95 CHAPTER 3.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
+\TU/lmr/m/n/10.95 30 \TU/lmr/m/sl/10.95 CHAPTER 2.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
  []
 
-[42]
+[30]
 Overfull \hbox (45.96199pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10.95 3.6.  CONSIDERATIONS FOR CONDUCTING COMMUNITY-BASED PARTICIPATORY RESEARCH \TU/lmr/m/n/10.95 43
+\TU/lmr/m/sl/10.95 2.6.  CONSIDERATIONS FOR CONDUCTING COMMUNITY-BASED PARTICIPATORY RESEARCH \TU/lmr/m/n/10.95 31
  []
 
-[43]
+[31]
 Underfull \vbox (badness 5985) has occurred while \output is active []
 
 
 Overfull \hbox (305.81161pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 44 \TU/lmr/m/sl/10.95 CHAPTER 3.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
+\TU/lmr/m/n/10.95 32 \TU/lmr/m/sl/10.95 CHAPTER 2.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
  []
 
-[44]
+[32]
 Overfull \hbox (45.96199pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10.95 3.6.  CONSIDERATIONS FOR CONDUCTING COMMUNITY-BASED PARTICIPATORY RESEARCH \TU/lmr/m/n/10.95 45
+\TU/lmr/m/sl/10.95 2.6.  CONSIDERATIONS FOR CONDUCTING COMMUNITY-BASED PARTICIPATORY RESEARCH \TU/lmr/m/n/10.95 33
  []
 
-[45]
+[33]
 Overfull \hbox (305.81161pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 46 \TU/lmr/m/sl/10.95 CHAPTER 3.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
+\TU/lmr/m/n/10.95 34 \TU/lmr/m/sl/10.95 CHAPTER 2.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
  []
 
-[46]
+[34]
 Overfull \hbox (164.34976pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10.95 3.7.  CRITICAL QUESTIONS FOR CONDUCTING AND REVIEWING COMMUNITY-BASED PARTICIPATORY RESEARCH \TU/lmr/m/n/10.95 47
+\TU/lmr/m/sl/10.95 2.7.  CRITICAL QUESTIONS FOR CONDUCTING AND REVIEWING COMMUNITY-BASED PARTICIPATORY RESEARCH \TU/lmr/m/n/10.95 35
  []
 
-[47]
+[35]
 Underfull \vbox (badness 3148) has occurred while \output is active []
 
 
 Overfull \hbox (305.81161pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 48 \TU/lmr/m/sl/10.95 CHAPTER 3.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
+\TU/lmr/m/n/10.95 36 \TU/lmr/m/sl/10.95 CHAPTER 2.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
  []
 
-[48]
+[36]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (455.47495pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10.95 3.8.  SUGGESTIONS FOR CARRYING OUT COMMUNITY-BASED PARTICIPATORY RESEARCH: APPLICATIONS FOR PRACTICE, FURTHER LEARNING, AND CONVERSATION \TU/lmr/m/n/10.95 49
+\TU/lmr/m/sl/10.95 2.8.  SUGGESTIONS FOR CARRYING OUT COMMUNITY-BASED PARTICIPATORY RESEARCH: APPLICATIONS FOR PRACTICE, FURTHER LEARNING, AND CONVERSATION \TU/lmr/m/n/10.95 37
  []
 
-[49]
+[37]
 Overfull \hbox (305.81161pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 50 \TU/lmr/m/sl/10.95 CHAPTER 3.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
+\TU/lmr/m/n/10.95 38 \TU/lmr/m/sl/10.95 CHAPTER 2.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
  []
 
-[50] [51]
+[38] [39]
 Overfull \hbox (305.81161pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 52 \TU/lmr/m/sl/10.95 CHAPTER 3.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
+\TU/lmr/m/n/10.95 40 \TU/lmr/m/sl/10.95 CHAPTER 2.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
  []
 
-[52
+[40
 
 ]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 875--878
+
+ []
+
+[41]
+
+Package natbib Warning: Citation `noauthor_open_2022' on page 42 undefined on input line 928.
+
+
+Package natbib Warning: Citation `krathwohl_methods_2009' on page 42 undefined on input line 928.
+
+
+Package natbib Warning: Citation `merton_science_1942' on page 42 undefined on input line 930.
+
+
+Package natbib Warning: Citation `chubin_open_1985' on page 42 undefined on input line 930.
+
+
+Package natbib Warning: Citation `fecher_open_2013' on page 42 undefined on input line 932.
+
+
+Overfull \hbox (17.9033pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 42 \TU/lmr/m/sl/10.95 CHAPTER 3.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
+ []
+
+[42]
+
+Package natbib Warning: Citation `patil_statistical_2016' on page 43 undefined on input line 939.
+
+
+Package natbib Warning: Citation `open_science_collaboration_estimating_2015' on page 43 undefined on input line 939.
+
+
+Package natbib Warning: Citation `stevens_replicability_2017' on page 43 undefined on input line 941.
+
+
+Package natbib Warning: Citation `hengartner_raising_2018' on page 43 undefined on input line 941.
+
+
+Package natbib Warning: Citation `vant_veer_pre-registration_2016' on page 43 undefined on input line 941.
+
+
+Package natbib Warning: Citation `stevens_replicability_2017' on page 43 undefined on input line 943.
+
+
+Package natbib Warning: Citation `driessen_does_2015' on page 43 undefined on input line 943.
+
+
+Package natbib Warning: Citation `rosenthal_file_1979' on page 43 undefined on input line 943.
+
+
+Package natbib Warning: Citation `open_science_collaboration_estimating_2015' on page 43 undefined on input line 945.
+
+
+Package natbib Warning: Citation `vant_veer_pre-registration_2016' on page 43 undefined on input line 945.
+
+
+Package natbib Warning: Citation `stevens_replicability_2017' on page 43 undefined on input line 945.
+
+
+Package natbib Warning: Citation `stevens_replicability_2017' on page 43 undefined on input line 950.
+
+
+Package natbib Warning: Citation `bosnjak_template_2021' on page 43 undefined on input line 950.
+
+
+Package natbib Warning: Citation `bosnjak_template_2021' on page 43 undefined on input line 950.
+
+
+Package natbib Warning: Citation `haven_preregistering_2020' on page 43 undefined on input line 950.
+
+[43]
+
+Package natbib Warning: Citation `osf_open_2022' on page 44 undefined on input line 952.
+
+
+Package natbib Warning: Citation `chambers_past_2022' on page 44 undefined on input line 952.
+
+
+Package natbib Warning: Citation `chambers_past_2022' on page 44 undefined on input line 954.
+
+
+Package natbib Warning: Citation `chambers_past_2022' on page 44 undefined on input line 954.
+
+
+Package natbib Warning: Citation `vant_veer_pre-registration_2016' on page 44 undefined on input line 954.
+
+
+Package natbib Warning: Citation `vant_veer_pre-registration_2016' on page 44 undefined on input line 956.
+
+
+Package natbib Warning: Citation `moore_preregister_2016' on page 44 undefined on input line 958.
+
+
+Package natbib Warning: Citation `moore_preregister_2016' on page 44 undefined on input line 960.
+
+
+Package natbib Warning: Citation `preregistration_task_force_preregistration_2021' on page 44 undefined on input line 962.
+
+
+Package natbib Warning: Citation `bosnjak_template_2021' on page 44 undefined on input line 962.
+
+
+Package natbib Warning: Citation `haven_preregistering_2020' on page 44 undefined on input line 962.
+
+
+Package natbib Warning: Citation `american_psychological_association_publication_2020' on page 44 undefined on input line 962.
+
+
+Overfull \hbox (17.9033pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 44 \TU/lmr/m/sl/10.95 CHAPTER 3.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
+ []
+
+[44]
+
+Package natbib Warning: Citation `alter_responsible_2018' on page 45 undefined on input line 967.
+
+
+Package natbib Warning: Citation `martone_data_2018' on page 45 undefined on input line 967.
+
+
+Package natbib Warning: Citation `ross_ethical_2018' on page 45 undefined on input line 967.
+
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 45 undefined on input line 967.
+
+
+Package natbib Warning: Citation `ceci_private_1983' on page 45 undefined on input line 969.
+
+
+Package natbib Warning: Citation `american_psychological_association_ethical_2017' on page 45 undefined on input line 969.
+
+
+Package natbib Warning: Citation `martone_data_2018' on page 45 undefined on input line 969.
+
+
+Package natbib Warning: Citation `stevens_replicability_2017' on page 45 undefined on input line 971.
+
+
+Package natbib Warning: Citation `ross_ethical_2018' on page 45 undefined on input line 971.
+
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 45 undefined on input line 973.
+
+
+Package natbib Warning: Citation `martone_data_2018' on page 45 undefined on input line 975.
+
+
+Package natbib Warning: Citation `alter_responsible_2018' on page 45 undefined on input line 975.
+
+
+Package natbib Warning: Citation `martone_data_2018' on page 45 undefined on input line 977.
+
+
+Package natbib Warning: Citation `martone_data_2018' on page 45 undefined on input line 977.
+
+
+Package natbib Warning: Citation `alter_responsible_2018' on page 45 undefined on input line 977.
+
+[45]
+
+Package natbib Warning: Citation `ross_ethical_2018' on page 46 undefined on input line 979.
+
+
+Package natbib Warning: Citation `ross_ethical_2018' on page 46 undefined on input line 979.
+
+
+Package natbib Warning: Citation `alter_responsible_2018' on page 46 undefined on input line 979.
+
+
+Package natbib Warning: Citation `ross_ethical_2018' on page 46 undefined on input line 995.
+
+
+Overfull \hbox (17.9033pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 46 \TU/lmr/m/sl/10.95 CHAPTER 3.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
+ []
+
+[46]
+
+Package natbib Warning: Citation `ross_ethical_2018' on page 47 undefined on input line 997.
+
+
+Package natbib Warning: Citation `ross-hellauer_what_2017' on page 47 undefined on input line 1002.
+
+
+Package natbib Warning: Citation `ross-hellauer_what_2017' on page 47 undefined on input line 1002.
+
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 47 undefined on input line 1002.
+
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 47 undefined on input line 1011.
+
+
+Package natbib Warning: Citation `shah_open_2017' on page 47 undefined on input line 1011.
+
+[47]
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 48 undefined on input line 1013.
+
+
+Package natbib Warning: Citation `shah_open_2017' on page 48 undefined on input line 1013.
+
+
+Package natbib Warning: Citation `hagger_developing_2022' on page 48 undefined on input line 1013.
+
+
+Package natbib Warning: Citation `shah_open_2017' on page 48 undefined on input line 1013.
+
+
+Package natbib Warning: Citation `beall_predatory_2012' on page 48 undefined on input line 1015.
+
+
+Package natbib Warning: Citation `fortney_getting_2016' on page 48 undefined on input line 1017.
+
+
+Package natbib Warning: Citation `fortney_getting_2016' on page 48 undefined on input line 1019.
+
+
+Package natbib Warning: Citation `shah_open_2017' on page 48 undefined on input line 1019.
+
+
+Package natbib Warning: Citation `martone_data_2018' on page 48 undefined on input line 1019.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (17.9033pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 48 \TU/lmr/m/sl/10.95 CHAPTER 3.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
+ []
+
+[48]
+
+Package natbib Warning: Citation `alter_responsible_2018' on page 49 undefined on input line 1031.
+
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 49 undefined on input line 1031.
+
+
+Package natbib Warning: Citation `noauthor_r_2022' on page 49 undefined on input line 1033.
+
+
+Package natbib Warning: Citation `noauthor_rstudio_2022' on page 49 undefined on input line 1035.
+
+
+Package natbib Warning: Citation `noauthor_rstudio_2022' on page 49 undefined on input line 1035.
+
+
+Package natbib Warning: Citation `shoemann_determining_2017' on page 49 undefined on input line 1039.
+
+
+Package natbib Warning: Citation `the_jamovi_project_about_2021' on page 49 undefined on input line 1041.
+
+
+Package natbib Warning: Citation `the_jamovi_project_about_2021' on page 49 undefined on input line 1041.
+
+
+Package natbib Warning: Citation `jasp_team_jasp_2022' on page 49 undefined on input line 1043.
+
+
+Package natbib Warning: Citation `smith_software_2016' on page 49 undefined on input line 1044.
+
+[49]
+
+Package natbib Warning: Citation `corporation_for_digital_scholarship_zotero_2022' on page 50 undefined on input line 1049.
+
+
+Package natbib Warning: Citation `noauthor_mendeley_2022' on page 50 undefined on input line 1051.
+
+
+Package natbib Warning: Citation `alter_responsible_2018' on page 50 undefined on input line 1063.
+
+
+Overfull \hbox (17.9033pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 50 \TU/lmr/m/sl/10.95 CHAPTER 3.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
+ []
+
+[50]
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 51 undefined on input line 1068.
+
+
+Package natbib Warning: Citation `noauthor_github_2022' on page 51 undefined on input line 1070.
+
+
+Package natbib Warning: Citation `noauthor_github_2022-1' on page 51 undefined on input line 1070.
+
+
+Package natbib Warning: Citation `osf_open_2022' on page 51 undefined on input line 1072.
+
+
+Package natbib Warning: Citation `martone_data_2018' on page 51 undefined on input line 1072.
+
+
+Package natbib Warning: Citation `bezjak_open_2018' on page 51 undefined on input line 1077.
+
+[51]
+
+Package natbib Warning: Citation `open_science_collaboration_estimating_2015' on page 52 undefined on input line 1087.
+
+
+Overfull \hbox (17.9033pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 52 \TU/lmr/m/sl/10.95 CHAPTER 3.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
+ []
+
+[52]
 Chapter 4.
 
 Underfull \vbox (badness 1817) has occurred while \output is active []
 
-[53]
+[53
+
+]
 
 Package natbib Warning: Citation `madigan_language_1995' on page 54 undefined on input line 1151.
 
@@ -1487,12 +1487,19 @@ Overfull \hbox (6.77126pt too wide) in paragraph at lines 1834--1835
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
-[70] [71] [72]
+[70] [71] [72] [73] [74
+
+]
+Chapter 5.
+[75] [76]
+Chapter 6.
 No file TransformingResearchMethods.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[73] (./TransformingResearchMethods.aux)
+[77
+
+] (./TransformingResearchMethods.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -1503,15 +1510,15 @@ Package rerunfilecheck Warning: File `TransformingResearchMethods.out' has chang
 
 Package rerunfilecheck Info: Checksums for `TransformingResearchMethods.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  544C937249B1BE2E03D899AF27A06000;25429.
+(rerunfilecheck)             After:  B6DEAB356B4949DCC6BC5CD12773FC6E;26175.
  ) 
 Here is how much of TeX's memory you used:
- 18002 strings out of 477864
- 333074 string characters out of 5844910
+ 18007 strings out of 477864
+ 333155 string characters out of 5844910
  846760 words of memory out of 5000000
- 38701 multiletter control sequences out of 15000+600000
+ 38706 multiletter control sequences out of 15000+600000
  475708 words of font info for 81 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  86i,7n,121p,2594b,512s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on TransformingResearchMethods.pdf (73 pages).
+Output written on TransformingResearchMethods.pdf (77 pages).
