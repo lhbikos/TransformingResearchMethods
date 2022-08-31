@@ -1136,7 +1136,7 @@ The following is a listing of planned chapters and authors who have committed to
 * Psychometrics/scale development
   - Cirleen DeBlaere & Casey Hinger
 * Qualitative research methods
-  - Ashley MacPherson
+  - Ashley MacPherson & Pearis Bellamy
 * Program evaluation
   - Maryam Jernigan-Noesi
 * Dissemination to scientific and lay audiences
@@ -1146,15 +1146,19 @@ The following is a listing of planned chapters and authors who have committed to
 
 ## Desired Chapters
 
+* Experimental design
 * Non-experimental design
 * Case study/single case design
+* Action Research
 * Institutional review boards and IRB applications/approval
+* Training models (e.g., clinical scientist, scientist-practitioner,  scientist-practitioner-advocate, local clinical scientist, scholar practitioner) and how they relate to training in and utilization of research methods
+* Other chapters that *you* think would be important to include
 
 ## Appendices Plans
 
 * Research methods syllabus
-* Proposed assignments (beyond those imbedded in the chapter)
-* Grading rubrics for research-related assigments
+* Proposed assignments (beyond those embedded in the chapter)
+* Grading rubrics for research-related assignments
 * Lists of additional resources
 
 # References
