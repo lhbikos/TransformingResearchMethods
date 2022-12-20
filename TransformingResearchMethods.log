@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.16)  31 AUG 2022 09:18
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.12)  19 DEC 2022 17:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **TransformingResearchMethods.tex
 (./TransformingResearchMethods.tex
 LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-08-05> (c:/Users/lhbikos/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/book.cls
+L3 programming layer <2022-08-30> (c:/Users/lhbikos/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
 (c:/Users/lhbikos/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk11.clo
 File: bk11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
@@ -131,9 +131,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 ) (c:/Users/lhbikos/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ) (c:/Users/lhbikos/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (c:/Users/lhbikos/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-08-05 L3 programming layer (loader) 
+Package: expl3 2022-08-30 L3 programming layer (loader) 
 (c:/Users/lhbikos/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2022-08-05 L3 backend support: XeTeX
+File: l3backend-xetex.def 2022-08-30 L3 backend support: XeTeX
 \g__graphics_track_int=\count268
 \l__pdf_internal_box=\box53
 \g__pdf_backend_object_int=\count269
@@ -1513,10 +1513,10 @@ Package rerunfilecheck Info: Checksums for `TransformingResearchMethods.out':
 (rerunfilecheck)             After:  B6DEAB356B4949DCC6BC5CD12773FC6E;26175.
  ) 
 Here is how much of TeX's memory you used:
- 18004 strings out of 477855
- 332952 string characters out of 5844970
- 846805 words of memory out of 5000000
- 38715 multiletter control sequences out of 15000+600000
+ 18004 strings out of 477747
+ 332947 string characters out of 5842361
+ 872789 words of memory out of 5000000
+ 38822 multiletter control sequences out of 15000+600000
  475708 words of font info for 81 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  86i,7n,121p,2594b,512s stack positions out of 10000i,1000n,20000p,200000b,200000s

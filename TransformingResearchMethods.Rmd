@@ -1143,6 +1143,12 @@ The following is a listing of planned chapters and authors who have committed to
   - Lisa De La Rue, Melissa Holt, & Lydia Ahn 
 * Internationalizing and decolonizing psychological research
   - Jenny Vaydich, Jacob Bentley, & Oscar Baldelomar
+* Institutional Review Boards
+  - Meredith Maroney & Emily Coombs-Montanez
+* Training models
+  - Rachel Chickerella & Karen Meteyer
+* Research environment & culture
+  - Sally Stabb
 
 ## Desired Chapters
 
@@ -1150,8 +1156,6 @@ The following is a listing of planned chapters and authors who have committed to
 * Non-experimental design
 * Case study/single case design
 * Action Research
-* Institutional review boards and IRB applications/approval
-* Training models (e.g., clinical scientist, scientist-practitioner,  scientist-practitioner-advocate, local clinical scientist, scholar practitioner) and how they relate to training in and utilization of research methods
 * Other chapters that *you* think would be important to include
 
 ## Appendices Plans
