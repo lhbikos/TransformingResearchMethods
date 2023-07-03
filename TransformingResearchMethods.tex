@@ -7,16 +7,19 @@
   11pt,
 ]{book}
 \usepackage{amsmath,amssymb}
-\usepackage{lmodern}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
 \else % if luatex or xetex
-  \usepackage{unicode-math}
+  \usepackage{unicode-math} % this also loads fontspec
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -71,7 +74,7 @@
 \bibliographystyle{plainnat}
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same} % disable monospaced font for URLs
+\urlstyle{same}
 \hypersetup{
   pdftitle={Transforming Research Methods in Health Services Psychology: Applications for the Advocate \textasciitilde{} Practitioner \textasciitilde{} Scientist},
   pdfauthor={Lynette H. Bikos, PhD, ABPP \& Cirleen DeBlaere, PhD, Editors; Kiana Clay, Editorial Assistant},
@@ -84,7 +87,7 @@
 
 \title{Transforming Research Methods in Health Services Psychology: Applications for the Advocate \textasciitilde{} Practitioner \textasciitilde{} Scientist}
 \author{Lynette H. Bikos, PhD, ABPP \& Cirleen DeBlaere, PhD, Editors \and Kiana Clay, Editorial Assistant}
-\date{19 Dec 2022}
+\date{03 Jul 2023}
 
 \begin{document}
 \maketitle
@@ -124,7 +127,7 @@ All materials used in creating this OER are available at its \href{https://githu
 \chapter*{PREFACE}\label{preface}}
 \addcontentsline{toc}{chapter}{PREFACE}
 
-\textbf{If you are viewing this document, you should know that this is a book-in-progress. Early drafts are released for the Transforming Counseling Psychology Curriculum Showcase at APA 2022, for peer review, and for generating interest in collaboration. The document was last updated on 19 Dec 2022}.
+\textbf{If you are viewing this document, you should know that this is a book-in-progress. Early drafts are released for the Transforming Counseling Psychology Curriculum Showcase at APA 2022, for peer review, and for generating interest in collaboration. The document was last updated on 03 Jul 2023}.
 
 In her 2021-2022 term as President of the Society of Counseling Psychology, one of Dr.~Amy Reynolds' Presidential Initiatives was \emph{Transforming Counseling Psychology Curriculum and Praxis.} Dr.~Reynolds invited counseling psychology faculty, practitioners, and doctoral students ``to critically examine and deconstruct how various competencies, courses, and content are taught; how we socialize our students; and then re-imagine, dream, and reconstruct new and transformative ways to teach and train.''
 
@@ -1328,7 +1331,7 @@ Utilization of the JARS should begin with its \href{https://apastyle.apa.org/jar
   >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.5051}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4646}}
   >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.0303}}@{}}
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 JARS Element
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
@@ -1336,8 +1339,10 @@ Location in Huang and Chan (2022)
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
 +/-
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 \textbf{Title} & \textbf{Huang and Chan (2022}) & \textbf{+/-} \\
 Main variables and theoretical issues and their relationship & Primary IV (concealment) and DV (well-being) were named. Asking ``how'' and ``when'' suggests that mechanisms (mediation, moderation) will be evaluated & + \\
 Population(s) studied & No indication that the participants were from Hong Kong & - \\
@@ -1377,7 +1382,6 @@ Similarity of results to findings and work of others & The mid-section of the \e
 Interpretation of results, considering validity threats, sample size, measurement protocols & \emph{Study Limitations} considers threats to internal validity and the measures that were used. & + \\
 Generalizability taking into consideration target population and contextual issues & \emph{Study Limitations} considers threats to external validity, particularly around self-selection into the study. & + \\
 Implications for future research, program, policy & \emph{Practical Implications} provide guidance to counseling psychologists when working with sexual minority clients. & + \\
-\bottomrule()
 \end{longtable}
 
 \hypertarget{what-the-style-manual--american_psychological_association_publication_2020-has-to-say-about}{%
@@ -1788,7 +1792,7 @@ The three recommendations that emerge from these personal examples include the f
   >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.5051}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4646}}
   >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.0303}}@{}}
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Element
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
@@ -1796,8 +1800,10 @@ Your Article
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
 +/-
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 \textbf{Title} & \textbf{Your Article} & \textbf{+/-} \\
 Main variables and theoretical issues and their relationship & & \\
 Population(s) studied & & \\
@@ -1837,7 +1843,6 @@ Similarity of results to findings and work of others & T & \\
 Interpretation of results, considering validity threats, sample size, measurement protocols & & \\
 Generalizability taking into consideration target population and contextual issues & & \\
 Implications for future research, program, policy & & \\
-\bottomrule()
 \end{longtable}
 
 \hypertarget{references-3}{%
