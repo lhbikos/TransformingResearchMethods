@@ -1,27 +1,33 @@
 --- 
-title: "Transforming Research Methods in Health Services Psychology: Applications for the Advocate ~ Practitioner ~ Scientist"
-author: 
-  - Lynette H. Bikos, PhD, ABPP & Cirleen DeBlaere, PhD, Editors
-  - Kiana Clay, Editorial Assistant
-date: "`r format (Sys.Date(), '%d %b %Y')`" 
-site: bookdown::bookdown_site
+title: 'Transforming Research Methods in Health Services Psychology: Applications
+  for the Advocate ~ Practitioner ~ Scientist'
+author:
+- Lynette H. Bikos, PhD, ABPP & Cirleen DeBlaere, PhD, Editors
+- Kiana Clay, Editorial Assistant
+date: "`r format (Sys.Date(), '%d %b %Y')`"
 documentclass: book
+site: bookdown::bookdown_site
+bibliography: TRM.bib
+citation-style: "apa-single-spaced.csl"
+link-citations: yes
+urlcolor: blue
 fontsize: 11pt
 geometry: margin=1in
 highlight: tango
-urlcolor: blue #without this the links in the PDF do not show
-citation-style: apa-single-spaced.csl #if you want APA style
-bibliography: ["OpenScience.bib", "APAstyle.bib"] #This is my own bibtex file from my Zotero account. If this file is not in the project folder there will be an error and the book will not build.
-link-citations: yes
-#DID NOT WORK, BUT DID NOT HURT EITHER I THINK IT NEEDS TO BE CONNECTED TO A PKG
-#line-wrapping-in-code: true #wrap overflowing lines in code blocks? 
-url: https://lhbikos.github.io/TransformingResearchMethods/ #a link to the GitHub pages where it is rendered
-cover-image: images/bookcover.png #link to the image for the book which will show up in any previews
-description: |
-  "Transforming Research Methods in Health Services Psychology:  Applications for the Advocate ~ Practitioner ~ Scientist" is an open educational resource (OER) that is intended to be a socially responsive approach tool for teaching research methods in professional psychology. This OER is offered uner a CC by-SA 4.0 license. If you teach research methods (or are a student in such classes) and have feedback about the text, please contact us.
+url: https://lhbikos.github.io/TransformingResearchMethods/
+cover-image: images/bookcover.png
+description: "\"Transforming Research Methods in Health Services Psychology:  Applications
+  for the Advocate ~ Practitioner ~ Scientist\" is an open educational resource (OER)
+  that is intended to be a socially responsive approach tool for teaching research
+  methods in professional psychology. This OER is offered uner a CC by-SA 4.0 license.
+  If you teach research methods (or are a student in such classes) and have feedback
+  about the text, please contact us.\n"
 github-repo: lhbikos/ReCenterPsychStats
-
 ---
+
+```{r, include=FALSE}
+options(tinytex.verbose = TRUE)
+```
 
 # BOOK COVER {-}
 
@@ -75,7 +81,7 @@ The book cover was designed by Dominic Williamson, Senior Instructional Designer
 
 This book is published under a a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. This means that this book can be reused, remixed, retained, revised and redistributed (including commercially) as long as appropriate credit is given to the authors. If you remix, or modify the original version of this open textbook, you must redistribute all versions of this open textbook under the same license - CC BY-SA.
 
-A [GitHub open-source repository](https://github.com/lhbikos/ReC_MultivModel) contains all of the text and source code for the book, including data and images. 
+A [GitHub open-source repository](https://github.com/lhbikos/TransformingResearchMethods) contains all of the text and source code for the book, including data and images. 
 
 
 
