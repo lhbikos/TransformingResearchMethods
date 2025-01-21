@@ -1361,6 +1361,58 @@
             "volume": "73"
         },
         {
+            "ISBN": "978-1-4462-0046-9",
+            "abstract": "Includes bibliographical references (pages 941-947) and index.",
+            "author": [
+                {
+                    "family": "Field",
+                    "given": "Andy P."
+                }
+            ],
+            "id": "field_discovering_2012",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012
+                    ]
+                ]
+            },
+            "keyword": "Computer programs, Computer programs; R (Computer program language); Statistics, Social sciences, Statistical methods",
+            "publisher": "Sage",
+            "publisher-place": "Thousand Oaks, California",
+            "title": "Discovering statistics using R",
+            "type": "book"
+        },
+        {
+            "URL": "https://www.apa.org/ed/accreditation/about/policies/standards-of-accreditation.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2022,
+                        9,
+                        5
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "dropping-particle": "on",
+                    "family": "Accreditation",
+                    "given": "Commission"
+                }
+            ],
+            "id": "commission_on_accreditation_standards_2018",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "title": "Standards of Accreditation for Health Service Psychology (2015) & Accrediting Operating Procedures (2019)",
+            "type": ""
+        },
+        {
             "DOI": "10.1037/cou0000623",
             "ISSN": "0022-0167",
             "URL": "https://ezproxy.spu.edu/login?url=https://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=2022-70947-001&site=ehost-live",
@@ -3026,6 +3078,1400 @@
             "title-short": "Toward Best Practices in Quantitative, Qualitative, and Mixed- Method Research",
             "type": "article-journal",
             "volume": "5"
+        },
+        {
+            "URL": "https://www.apa.org/ed/graduate/benchmarks-guide",
+            "abstract": "A new guidebook that provides practical information on implementing a competency-based approach to education and training.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "id": "noauthor_practical_2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "publisher": "American Psychological Association",
+            "title": "A practical guidebook for the competency benchmarks",
+            "type": "report"
+        },
+        {
+            "URL": "https://www.apa.org/ed/graduate/benchmarks-evaluation-system",
+            "abstract": "This system was designed in July 2011 to determine how often a specific behavior is observed related to the competency/essential component.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "id": "noauthor_benchmarks_2012",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012
+                    ]
+                ]
+            },
+            "publisher": "American Psychological Association",
+            "title": "Benchmarks Evaluation System",
+            "type": "report"
+        },
+        {
+            "author": [
+                {
+                    "family": "Anderson",
+                    "given": "J. F."
+                },
+                {
+                    "family": "Withrow",
+                    "given": "J. G."
+                }
+            ],
+            "container-title": "Communication Education",
+            "id": "anderson_impact_1981",
+            "issued": {
+                "date-parts": [
+                    [
+                        1981
+                    ]
+                ]
+            },
+            "page": "342-353",
+            "title": "The impact of lecturers‟ nonverbal expressiveness on improving mediated instruction",
+            "type": "article-journal",
+            "volume": "30"
+        },
+        {
+            "URL": "https://ideas.repec.org//a/taf/intgms/v19y2019i3p359-361.html",
+            "abstract": "No abstract is available for this item.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Blaszczynski",
+                    "given": "Alex"
+                },
+                {
+                    "family": "Gainsbury",
+                    "given": "Sally M."
+                }
+            ],
+            "container-title": "International Gambling Studies",
+            "id": "blaszczynski_editors_2019",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "note": "Publisher: Taylor & Francis Journals",
+            "page": "359-361",
+            "title": "Editor’s note: Replication crisis in the social sciences",
+            "title-short": "Editor’s note",
+            "type": "article-journal",
+            "volume": "19"
+        },
+        {
+            "DOI": "10.1037/0735-7028.31.5.562",
+            "ISSN": "1939-1323",
+            "abstract": "Are the outcomes of clinical psychology training related to training model affiliation, and, if so, how? An examination of 134 accredited clinical psychology programs, espousing a clinical scientist, scientist–practitioner, or practitioner–scholar training philosophy as defined by training group membership, uncovered significant differences among training models across student and faculty activities as well as across employment setting and weekly employment activity outcomes. Suggestions for educators and consumers in their analyses of programs’ training activities and outcomes are offered. (PsycINFO Database Record (c) 2016 APA, all rights reserved)",
+            "author": [
+                {
+                    "family": "Cherry",
+                    "given": "Donald K."
+                },
+                {
+                    "family": "Messenger",
+                    "given": "Laura C."
+                },
+                {
+                    "family": "Jacoby",
+                    "given": "Aaron M."
+                }
+            ],
+            "container-title": "Professional Psychology: Research and Practice",
+            "id": "cherry_examination_2000",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2000
+                    ]
+                ]
+            },
+            "keyword": "Clinical Psychology, Clinical Psychology Graduate Training, Models, Program Evaluation",
+            "note": "Place: US Publisher: American Psychological Association",
+            "page": "562-568",
+            "title": "An examination of training model outcomes in clinical psychology programs",
+            "type": "article-journal",
+            "volume": "31"
+        },
+        {
+            "URL": "https://www.hbs.edu/teaching/case-method/Pages/default.aspx",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "id": "noauthor_teaching_nodate",
+            "publisher": "Christiansen Center for Teaching; Learning",
+            "publisher-place": "Harvard Business School",
+            "title": "Teaching by the Case Method - Christensen Center for Teaching & Learning - Harvard Business School",
+            "type": "report"
+        },
+        {
+            "DOI": "10.33043/JSACP.5.2.26-41",
+            "ISSN": "2159-8142",
+            "URL": "https://openjournals.bsu.edu/jsacp/article/view/487",
+            "abstract": "Empiricism in the form of quantitative methods has sometimes been used by researchers to thwart human welfare and social justice. Some of the ugliest moments in the history of psychology were a result of researchers using quantitative methods to legitimize and codify the prejudices of the day. This has resulted in the view that quantitative methods are antithetical to the pursuit of social justice for oppressed and marginalized groups. While the ambivalence toward quantitative methods by some is understandable given their misuse by some researchers, we argue that quantitative methods are not inherently oppressive. Quantitative methods can be liberating if used by multiculturally competent researchers and scholar-activists committed to social justice. Examples of best practices in social justice oriented quantitative research are reviewed.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Cokley",
+                    "given": "Kevin"
+                },
+                {
+                    "family": "Awad",
+                    "given": "Germine H."
+                }
+            ],
+            "container-title": "Journal for Social Action in Counseling & Psychology",
+            "id": "cokley_defense_2013",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2013,
+                        5
+                    ]
+                ]
+            },
+            "keyword": "Cultural competence, Quantitative methods, Social justice",
+            "note": "Number: 2",
+            "page": "26-41",
+            "title": "In Defense of Quantitative Methods: Using the “Master’s Tools” to Promote Social Justice",
+            "title-short": "In Defense of Quantitative Methods",
+            "type": "article-journal",
+            "volume": "5"
+        },
+        {
+            "DOI": "10.1037/0000198-001",
+            "ISBN": "978-1-4338-3208-6 978-1-4338-3209-3",
+            "URL": "https://content.apa.org/books/16172-001",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Torres Rivera",
+                    "given": "Edil"
+                },
+                {
+                    "family": "Comas-Díaz",
+                    "given": "Lillian"
+                }
+            ],
+            "container-title": "Liberation psychology: Theory, method, practice, and social justice.",
+            "editor": [
+                {
+                    "family": "Comas-Díaz",
+                    "given": "Lillian"
+                },
+                {
+                    "family": "Torres Rivera",
+                    "given": "Edil"
+                }
+            ],
+            "id": "comas-diaz_introduction_2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "3-13",
+            "publisher": "American Psychological Association",
+            "publisher-place": "Washington",
+            "title": "Introduction.",
+            "type": "chapter"
+        },
+        {
+            "ISBN": "978-1-4338-3209-3",
+            "URL": "https://search.ebscohost.com/login.aspx?direct=true&scope=site&db=nlebk&db=nlabk&AN=2548637",
+            "abstract": "Liberation Psychology: Theory, Method, Practice, and Social Justice guides readers through the history, theory, methods, and clinical practice of liberation psychology and its relation to social justice activism and movements",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Comas-Díaz",
+                    "given": "Lillian"
+                },
+                {
+                    "family": "Torres Rivera",
+                    "given": "Edil"
+                }
+            ],
+            "collection-title": "Cultural, racial, and ethnic psychology book series",
+            "id": "comas-diaz_liberation_2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "keyword": "Discrimination raciale, freedom, Freedom, Justice sociale, Liberté, Liberty, Psychologie sociale, PSYCHOLOGY Social Psychology, Psychology, Social, Race discrimination, racial discrimination, Social justice, Social Justice, social psychology, Social psychology",
+            "note": "OCLC: 1150793885",
+            "publisher": "American Psychological Association",
+            "publisher-place": "Washington, DC",
+            "title": "Liberation psychology: Theory, method, practice, and social justice",
+            "title-short": "Liberation psychology",
+            "type": "book"
+        },
+        {
+            "ISBN": "978-1-5063-3019-8",
+            "abstract": "In the revised Fourth Edition of the best-selling text, John W. Creswell and new co-author Cheryl N. Poth explore the philosophical underpinnings, history, and key elements of five qualitative inquiry approaches: narrative research, phenomenology, grounded theory, ethnography, and case study. Preserving Creswell’s signature writing style, the authors compare the approaches and relate research designs to each of the traditions of inquiry in a highly accessible manner. Featuring new content, articles, pedagogy, references, and expanded coverage of ethics throughout, the Fourth Edition is an ideal introduction to the theories, strategies, and practices of qualitative inquiry.",
+            "author": [
+                {
+                    "family": "Creswell",
+                    "given": "John W."
+                },
+                {
+                    "family": "Poth",
+                    "given": "Cheryl N."
+                }
+            ],
+            "id": "creswell_qualitative_2016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        12
+                    ]
+                ]
+            },
+            "keyword": "Reference / Research, Social Science / Methodology",
+            "note": "Google-Books-ID: DLbBDQAAQBAJ",
+            "publisher": "SAGE Publications",
+            "title": "Qualitative Inquiry and Research Design: Choosing Among Five Approaches",
+            "title-short": "Qualitative Inquiry and Research Design",
+            "type": "book"
+        },
+        {
+            "URL": "https://www.apa.org/gradpsych/2003/09/three-programs",
+            "abstract": "When you enter graduate school, you pick the training model of either scholar-practitioner, scientist-practitioner or bench science. gradPSYCH profiles an example of each.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "DeAngelis",
+                    "given": "Tori"
+                }
+            ],
+            "container-title": "gradPSYCH Magazine",
+            "id": "deangelis_three_2003",
+            "issued": {
+                "date-parts": [
+                    [
+                        2003
+                    ]
+                ]
+            },
+            "title": "Three programs: Three different training models",
+            "title-short": "Three programs",
+            "type": "article-journal",
+            "volume": "09"
+        },
+        {
+            "URL": "https://nobaproject.com/modules/the-replication-crisis-in-psychology",
+            "abstract": "In science, replication is the process of repeating research to determine the extent to which findings generalize across time and across situations. Recently, the science of psychology has come under criticism because a number of research findings do not replicate. In this module we discuss reasons for non-replication, the impact this phenomenon has on the field, and suggest solutions to the problem.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Diener",
+                    "given": "Edward"
+                },
+                {
+                    "family": "Biswas-Diener",
+                    "given": "Robert"
+                }
+            ],
+            "container-title": "NOBA",
+            "id": "diener_replication_2016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "title": "The Replication Crisis in Psychology",
+            "type": ""
+        },
+        {
+            "URL": "https//openstax.org/details/books/psychology",
+            "author": [
+                {
+                    "family": "Dumper",
+                    "given": "K."
+                },
+                {
+                    "family": "Jenkins",
+                    "given": "D."
+                },
+                {
+                    "family": "Lovett",
+                    "given": "M."
+                },
+                {
+                    "family": "Perlmutter",
+                    "given": "M."
+                }
+            ],
+            "container-title": "OpenStax",
+            "id": "dumper_psychological_2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "title": "Psychological Research",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.1177/1745691620979820",
+            "ISSN": "1745-6924",
+            "abstract": "In their analysis in a previous issue of Perspectives on Psychological Science, Roberts and colleagues argued that the editors, authors, and participants throughout subfields of psychological science are overwhelmingly White. In this commentary, we consider some of the drivers and consequences of this racial inequality. Drawing on race scholarship from within and outside the field, we highlight three phenomena that create and maintain racial inequality in psychology: (a) racial ignorance, (b) threats to belonging, and (c) racial-progress narratives. We close by exploring steps that journals and authors can take to reduce racial inequality in our field, ending with an appeal to consider the experience of scholars of color in race scholarship and in psychological science more broadly. (PsycInfo Database Record (c) 2022 APA, all rights reserved)",
+            "author": [
+                {
+                    "family": "Dupree",
+                    "given": "Cydney H."
+                },
+                {
+                    "family": "Kraus",
+                    "given": "Michael W."
+                }
+            ],
+            "container-title": "Perspectives on Psychological Science",
+            "id": "dupree_psychological_2022",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "keyword": "Behavioral Sciences, Psychology, Racial Bias",
+            "note": "Place: US Publisher: Sage Publications",
+            "page": "270-275",
+            "title": "Psychological science is not race neutral",
+            "type": "article-journal",
+            "volume": "17"
+        },
+        {
+            "DOI": "10.1177/0361684319865255",
+            "ISSN": "1471-6402",
+            "abstract": "We present critical participatory action research as an enactment of feminist research praxis in psychology. We discuss the key elements of critical participatory action research through the story of a single, national participatory project. The project was designed by and for LGBTQIA+ (lesbian, gay, bisexual, trans, queer, intersex, asexual, plus) and gender-expansive youth; it was called What’s Your Issue? We provide details of the research project, the dreams, desires, experiences, and structural precarity of queer and trans youth. We write this article hoping readers will appreciate the complexities of identities, attend to the relentless commitment to recognition and solidarities, learn the ethical and epistemological principles of critical participatory action research as a feminist and intersectional praxis, and appreciate the provocative blend of research and action toward social justice. (PsycInfo Database Record (c) 2022 APA, all rights reserved)",
+            "author": [
+                {
+                    "family": "Fine",
+                    "given": "Michelle"
+                },
+                {
+                    "family": "Torre",
+                    "given": "María Elena"
+                }
+            ],
+            "container-title": "Psychology of Women Quarterly",
+            "id": "fine_critical_2019",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "keyword": "Action Research, Feminism, Feminist Psychology, LGBTQ",
+            "note": "Place: US Publisher: Sage Publications",
+            "page": "433-444",
+            "title": "Critical participatory action research: A feminist project for validity and solidarity",
+            "title-short": "Critical participatory action research",
+            "type": "article-journal",
+            "volume": "43"
+        },
+        {
+            "DOI": "10.1080/03634528809378702",
+            "ISSN": "1479-5795",
+            "abstract": "Identified verbal teacher immediacy behaviors that relate to increased student learning. 387 undergraduates enrolled in basic, nonrequired communication courses completed a questionnaire during the 12th wk of a 16-wk semester. Results indicate differentiated use of various types of verbal immediacy messages between small and larger classes, and that the impact of teacher immediacy behaviors (both verbal and nonverbal) on learning was coincidentally enhanced as class size increased. It is concluded that the data provide empirical definition of a specific set of low-inference verbal variables that, in combination with previously identified nonverbal variables, clarify a single process-product model for effective instructional interaction. (PsycINFO Database Record (c) 2016 APA, all rights reserved)",
+            "author": [
+                {
+                    "family": "Gorham",
+                    "given": "Joan"
+                }
+            ],
+            "container-title": "Communication Education",
+            "id": "gorham_relationship_1988",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        1988
+                    ]
+                ]
+            },
+            "keyword": "Classroom Environment, College Students, School Learning, Teacher Student Interaction, Verbal Communication",
+            "note": "Place: United Kingdom Publisher: Taylor & Francis",
+            "page": "40-53",
+            "title": "The relationship between verbal teacher immediacy behaviors and student learning",
+            "type": "article-journal",
+            "volume": "37"
+        },
+        {
+            "DOI": "10.1177/0011000019880843",
+            "ISSN": "1552-3861",
+            "abstract": "The mainstreaming of White nationalism in the United States and worldwide suggests an urgent need for counseling psychologists to take stock of what tools they have (and do not have) to combat White supremacy. We review the rise of social justice issues in the field of counseling psychology and allied helping professions and point to the limits of existing paradigms to address the challenge of White supremacy. We introduce transnationalism as an important theoretical perspective with which to conceptualize global racisms, and identify White racial affect, intersectionality, and allyship as three key domains of antiracist action research. Finally, we suggest three steps for sharpening counseling psychologists’ approaches to social justice: rejecting racial progress narratives, engaging in social justice-oriented practice with White clients, and centering White supremacy as a key problem for the field of counseling psychology and allied helping professions. (PsycINFO Database Record (c) 2019 APA, all rights reserved)",
+            "author": [
+                {
+                    "family": "Grzanka",
+                    "given": "Patrick R."
+                },
+                {
+                    "family": "Gonzalez",
+                    "given": "Kirsten A."
+                },
+                {
+                    "family": "Spanierman",
+                    "given": "Lisa B."
+                }
+            ],
+            "container-title": "The Counseling Psychologist",
+            "id": "grzanka_white_2019",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "keyword": "Action Research, Counseling Psychologists, Counseling Psychology, Emotions, Nationalism, Racism, Social Justice, Social Support",
+            "note": "Place: US Publisher: Sage Publications",
+            "page": "478-529",
+            "title": "White supremacy and counseling psychology: A critical–conceptual framework",
+            "title-short": "White supremacy and counseling psychology",
+            "type": "article-journal",
+            "volume": "47"
+        },
+        {
+            "DOI": "10.1177/0011000017733048",
+            "ISSN": "1552-3861",
+            "abstract": "Police brutality and widespread systemic racism represent historical and current sources of trauma in Black communities. Both the Black Lives Matter movement and counseling psychology propose to confront these realities at multiple levels. Black Lives Matter seeks to increase awareness about systemic racism and promote resilience among Black people. Counseling psychology states values of multiculturalism, social justice, and advocacy. Executive leadership in counseling psychology may seek to promote racial justice, yet struggle with how to participate in Black Lives Matter movements and address racial discrimination within larger systems spontaneously and consistently. However, counseling psychology trainees and professionals are actively involved in the Black Lives Matter movement, leading the way forward. Through the framework of spontaneity in social movements, this manuscript highlights what counseling psychologists are currently contributing to Black Lives Matter and makes recommendations that build on the opportunity counseling psychologists have for further involvement in the movement. (PsycInfo Database Record (c) 2024 APA, all rights reserved)",
+            "author": [
+                {
+                    "family": "Hargons",
+                    "given": "Candice"
+                },
+                {
+                    "family": "Mosley",
+                    "given": "Della"
+                },
+                {
+                    "family": "Falconer",
+                    "given": "Jameca"
+                },
+                {
+                    "family": "Faloughi",
+                    "given": "Reuben"
+                },
+                {
+                    "family": "Singh",
+                    "given": "Anneliese"
+                },
+                {
+                    "family": "Stevens-Watkins",
+                    "given": "Danelle"
+                },
+                {
+                    "family": "Cokley",
+                    "given": "Kevin"
+                }
+            ],
+            "container-title": "The Counseling Psychologist",
+            "id": "hargons_black_2017",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017
+                    ]
+                ]
+            },
+            "keyword": "Black Lives Matter, Black People, Counseling Psychology, Leadership, Social Justice, Social Movements",
+            "note": "Place: US Publisher: Sage Publications",
+            "page": "873-901",
+            "title": "Black Lives Matter: A call to action for counseling psychology leaders",
+            "title-short": "Black Lives Matter",
+            "type": "article-journal",
+            "volume": "45"
+        },
+        {
+            "DOI": "10.1038/466029a",
+            "ISSN": "1476-4687",
+            "URL": "https://www.nature.com/articles/466029a",
+            "abstract": "To understand human psychology, behavioural scientists must stop doing most of their experiments on Westerners, argue Joseph Henrich, Steven J. Heine and Ara Norenzayan.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Henrich",
+                    "given": "Joseph"
+                },
+                {
+                    "family": "Heine",
+                    "given": "Steven J."
+                },
+                {
+                    "family": "Norenzayan",
+                    "given": "Ara"
+                }
+            ],
+            "container-title": "Nature",
+            "id": "henrich_most_2010",
+            "issue": "7302",
+            "issued": {
+                "date-parts": [
+                    [
+                        2010,
+                        7
+                    ]
+                ]
+            },
+            "keyword": "Psychology and behaviour, Scientific community",
+            "note": "Publisher: Nature Publishing Group",
+            "page": "29-29",
+            "title": "Most people are not WEIRD",
+            "type": "article-journal",
+            "volume": "466"
+        },
+        {
+            "DOI": "10.1177/0002764206296454",
+            "ISSN": "1552-3381",
+            "abstract": "The scientist-practitioner model is founded on the ideology that trained professional psychologists should be knowledgeable in both research and clinical practice. Emphasis should be placed on the successful integration of science and practice, where the relationship between the two variables is carefully considered. Education and training in either research or practice alone, or concurrently without integration, is viewed as not fulfilling the requirements of this model. Furthermore, there are three vital assumptions of the scientist-practitioner model. The first assumption is that professionals with knowledge and skills related to research will facilitate effective psychological services. The second assumption identified research as imperative to the development of a scientific database. Last, the creators of the scientist-practitioner model assumed that direct involvement in clinical practice by researchers will result in studies on important social issues. Each assumption incorporates the integration of science and practice. (PsycInfo Database Record (c) 2022 APA, all rights reserved)",
+            "author": [
+                {
+                    "family": "Jones",
+                    "given": "Jennifer L."
+                },
+                {
+                    "family": "Mehr",
+                    "given": "Shannon L."
+                }
+            ],
+            "container-title": "American Behavioral Scientist",
+            "id": "jones_foundations_2007",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        2007
+                    ]
+                ]
+            },
+            "keyword": "Models, Psychologists, Scientists, Social Issues",
+            "note": "Place: US Publisher: Sage Publications",
+            "page": "766-771",
+            "title": "Foundations and assumptions of the scientist-practitioner model",
+            "type": "article-journal",
+            "volume": "50"
+        },
+        {
+            "DOI": "10.1037/a0015833",
+            "ISSN": "1931-3926",
+            "abstract": "A “toolkit” for professional psychology to assess student and practitioner competence is presented. This toolkit builds on a growing and long history of competency initiatives in professional psychology, as well as those in other health care disciplines. Each tool is a specific method to assess competence, appropriate to professional psychology. The methods are defined and described; information is presented about their best use, psychometrics, strengths and challenges; and future directions are outlined. Finally, the implications of professional psychology’s current shift to a “culture of competency,” including the challenges to implementing ongoing competency assessment, are discussed. (PsycInfo Database Record (c) 2024 APA, all rights reserved)",
+            "author": [
+                {
+                    "family": "Kaslow",
+                    "given": "Nadine J."
+                },
+                {
+                    "family": "Grus",
+                    "given": "Catherine L."
+                },
+                {
+                    "family": "Campbell",
+                    "given": "Linda F."
+                },
+                {
+                    "family": "Fouad",
+                    "given": "Nadya A."
+                },
+                {
+                    "family": "Hatcher",
+                    "given": "Robert L."
+                },
+                {
+                    "family": "Rodolfa",
+                    "given": "Emil R."
+                }
+            ],
+            "container-title": "Training and Education in Professional Psychology",
+            "id": "kaslow_competency_2009",
+            "issue": "4, Suppl",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009
+                    ]
+                ]
+            },
+            "keyword": "Educational Measures, Evaluation Criteria, Professional Competence, Psychologists, Psychology Education, Training",
+            "note": "Place: US Publisher: Educational Publishing Foundation",
+            "page": "S27-S45",
+            "title": "Competency Assessment Toolkit for professional psychology",
+            "type": "article-journal",
+            "volume": "3"
+        },
+        {
+            "ISBN": "978-0-19-987401-9",
+            "abstract": "The Oxford Handbook of Education and Training in Professional Psychology provides the first comprehensive treatment of the processes and current state-of-the art practices bearing on educating and training professional psychologists. Thousands of psychologists are employed full-time as faculty members or clinical supervisors in graduate, practicum, internship, and postdoctoral training programs or training sites. This handbook provides a single resource that pulls together the substantial scholarship on education and training in psychology, covering the full spectrum of historic developments, salient issues, current standards, and emerging trends in psychology education and training. It provides a thorough analysis of doctoral and postdoctoral training for psychologists in clinical, counseling, or school psychology specialties. Because competency issues are moving to the forefront in the design of training programs and the evaluation of trainee performance, the handbook’s authors have made models and standards for competency a primary theme. This volume captures the current state of education and training while emphasizing emerging trends and forecasting future directions. , The Oxford Handbook of Education and Training in Professional Psychology provides the first comprehensive treatment of the processes and current state-of-the art practices bearing on educating and training professional psychologists. Thousands of psychologists are employed full-time as faculty members or clinical supervisors in graduate, practicum, internship, and postdoctoral training programs or training sites. This handbook provides a single resource that pulls together the substantial scholarship on education and training in psychology, covering the full spectrum of historic developments, salient issues, current standards, and emerging trends in psychology education and training. It provides a thorough analysis of doctoral and postdoctoral training for psychologists in clinical, counseling, or school psychology specialties. Because competency issues are moving to the forefront in the design of training programs and the evaluation of trainee performance, the handbook’s authors have made models and standards for competency a primary theme. This volume captures the current state of education and training while emphasizing emerging trends and forecasting future directions.",
+            "author": [
+                {
+                    "family": "Peterson",
+                    "given": "Roger L."
+                },
+                {
+                    "family": "Vincent",
+                    "given": "Wendy L."
+                },
+                {
+                    "family": "Fechter-Leggett",
+                    "given": "Molly"
+                }
+            ],
+            "collection-title": "Oxford Library of Psychology",
+            "container-title": "The Oxford Handbook of Education and Training in Professional Psychology",
+            "editor": [
+                {
+                    "family": "Johnson",
+                    "given": "Edited by W. Brad"
+                },
+                {
+                    "family": "Ph.D"
+                },
+                {
+                    "family": "Kaslow",
+                    "given": "Nadine"
+                },
+                {
+                    "family": "Ph.D"
+                }
+            ],
+            "id": "johnson_rethinking_2014",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014,
+                        3
+                    ]
+                ]
+            },
+            "publisher": "Oxford University Press",
+            "publisher-place": "Oxford, New York",
+            "title": "Rethinking the core curriculum for the education of professional psychologists",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.1080/14780887.2011.586101",
+            "ISSN": "1478-0895",
+            "abstract": "This article is a guide for developing a qualitative methods course in psychology that organizes students into a research team conducting a joint project toward the goal of publishing a paper in an academic journal. This class structure allows for students to consider qualitative methods and epistemologies through a process of engaged learning. Tips on creating a research team environment, planning a survey component of the course, guiding students through a grounded theory analysis, and organizing the students toward writing a manuscript are presented. Issues raised for consideration also can be useful when supervising individual students’ grounded theory projects. (PsycINFO Database Record (c) 2019 APA, all rights reserved)",
+            "author": [
+                {
+                    "family": "Levitt",
+                    "given": "Heidi"
+                },
+                {
+                    "family": "Kannan",
+                    "given": "Divya"
+                },
+                {
+                    "family": "Ippolito",
+                    "given": "Maria R."
+                }
+            ],
+            "container-title": "Qualitative Research in Psychology",
+            "id": "levitt_teaching_2013",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2013
+                    ]
+                ]
+            },
+            "keyword": "Grounded Theory, Qualitative Methods, Teaching, Teams",
+            "note": "Place: United Kingdom Publisher: Taylor & Francis",
+            "page": "119-139",
+            "title": "Teaching qualitative methods using a research team approach: Publishing grounded theory projects with your class",
+            "title-short": "Teaching qualitative methods using a research team approach",
+            "type": "article-journal",
+            "volume": "10"
+        },
+        {
+            "URL": "https://libguides.newcastle.edu.au/researchmethods/home",
+            "abstract": "A guide to research methods, and search strategies for finding research.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Booth",
+                    "given": "Debbie"
+                }
+            ],
+            "id": "booth_libguides_nodate",
+            "title": "LibGuides: Research Methods: What are research methods?",
+            "title-short": "LibGuides",
+            "type": ""
+        },
+        {
+            "DOI": "10.1037/tep0000045",
+            "ISSN": "1931-3926, 1931-3918",
+            "URL": "https://doi.apa.org/doi/10.1037/tep0000045",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Mallinckrodt",
+                    "given": "Brent"
+                },
+                {
+                    "family": "Miles",
+                    "given": "Joseph R."
+                },
+                {
+                    "family": "Levy",
+                    "given": "Jacob J."
+                }
+            ],
+            "container-title": "Training and Education in Professional Psychology",
+            "id": "mallinckrodt_scientist-practitioner-advocate_2014",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014,
+                        11
+                    ]
+                ]
+            },
+            "page": "303-311",
+            "title": "The scientist-practitioner-advocate model: Addressing contemporary training needs for social justice advocacy.",
+            "title-short": "The scientist-practitioner-advocate model",
+            "type": "article-journal",
+            "volume": "8"
+        },
+        {
+            "URL": "https://www.apa.org/ed/precollege/psn/2016/01/doctoral-degrees",
+            "abstract": "Understanding these differences between a Doctor of Philosophy (PhD) degree and a Doctor of Psychology (PsyD) degree.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Michalski",
+                    "given": "Daniel S."
+                },
+                {
+                    "literal": "PhD"
+                },
+                {
+                    "family": "Fowler",
+                    "given": "Garth"
+                },
+                {
+                    "literal": "PhD"
+                }
+            ],
+            "container-title": "https://www.apa.org",
+            "id": "michalski_doctoral_nodate",
+            "title": "Doctoral degrees in psychology: How are they different, or not so different?",
+            "title-short": "Doctoral degrees in psychology",
+            "type": ""
+        },
+        {
+            "URL": "https://www.nationalregister.org/hsp-credential/what-is-an-hsp/",
+            "abstract": "National Register identifies psychologists who have met the highest education and training requirements and opens doors through a variety of HSP benefits.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "container-title": "National Register",
+            "id": "noauthor_what_nodate",
+            "title": "What is a Health Service Psychologist and Why Join",
+            "type": ""
+        },
+        {
+            "DOI": "10.1177/0011000005277821",
+            "ISSN": "0011-0000, 1552-3861",
+            "URL": "https://journals.sagepub.com/doi/10.1177/0011000005277821",
+            "abstract": "The emphasis on the commitment to science and practice varies among counseling psychology training programs, and this article reports two studies that examine whether these different emphases are linked to distinctive outcomes. Study 1 examined outcomes related to students and faculty within science-oriented, balanced science-practice, and practice-oriented counseling psychology programs. Study 2 examined the differential success and placement of doctoral students in matching to predoctoral internships. Against a backdrop of substantial similarity, differential commitments to science and practice within programs were related to selected differences in faculty and student outcomes in conceptually coherent ways. Scholarly productivity and internship placements, for example, varied according the science-practice emphasis of the training program, providing qualified support for future work that might further address the relationship between training models and outcomes in counseling psychology.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Neimeyer",
+                    "given": "Greg J."
+                },
+                {
+                    "family": "Saferstein",
+                    "given": "Jocelyn"
+                },
+                {
+                    "family": "Rice",
+                    "given": "Kenneth G."
+                }
+            ],
+            "container-title": "The Counseling Psychologist",
+            "id": "neimeyer_does_2005",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2005,
+                        9
+                    ]
+                ]
+            },
+            "page": "635-654",
+            "title": "Does the Model Matter? The Relationship Between Science-Practice Emphasis and Outcomes in Academic Training Programs in Counseling Psychology",
+            "title-short": "Does the Model Matter?",
+            "type": "article-journal",
+            "volume": "33"
+        },
+        {
+            "URL": "https://onlinegrad.pepperdine.edu/blog/types-of-psychology-degrees/",
+            "abstract": "Targeting a career in clinical psychology or cognitive therapy? A psychology degree can prepare you to work in either role and in related areas.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "container-title": "PEP-UMT",
+            "id": "noauthor_what_2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        5
+                    ]
+                ]
+            },
+            "title": "What Are the Different Types of Psychology Degrees?",
+            "type": ""
+        },
+        {
+            "DOI": "10.1177/0002764206296453",
+            "ISSN": "0002-7642, 1552-3381",
+            "URL": "https://journals.sagepub.com/doi/10.1177/0002764206296453",
+            "abstract": "This article will discuss the historical landmarks in the development of the field of psychology. Following World War II, there was an increased need for professional psychologists in the public sector. Professional psychology was poised to become an important force in graduate education and within the newly organized American Psychological Association. Questions were raised regarding the training of these psychologists, and David Shakow chaired a committee whose task was to formulate a recommended training program in clinical psychology and formulate standards for institutions offering such programs. The Boulder conference was held in 1949 to discuss the development of professional psychology. One of the most important outcomes of this meeting was the recommendation made that psychologists be trained with an equal emphasis in research and practice.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Petersen",
+                    "given": "Christine A."
+                }
+            ],
+            "container-title": "American Behavioral Scientist",
+            "id": "petersen_historical_2007",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        2007,
+                        2
+                    ]
+                ]
+            },
+            "page": "758-765",
+            "title": "A Historical Look at Psychology and the Scientist-Practitioner Model",
+            "type": "article-journal",
+            "volume": "50"
+        },
+        {
+            "DOI": "10.1037/a0022524",
+            "ISSN": "1931-3926, 1931-3918",
+            "URL": "https://doi.apa.org/doi/10.1037/a0022524",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Peterson",
+                    "given": "Roger L."
+                },
+                {
+                    "family": "Vincent",
+                    "given": "Wendy L."
+                },
+                {
+                    "family": "Fechter-Leggett",
+                    "given": "Molly"
+                }
+            ],
+            "container-title": "Training and Education in Professional Psychology",
+            "id": "peterson_necessary_2011",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2011,
+                        2
+                    ]
+                ]
+            },
+            "page": "9-14",
+            "title": "The necessary common knowledge approach to broad and general education for professional psychologists.",
+            "type": "article-journal",
+            "volume": "5"
+        },
+        {
+            "DOI": "10.1037/0735-7028.28.4.373",
+            "ISSN": "1939-1323, 0735-7028",
+            "URL": "https://doi.apa.org/doi/10.1037/0735-7028.28.4.373",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Peterson",
+                    "given": "Roger L."
+                },
+                {
+                    "family": "Peterson",
+                    "given": "Donald R."
+                },
+                {
+                    "family": "Abrams",
+                    "given": "Jules C."
+                },
+                {
+                    "family": "Stricker",
+                    "given": "George"
+                }
+            ],
+            "container-title": "Professional Psychology: Research and Practice",
+            "id": "peterson_national_1997",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        1997,
+                        8
+                    ]
+                ]
+            },
+            "page": "373-386",
+            "title": "The National Council of Schools and Programs of Professional Psychology educational model.",
+            "type": "article-journal",
+            "volume": "28"
+        },
+        {
+            "URL": "https://www.semanticscholar.org/paper/Qualitative-Research-Training-in-Counseling-A-of-of-Ponterotto/76f17a0d8342482ac56aa4930871310f54bb01a7",
+            "abstract": "Semantic Scholar extracted view of \"Qualitative Research Training in Counseling Psychology: A Survey of Directors of Training.\" by J. Ponterotto",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Ponterotto",
+                    "given": "J."
+                }
+            ],
+            "container-title": "Teaching of Psychology",
+            "id": "ponterotto_qualitative_2005",
+            "issued": {
+                "date-parts": [
+                    [
+                        2005
+                    ]
+                ]
+            },
+            "title": "Qualitative Research Training in Counseling Psychology: A Survey of Directors of Training.",
+            "title-short": "Qualitative Research Training in Counseling Psychology",
+            "type": "article-journal"
+        },
+        {
+            "URL": "http://psychologygradschool.weebly.com/types-of-programs.html",
+            "abstract": "I. Introduction When looking at doctoral programs in professional psychology, applicants have several options in the types of programs that are available. For example, there are clinical, school, and...",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "container-title": "Psychology Graduate School",
+            "id": "noauthor_types_nodate",
+            "title": "Types of Programs",
+            "type": ""
+        },
+        {
+            "URL": "https://catalogs.rutgers.edu/generated/gsapp_current/pg79.html",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "id": "noauthor_catalog_nodate",
+            "title": "Catalog Navigator : Definition of a Professional Psychologist",
+            "title-short": "Catalog Navigator ",
+            "type": ""
+        },
+        {
+            "DOI": "10.1080/10668926.2019.1666063",
+            "ISSN": "1066-8926",
+            "abstract": "Math anxiety is a debilitating problem that affects many community college students. Neuropsychological research suggests that negative rumination when anticipating math situations substantially exhausts working memory load, contributes to execution anxiety, which interferes with learning and performance. Studies have shown that improving the psychological experience in the classroom could have a positive impact on students’ academic achievement. However, there is little to no research employing interventions designed to specifically address anticipation and execution math anxiety in community college students. The current research investigated the effect of embedding a combined mindfulness and growth mindset intervention within a required first-year, two-semester developmental statistics course. Results from this mixed methods pilot study indicate that this new combined approach not only reduced math anxiety, but had also increased math self-efficacy in a sample of college students. Replication of the research is warranted in order to substantiate the preliminary results.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Samuel",
+                    "given": "Tashana S."
+                },
+                {
+                    "family": "Warner",
+                    "given": "Jared"
+                }
+            ],
+            "container-title": "Community College Journal of Research and Practice",
+            "id": "samuel_i_2021",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "keyword": "Anxiety, Community Colleges, Intervention, Mathematics Achievement, Mathematics Anxiety, Metacognition, Pretests Posttests, Rating Scales, Remedial Mathematics, Self Efficacy, Student Attitudes, Teaching Methods, Two Year College Students",
+            "note": "Publisher: Routledge ERIC Number: EJ1283481",
+            "page": "205-222",
+            "title": "\"I Can Math!\": Reducing Math Anxiety and Increasing Math Self-Efficacy Using a Mindfulness and Growth Mindset-Based Intervention in First-Year Students",
+            "title-short": "\"I Can Math!\"",
+            "type": "article-journal",
+            "volume": "45"
+        },
+        {
+            "DOI": "10.1037/1931-3918.S.1.37",
+            "ISSN": "1931-3926",
+            "abstract": "This reprinted article originally appeared in American Psychologist, 1995, Vol 50(12), 995-1002 (see record 1996-15662-001). The local clinical scientist brings the attitudes and knowledge base of the scientist to bear on the problems that must be addressed by the clinician in the consulting room. The problems of inadequate generalizability are reduced by a recognition of the value of local observations and local solutions to problems. However, these observations and solutions benefit by the scientific attitude of the clinician and are subjected to the same need for verifiability that greets all scientific enterprises. The clinical setting is viewed as analogous to a scientific laboratory, and, by doing so, the scientist-practitioner model is enacted. (PsycInfo Database Record (c) 2022 APA, all rights reserved)",
+            "author": [
+                {
+                    "family": "Stricker",
+                    "given": "George"
+                },
+                {
+                    "family": "Trierweiler",
+                    "given": "Steven J."
+                }
+            ],
+            "container-title": "Training and Education in Professional Psychology",
+            "id": "stricker_local_2006",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2006
+                    ]
+                ]
+            },
+            "keyword": "Clinical Psychology, Clinicians, Models, Psychologist Attitudes, Psychologists, Sciences, Scientists",
+            "note": "Place: US Publisher: Educational Publishing Foundation",
+            "page": "37-46",
+            "title": "The local clinical scientist: A bridge between science and practice",
+            "title-short": "The local clinical scientist",
+            "type": "article-journal",
+            "volume": "S"
+        },
+        {
+            "URL": "https://www.towson.edu/cla/departments/psychology/grad/psychology/counseling/versus.html",
+            "abstract": "Counseling Versus Clinical Psychology",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "container-title": "Towson University",
+            "id": "noauthor_counseling_nodate",
+            "title": "Counseling Versus Clinical Psychology",
+            "type": ""
+        },
+        {
+            "DOI": "10.1037/12068-007",
+            "ISBN": "978-1-4338-0458-8",
+            "abstract": "This chapter discusses the research and evaluation competency. In 2007, the National Council of Schools and Programs of Professional Psychology (NCSPP) created developmental achievement levels (DALs) for each core competency. Table 7.1 describes the domains of the research and evaluation competency and the knowledge, skills, and attitudes needed for each domain at the prepracticum, preintemship, and degree completion levels. This chapter focuses on the local clinical scientist and related training models for the research and evaluation competency and discusses some of the issues raised by this conceptualization. In particular, we focus on the ways the model has been misunderstood by contrasting it with its alternatives, highlighting some of the promising ways it has been implemented, and discussing the extensive work still needed to realize its potential. (PsycInfo Database Record (c) 2024 APA, all rights reserved)",
+            "author": [
+                {
+                    "family": "Trierweiler",
+                    "given": "Steven J."
+                },
+                {
+                    "family": "Stricker",
+                    "given": "George"
+                },
+                {
+                    "family": "Peterson",
+                    "given": "Roger L."
+                }
+            ],
+            "container-title": "Competency-based education for professional psychology",
+            "id": "trierweiler_research_2010",
+            "issued": {
+                "date-parts": [
+                    [
+                        2010
+                    ]
+                ]
+            },
+            "keyword": "Academic Achievement, Achievement Potential, Clinical Psychology Graduate Training, Evaluation, Models, Professional Competence, Psychology Education",
+            "page": "125-141",
+            "publisher": "American Psychological Association",
+            "publisher-place": "Washington, DC, US",
+            "title": "The research and evaluation competency: The local clinical scientist—Review, current status, future directions",
+            "title-short": "The research and evaluation competency",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.1080/10691898.2010.11889495",
+            "ISSN": "1069-1898",
+            "URL": "https://www.tandfonline.com/doi/full/10.1080/10691898.2010.11889495",
+            "abstract": "The purpose of this study was to investigate the relationship between instructor immediacy and statistics anxiety. It was predicted that students receiving immediacy would report lower levels of statistics anxiety. Using a pretest-posttest-control group design, immediacy was measured using the Instructor Immediacy scale. Statistics anxiety was measured using the Statistics Anxiety Rating Scale (STARS).",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Williams",
+                    "given": "Amanda S."
+                }
+            ],
+            "container-title": "Journal of Statistics Education",
+            "id": "williams_statistics_2010",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2010,
+                        7
+                    ]
+                ]
+            },
+            "page": "187",
+            "title": "Statistics Anxiety and Instructor Immediacy",
+            "type": "article-journal",
+            "volume": "18"
+        },
+        {
+            "URL": "https://psychology.arizona.edu/clinical/training-model",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "dropping-particle": "of",
+                    "family": "Arizona Clinical Psychology Program",
+                    "given": "University"
+                }
+            ],
+            "id": "university_of_arizona_clinical_psychology_program_program_2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "title": "Program Overview & Training Model  Psychology",
+            "type": ""
+        },
+        {
+            "URL": "https://psychology.utk.edu/graduate-students/programs/phd_counseling/scientist-practitioner-advocate-training-model/",
+            "abstract": "Our faculty share a commitment to sound, ethical, and multiculturally competent research and clinical practice, and the integration of the two. We also believe psychologists need competencies to intervene at systemic levels to address oppressive contextual factors that also contribute to the lived experiences of our research participants and clients.  Consistent with calls for counseling psychologists to […]",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "container-title": "Psychology",
+            "id": "noauthor_scientist-practitioner_nodate",
+            "title": "Scientist-Practitioner Advocate Training Model - Psychology Department",
+            "type": ""
         }
     ],
     "project_biblios": [

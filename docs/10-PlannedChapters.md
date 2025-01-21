@@ -12,14 +12,10 @@ The following is a listing of planned chapters and authors who have committed to
   - Ashley MacPherson & Pearis Bellamy
 * Program evaluation
   - Maryam Jernigan-Noesi
-* Dissemination to scientific and lay audiences
-  - Lisa De La Rue, Melissa Holt, & Lydia Ahn 
 * Internationalizing and decolonizing psychological research
   - Jenny Vaydich, Jacob Bentley, & Oscar Baldelomar
 * Institutional Review Boards
   - Meredith Maroney & Emily Coombs-Montanez
-* Training models
-  - Rachel Chickerella & Karen Meteyer
 * Research environment & culture
   - Sally Stabb
 

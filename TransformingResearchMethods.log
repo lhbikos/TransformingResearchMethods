@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.7)  20 JAN 2025 13:31
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.7)  20 JAN 2025 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -756,13 +756,19 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 
 [4]
 
-[5])
+[5]
+
+[6])
 \tf@toc=\write3
 \openout3 = `TransformingResearchMethods.toc'.
 
 
 
-[6]
+[7]
+
+[8
+
+]
 File: images/bookcover.png Graphic file (type bmp)
 <images/bookcover.png>
 
@@ -770,32 +776,21 @@ LaTeX Warning: Float too large for page by 50.14732pt on input line 107.
 
 
 
-[7
-
-]
-
-[8]
-
-[9
-
-]
+[9]
 
 [10]
-Chapter 1.
-
 
 [11
 
 ]
 
-
-Overfull \hbox (16.2851pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 12 \TU/lmr/m/sl/10.95 CHAPTER 1.  INTERNAL AND EXTERNAL VALIDITY IN HEALTH SERVICE PSYCHOLOGY
- []
-
 [12]
+Chapter 1.
 
-[13]
+
+[13
+
+]
 
 
 Overfull \hbox (16.2851pt too wide) has occurred while \output is active
@@ -848,149 +843,123 @@ Overfull \hbox (16.2851pt too wide) has occurred while \output is active
  []
 
 [24]
+
+[25]
+
+
+Overfull \hbox (16.2851pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 26 \TU/lmr/m/sl/10.95 CHAPTER 1.  INTERNAL AND EXTERNAL VALIDITY IN HEALTH SERVICE PSYCHOLOGY
+ []
+
+[26]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--414
+Underfull \hbox (badness 10000) in paragraph at lines 410--412
 
  []
 
 
 
-[25
+[27
 
 ]
 
 
-Overfull \hbox (305.81161pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 26 \TU/lmr/m/sl/10.95 CHAPTER 2.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
- []
-
-[26]
-Overfull \hbox (55.11133pt too wide) in paragraph at lines 488--489
-[][][][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
- []
-
-
-
-[27]
-
-
-Overfull \hbox (305.81161pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 28 \TU/lmr/m/sl/10.95 CHAPTER 2.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
+Overfull \hbox (73.0925pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 28 \TU/lmr/m/sl/10.95 CHAPTER 2.  UNDERSTANDING TRAINING MODELS AND THE FACTORS THAT TRANSCEND THEM
  []
 
 [28]
-Underfull \vbox (badness 1436) has occurred while \output is active []
-
-
-
-
-Overfull \hbox (8.47537pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10.95 2.4.  WHAT ARE HEALTH DISPARITIES, AND HOW DO WE PROMOTE HEALTH EQUITY? \TU/lmr/m/n/10.95 29
- []
 
 [29]
-
-
-Overfull \hbox (305.81161pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 30 \TU/lmr/m/sl/10.95 CHAPTER 2.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
- []
-
-[30]
-
-[31]
-
-
-Overfull \hbox (305.81161pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 32 \TU/lmr/m/sl/10.95 CHAPTER 2.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
- []
-
-[32]
-
-
-Overfull \hbox (45.96199pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10.95 2.6.  CONSIDERATIONS FOR CONDUCTING COMMUNITY-BASED PARTICIPATORY RESEARCH \TU/lmr/m/n/10.95 33
- []
-
-[33]
-Underfull \vbox (badness 5985) has occurred while \output is active []
-
-
-
-
-Overfull \hbox (305.81161pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 34 \TU/lmr/m/sl/10.95 CHAPTER 2.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
- []
-
-[34]
-
-
-Overfull \hbox (45.96199pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10.95 2.6.  CONSIDERATIONS FOR CONDUCTING COMMUNITY-BASED PARTICIPATORY RESEARCH \TU/lmr/m/n/10.95 35
- []
-
-[35]
-
-
-Overfull \hbox (305.81161pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 36 \TU/lmr/m/sl/10.95 CHAPTER 2.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
- []
-
-[36]
-
-
-Overfull \hbox (164.34976pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10.95 2.7.  CRITICAL QUESTIONS FOR CONDUCTING AND REVIEWING COMMUNITY-BASED PARTICIPATORY RESEARCH \TU/lmr/m/n/10.95 37
- []
-
-[37]
-Underfull \vbox (badness 3148) has occurred while \output is active []
-
-
-
-
-Overfull \hbox (305.81161pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 38 \TU/lmr/m/sl/10.95 CHAPTER 2.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
- []
-
-[38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 
-Overfull \hbox (455.47495pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10.95 2.8.  SUGGESTIONS FOR CARRYING OUT COMMUNITY-BASED PARTICIPATORY RESEARCH: APPLICATIONS FOR PRACTICE, FURTHER LEARNING, AND CONVERSATION \TU/lmr/m/n/10.95 39
+Overfull \hbox (73.0925pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 30 \TU/lmr/m/sl/10.95 CHAPTER 2.  UNDERSTANDING TRAINING MODELS AND THE FACTORS THAT TRANSCEND THEM
  []
+
+[30]
+
+
+Overfull \hbox (81.6104pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10.95 2.5.  THE VALUE OF RESEARCH AND QUANTITATIVE/QUALITATIVE LITERACY AS A COMPETENCY \TU/lmr/m/n/10.95 31
+ []
+
+[31]
+
+
+Overfull \hbox (73.0925pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 32 \TU/lmr/m/sl/10.95 CHAPTER 2.  UNDERSTANDING TRAINING MODELS AND THE FACTORS THAT TRANSCEND THEM
+ []
+
+[32]
+
+[33]
+
+
+Overfull \hbox (73.0925pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 34 \TU/lmr/m/sl/10.95 CHAPTER 2.  UNDERSTANDING TRAINING MODELS AND THE FACTORS THAT TRANSCEND THEM
+ []
+
+[34]
+
+[35]
+
+
+Overfull \hbox (73.0925pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 36 \TU/lmr/m/sl/10.95 CHAPTER 2.  UNDERSTANDING TRAINING MODELS AND THE FACTORS THAT TRANSCEND THEM
+ []
+
+[36]
+
+[37]
+Overfull \hbox (17.9783pt too wide) in paragraph at lines 575--576
+[]\TU/lmr/m/n/10.95 Institution  
+ []
+
+
+Overfull \hbox (14.65878pt too wide) in paragraph at lines 577--578
+[]\TU/lmr/m/n/10.95 Program  
+ []
+
+
+Overfull \hbox (73.0925pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 38 \TU/lmr/m/sl/10.95 CHAPTER 2.  UNDERSTANDING TRAINING MODELS AND THE FACTORS THAT TRANSCEND THEM
+ []
+
+[38]
 
 [39]
 
 
-Overfull \hbox (305.81161pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 40 \TU/lmr/m/sl/10.95 CHAPTER 2.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
+Overfull \hbox (73.0925pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 40 \TU/lmr/m/sl/10.95 CHAPTER 2.  UNDERSTANDING TRAINING MODELS AND THE FACTORS THAT TRANSCEND THEM
  []
 
-[40]
+[40
+
+]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--611
+
+ []
+
+
 
 [41]
 
 
 Overfull \hbox (305.81161pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 42 \TU/lmr/m/sl/10.95 CHAPTER 2.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
+\TU/lmr/m/n/10.95 42 \TU/lmr/m/sl/10.95 CHAPTER 3.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
  []
 
-[42
-
-]
-Chapter 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 805--810
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 811--812
-
+[42]
+Overfull \hbox (55.11133pt too wide) in paragraph at lines 685--686
+[][][][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[][] 
  []
 
 
@@ -998,17 +967,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 811--812
 [43]
 
 
-Overfull \hbox (34.6142pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 44 \TU/lmr/m/sl/10.95 CHAPTER 3.  BEST PRACTICES FOR DISSEMINATION TO SCIENTIFIC AND LAY AUDIENCES
+Overfull \hbox (305.81161pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 44 \TU/lmr/m/sl/10.95 CHAPTER 3.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
  []
 
 [44]
+Underfull \vbox (badness 1436) has occurred while \output is active []
+
+
+
+
+Overfull \hbox (8.47537pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10.95 3.4.  WHAT ARE HEALTH DISPARITIES, AND HOW DO WE PROMOTE HEALTH EQUITY? \TU/lmr/m/n/10.95 45
+ []
 
 [45]
 
 
-Overfull \hbox (34.6142pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 46 \TU/lmr/m/sl/10.95 CHAPTER 3.  BEST PRACTICES FOR DISSEMINATION TO SCIENTIFIC AND LAY AUDIENCES
+Overfull \hbox (305.81161pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 46 \TU/lmr/m/sl/10.95 CHAPTER 3.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
  []
 
 [46]
@@ -1016,399 +993,547 @@ Overfull \hbox (34.6142pt too wide) has occurred while \output is active
 [47]
 
 
-Overfull \hbox (34.6142pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 48 \TU/lmr/m/sl/10.95 CHAPTER 3.  BEST PRACTICES FOR DISSEMINATION TO SCIENTIFIC AND LAY AUDIENCES
+Overfull \hbox (305.81161pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 48 \TU/lmr/m/sl/10.95 CHAPTER 3.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
  []
 
 [48]
-Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 911--914
 
+Overfull \hbox (45.96199pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10.95 3.6.  CONSIDERATIONS FOR CONDUCTING COMMUNITY-BASED PARTICIPATORY RESEARCH \TU/lmr/m/n/10.95 49
  []
 
+[49]
+Underfull \vbox (badness 5985) has occurred while \output is active []
 
 
-[49
-
-]
 
 
-Overfull \hbox (17.9033pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 50 \TU/lmr/m/sl/10.95 CHAPTER 4.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
+Overfull \hbox (305.81161pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 50 \TU/lmr/m/sl/10.95 CHAPTER 3.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
  []
 
 [50]
 
+
+Overfull \hbox (45.96199pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10.95 3.6.  CONSIDERATIONS FOR CONDUCTING COMMUNITY-BASED PARTICIPATORY RESEARCH \TU/lmr/m/n/10.95 51
+ []
+
 [51]
 
 
-Overfull \hbox (17.9033pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 52 \TU/lmr/m/sl/10.95 CHAPTER 4.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
+Overfull \hbox (305.81161pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 52 \TU/lmr/m/sl/10.95 CHAPTER 3.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
  []
 
 [52]
 
+
+Overfull \hbox (164.34976pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10.95 3.7.  CRITICAL QUESTIONS FOR CONDUCTING AND REVIEWING COMMUNITY-BASED PARTICIPATORY RESEARCH \TU/lmr/m/n/10.95 53
+ []
+
 [53]
+Underfull \vbox (badness 3148) has occurred while \output is active []
 
 
-Overfull \hbox (17.9033pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 54 \TU/lmr/m/sl/10.95 CHAPTER 4.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
+
+
+Overfull \hbox (305.81161pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 54 \TU/lmr/m/sl/10.95 CHAPTER 3.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
  []
 
 [54]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Overfull \hbox (455.47495pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10.95 3.8.  SUGGESTIONS FOR CARRYING OUT COMMUNITY-BASED PARTICIPATORY RESEARCH: APPLICATIONS FOR PRACTICE, FURTHER LEARNING, AND CONVERSATION \TU/lmr/m/n/10.95 55
+ []
 
 [55]
 
 
-Overfull \hbox (17.9033pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 56 \TU/lmr/m/sl/10.95 CHAPTER 4.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
+Overfull \hbox (305.81161pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 56 \TU/lmr/m/sl/10.95 CHAPTER 3.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
  []
 
 [56]
 
+
+Overfull \hbox (10.91106pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10.95 3.11.  APPENDIX A: CHECKLIST FOR COMMUNITY-BASED PARTICIPATORY RESEARCH \TU/lmr/m/n/10.95 57
+ []
+
 [57]
 
 
-Overfull \hbox (17.9033pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 58 \TU/lmr/m/sl/10.95 CHAPTER 4.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
+Overfull \hbox (305.81161pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 58 \TU/lmr/m/sl/10.95 CHAPTER 3.  BUILDING EQUITY INTO RESEARCH DESIGN: COMMUNITY-BASED PARTICIPATORY RESEARCH IN COUNSELING PSYCHOLOGY
  []
 
-[58]
+[58
+
+]
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1000--1005
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1006--1007
+
+ []
+
+
 
 [59]
 
 
-Overfull \hbox (17.9033pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10.95 60 \TU/lmr/m/sl/10.95 CHAPTER 4.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
+Overfull \hbox (34.6142pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 60 \TU/lmr/m/sl/10.95 CHAPTER 4.  BEST PRACTICES FOR DISSEMINATION TO SCIENTIFIC AND LAY AUDIENCES
  []
 
 [60]
-Chapter 5.
 
-Underfull \vbox (badness 1817) has occurred while \output is active []
-
+[61]
 
 
-[61
-
-]
+Overfull \hbox (34.6142pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 62 \TU/lmr/m/sl/10.95 CHAPTER 4.  BEST PRACTICES FOR DISSEMINATION TO SCIENTIFIC AND LAY AUDIENCES
+ []
 
 [62]
 
 [63]
 
+
+Overfull \hbox (34.6142pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 64 \TU/lmr/m/sl/10.95 CHAPTER 4.  BEST PRACTICES FOR DISSEMINATION TO SCIENTIFIC AND LAY AUDIENCES
+ []
+
 [64]
+Chapter 5.
 
-[65]
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1345--1346
- []\TU/lmr/m/n/10.95 +/- 
+Underfull \hbox (badness 10000) in paragraph at lines 1104--1107
+
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1351--1352
- []|\TU/lmr/bx/n/10.95 +/- 
+
+[65
+
+]
+
+
+Overfull \hbox (17.9033pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 66 \TU/lmr/m/sl/10.95 CHAPTER 5.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
  []
 
+[66]
 
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1354--1355
- []|\TU/lmr/m/n/10.95 +/- 
+[67]
+
+
+Overfull \hbox (17.9033pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 68 \TU/lmr/m/sl/10.95 CHAPTER 5.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
  []
 
+[68]
 
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1356--1357
- []|\TU/lmr/m/n/10.95 +/- 
+[69]
+
+
+Overfull \hbox (17.9033pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 70 \TU/lmr/m/sl/10.95 CHAPTER 5.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
  []
-
-
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1362--1363
- []|\TU/lmr/bx/n/10.95 +/- 
- []
-
-
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1366--1367
- []|\TU/lmr/bx/n/10.95 +/- 
- []
-
-
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1371--1372
- []|\TU/lmr/m/n/10.95 +/- 
- []
-
-
-Overfull \hbox (2.91687pt too wide) in paragraph at lines 1373--1374
- []|\TU/lmr/m/n/10.95 NA| 
- []
-
-
-Overfull \hbox (2.91687pt too wide) in paragraph at lines 1375--1376
- []|\TU/lmr/m/n/10.95 NA| 
- []
-
-
-Overfull \hbox (2.91687pt too wide) in paragraph at lines 1377--1378
- []|\TU/lmr/m/n/10.95 NA| 
- []
-
-
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1379--1380
- []|\TU/lmr/m/n/10.95 +/- 
- []
-
-
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1380--1381
- []|\TU/lmr/bx/n/10.95 +/- 
- []
-
-
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1382--1383
- []|\TU/lmr/m/n/10.95 +/- 
- []
-
-
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1383--1384
- []|\TU/lmr/m/n/10.95 +/- 
- []
-
-
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1384--1385
- []|\TU/lmr/bx/n/10.95 +/- 
- []
-
-
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1385--1386
- []|\TU/lmr/m/n/10.95 +/- 
- []
-
-[66] [67] [68] [69]
 
 [70]
-Underfull \hbox (badness 10000) in paragraph at lines 1419--1421
-
- []
-
-
 
 [71]
+
+
+Overfull \hbox (17.9033pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 72 \TU/lmr/m/sl/10.95 CHAPTER 5.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
+ []
 
 [72]
 
 [73]
 
+
+Overfull \hbox (17.9033pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 74 \TU/lmr/m/sl/10.95 CHAPTER 5.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
+ []
+
 [74]
 
 [75]
 
-[76]
 
-[77]
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1798--1799
+Overfull \hbox (17.9033pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 76 \TU/lmr/m/sl/10.95 CHAPTER 5.  OPEN SCIENCE AS A STEP TOWARD SOCIAL RESPONSIVITY IN RESEARCH
+ []
+
+[76]
+Chapter 6.
+
+Underfull \vbox (badness 1817) has occurred while \output is active []
+
+
+
+[77
+
+]
+
+[78]
+
+[79]
+
+[80]
+
+[81]
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1538--1539
  []\TU/lmr/m/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1804--1805
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1544--1545
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1807--1808
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1547--1548
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1549--1550
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1555--1556
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1809--1810
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1559--1560
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1815--1816
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1564--1565
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (2.91687pt too wide) in paragraph at lines 1566--1567
+ []|\TU/lmr/m/n/10.95 NA| 
+ []
+
+
+Overfull \hbox (2.91687pt too wide) in paragraph at lines 1568--1569
+ []|\TU/lmr/m/n/10.95 NA| 
+ []
+
+
+Overfull \hbox (2.91687pt too wide) in paragraph at lines 1570--1571
+ []|\TU/lmr/m/n/10.95 NA| 
+ []
+
+
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1572--1573
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1573--1574
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1819--1820
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1575--1576
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1576--1577
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1577--1578
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1833--1834
- []|\TU/lmr/bx/n/10.95 +/- 
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1578--1579
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+[82] [83] [84] [85]
+
+[86]
+Underfull \hbox (badness 10000) in paragraph at lines 1612--1614
+
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1837--1838
- []|\TU/lmr/bx/n/10.95 +/- 
- []
-
-[78] [79] [80]
-
-[81]
-
-[82
-
-]
-Chapter 6.
-
-
-[83]
-
-[84]
-Chapter 7.
-
-
-[85
-
-]
-
-[86
-
-] (./TransformingResearchMethods.bbl
 
 [87]
 
-[88
+[88]
+
+[89]
+
+[90]
+
+[91]
+
+[92]
+
+[93]
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1991--1992
+ []\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1997--1998
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 2000--2001
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 2002--2003
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 2008--2009
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 2012--2013
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 2026--2027
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 2030--2031
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+[94] [95] [96]
+
+[97]
+
+[98
 
 ]
-Underfull \hbox (badness 1661) in paragraph at lines 13--19
+Chapter 7.
+
+
+[99]
+
+[100]
+Chapter 8.
+
+
+[101
+
+]
+
+[102
+
+] (./TransformingResearchMethods.bbl
+
+[103]
+
+[104
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+[] [] [][][][][][][][][][] [] [][][] [] [][][] [] [][][][][][][][] [][] [][][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][][][][][][] [] [][][][][][][][][] [][] [][][][][][][][][][][][] [][]
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 34--40
 [][][][] [] [][] [] [] [] [][][]$\TU/lmr/m/n/10.95 .  URL [][]$[][][][][] [] [] [] [][][][][][][] [] [][][] [] [][][] [] [][][][][] [] [][][] [] [][][][] [] [] [] [][][][][][] [] [][][][][][][][][] [] [][][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 7379) in paragraph at lines 21--24
+Underfull \hbox (badness 7379) in paragraph at lines 47--50
 []\TU/lmr/m/n/10.95 GitHub, July 2022a.  URL [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [] [] [][][][][] [] [][][] [] [][][][][] [] [][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 30--33
+Underfull \hbox (badness 1558) in paragraph at lines 56--59
 []\TU/lmr/m/n/10.95 Mendeley, June 2022c.  URL [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [] [] [][][][][] [] [][][] [] [][][][][] [] [][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--38
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
 []\TU/lmr/m/n/10.95 Open science, May 2022d.  URL [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [] [] [][][][][] [] [][][] [] [][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 5878) in paragraph at lines 45--48
+Underfull \hbox (badness 5878) in paragraph at lines 71--74
 []\TU/lmr/m/n/10.95 RStudio, July 2022f.  URL [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [] [] [][][][][] [] [][][] [] [][][][][] [] [][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 50--57
+Underfull \hbox (badness 2088) in paragraph at lines 76--83
 []\TU/lmr/m/n/10.95 George Alter and Richard Gonzalez.  Responsible practices for data sharing.  \TU/lmr/m/it/10.95 Amer-
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 50--57
+Underfull \hbox (badness 2401) in paragraph at lines 76--83
 \TU/lmr/m/it/10.95 ican Psychologist\TU/lmr/m/n/10.95 , 73(2):146–156, February 2018.  ISSN 0003-066X.  doi: $[][] [] [][][][] []
  []
 
 
 
-[89]
-Underfull \hbox (badness 1748) in paragraph at lines 78--85
+[105]
+Missing character: There is no ‟ (U+201F) in font [lmroman10-regular]:mapping=tex-text;!
+
+Underfull \hbox (badness 1748) in paragraph at lines 109--116
 []\TU/lmr/m/n/10.95 Mark Appelbaum, Harris Cooper, Rex B. Kline, Evan Mayo-Wilson, Arthur M. Nezu,
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 78--85
+Underfull \hbox (badness 2486) in paragraph at lines 109--116
 \TU/lmr/m/n/10.95 and Stephen M. Rao.  Journal article reporting standards for quantitative research
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 78--85
+Underfull \hbox (badness 1917) in paragraph at lines 109--116
 \TU/lmr/m/n/10.95 in psychology: The APA Publications and Communications Board task force report.
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 78--85
+Underfull \hbox (badness 1917) in paragraph at lines 109--116
 \TU/lmr/m/it/10.95 American Psychologist\TU/lmr/m/n/10.95 , 73(1):3–25, January 2018.  ISSN 0003-066X.  doi: $[][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 119--126
+
+[106]
+Underfull \hbox (badness 1297) in paragraph at lines 157--164
 \TU/lmr/m/n/10.95 titative research in psychology: Report of the joint psychological societies preregistra-
  []
 
 
-Underfull \hbox (badness 2293) in paragraph at lines 119--126
+Underfull \hbox (badness 2293) in paragraph at lines 157--164
 [][][][] [] [][][][][][][][][][]$\TU/lmr/m/n/10.95 .  URL [][]$[][][][][] [] [] [] [][][][][][][] [] [][][] [] [][][] [] [][][][][] [] [][][] [] [][][][][] [] [] [] [][][][][][] [] [][][][][][][][][] [] [][][] []
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 136--143
+Underfull \hbox (badness 1354) in paragraph at lines 174--181
 \TU/lmr/m/it/10.95 chologist\TU/lmr/m/n/10.95 , 38(4):414–423, April 1983.  ISSN 0003-066X.  doi: $[][] [] [][][][] [] [][][][] [][] [][][][] [] [][] [] [] []
  []
 
 
 
-[90]
+[107]
 
-[91]
-Underfull \hbox (badness 1102) in paragraph at lines 237--244
+[108]
+Underfull \hbox (badness 1102) in paragraph at lines 338--345
 []\TU/lmr/m/n/10.95 Judith L. Gibbons.  Inaugural editorial.  \TU/lmr/m/it/10.95 International Perspectives in Psychology: Re-
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 255--262
+Underfull \hbox (badness 1231) in paragraph at lines 364--371
 \TU/lmr/m/it/10.95 ioral Medicine\TU/lmr/m/n/10.95 , 10(1):1–21, December 2022.  ISSN null.  doi: $[][] [] [][][][] [] [][][][][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 5939) in paragraph at lines 279--286
+Underfull \hbox (badness 5939) in paragraph at lines 405--412
 []\TU/lmr/m/n/10.95 Yu-Te Huang and Randolph C. H. Chan.  Effects of sexual orientation conceal-
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 279--286
+Underfull \hbox (badness 1406) in paragraph at lines 405--412
 \TU/lmr/m/n/10.95 ment on well-being among sexual minorities: How and when does concealment hurt?
  []
 
 
-Underfull \hbox (badness 3690) in paragraph at lines 279--286
+Underfull \hbox (badness 3690) in paragraph at lines 405--412
 \TU/lmr/m/it/10.95 Journal of Counseling Psychology\TU/lmr/m/n/10.95 , June 2022.  ISSN 0022-0167.  doi: $[][] [] [][][][] []
  []
 
 
 
-[92]
-Underfull \hbox (badness 1694) in paragraph at lines 316--323
+[109]
+Underfull \hbox (badness 1694) in paragraph at lines 466--473
 [][][][] [][] [][][][] [] [][] [] [] [] [][][]$\TU/lmr/m/n/10.95 .  URL [][]$[][][][][] [] [] [] [][][][][][][] [] [][][] [] [][][] [] [][][][][] [] [][][] [] [][][][] [] [] [] [][][][][][] [] [][][][][][][][][] [] [][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--361
+
+[110]
+Underfull \hbox (badness 10000) in paragraph at lines 517--524
 [] [] [][][][][][] [] [][][][][][][][][] [] [][][] [] [][][][][] [] [][][][] [] [][][][][][] [] [][][][][][][][][][][][][] [] [][][][][] [] [][][][][][][] [] [][][][] [][] [][][][][] [][]
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 395--402
+
+[111]
+Underfull \hbox (badness 6658) in paragraph at lines 592--596
+[]\TU/lmr/m/n/10.95 J. Ponterotto.  Qualitative Research Training in Counseling Psychology: A Sur-
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 592--596
+\TU/lmr/m/n/10.95 vey of Directors of Training.  \TU/lmr/m/it/10.95 Teaching of Psychology\TU/lmr/m/n/10.95 , 2005.  URL [][]$[][][][][] [] [] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--596
+[][][][][][][][][][][][][][][] [] [][][] [] [][][][][] [] [][][][][][][][][][][] [][] [][][][][][][][] [][] [][][][][][][][] [][] [][] [][] [][][][][][][][][][] [][] [] [][] [][] [][] [][] [][] [][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 598--605
 []\TU/lmr/m/n/10.95 Robert Rosenthal.  The file drawer problem and tolerance for null results.  \TU/lmr/m/it/10.95 Psychologi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--411
+Underfull \hbox (badness 10000) in paragraph at lines 607--614
 [] [] [][][][][][] [] [][][][][][][][][] [] [][][] [] [][][][][] [] [][][][] [] [][][][][][] [] [][][][][][][][][][][][][] [] [][][][][] [] [][][][][][][] [] [][][][] [][] [][][][][] [][]
  []
 
 
 
-[93])
+[112])
 
-[94] (./TransformingResearchMethods.aux)
+[113] (./TransformingResearchMethods.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 18379 strings out of 476234
- 338343 string characters out of 5785539
+ 18511 strings out of 476234
+ 342522 string characters out of 5785539
  1971612 words of memory out of 5000000
- 40711 multiletter control sequences out of 15000+600000
+ 40843 multiletter control sequences out of 15000+600000
  564518 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 90i,7n,123p,2594b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,7n,123p,2594b,699s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on TransformingResearchMethods.pdf (94 pages).
+Output written on TransformingResearchMethods.pdf (113 pages).
