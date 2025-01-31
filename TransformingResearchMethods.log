@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.7)  20 JAN 2025 16:29
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.7)  30 JAN 2025 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -758,17 +758,15 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 
 [5]
 
-[6])
+[6]
+
+[7])
 \tf@toc=\write3
 \openout3 = `TransformingResearchMethods.toc'.
 
 
 
-[7]
-
-[8
-
-]
+[8]
 File: images/bookcover.png Graphic file (type bmp)
 <images/bookcover.png>
 
@@ -776,7 +774,9 @@ LaTeX Warning: Float too large for page by 50.14732pt on input line 107.
 
 
 
-[9]
+[9
+
+]
 
 [10]
 
@@ -1183,188 +1183,317 @@ Overfull \hbox (17.9033pt too wide) has occurred while \output is active
 [76]
 Chapter 6.
 
-Underfull \vbox (badness 1817) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 1315--1319
+
+ []
+
+
+Underfull \vbox (badness 1371) has occurred while \output is active []
 
 
 
 [77
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 1358--1359
+
+ []
+
+
+
+
+Overfull \hbox (387.26624pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 78 \TU/lmr/m/sl/10.95 CHAPTER 6.  SOCIAL AND CULTURAL RESPONSIVITY IN THE RESEARCH ENVIRONMENT: GRADUATE STUDENT PERSPECTIVES AND RECOMMENDATIONS
+ []
 
 [78]
 
 [79]
 
+
+Overfull \hbox (387.26624pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 80 \TU/lmr/m/sl/10.95 CHAPTER 6.  SOCIAL AND CULTURAL RESPONSIVITY IN THE RESEARCH ENVIRONMENT: GRADUATE STUDENT PERSPECTIVES AND RECOMMENDATIONS
+ []
+
 [80]
 
 [81]
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1538--1539
- []\TU/lmr/m/n/10.95 +/- 
+
+
+Overfull \hbox (387.26624pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 82 \TU/lmr/m/sl/10.95 CHAPTER 6.  SOCIAL AND CULTURAL RESPONSIVITY IN THE RESEARCH ENVIRONMENT: GRADUATE STUDENT PERSPECTIVES AND RECOMMENDATIONS
  []
 
+[82]
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1544--1545
- []|\TU/lmr/bx/n/10.95 +/- 
+[83]
+
+
+Overfull \hbox (387.26624pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 84 \TU/lmr/m/sl/10.95 CHAPTER 6.  SOCIAL AND CULTURAL RESPONSIVITY IN THE RESEARCH ENVIRONMENT: GRADUATE STUDENT PERSPECTIVES AND RECOMMENDATIONS
  []
 
+[84]
 
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1547--1548
- []|\TU/lmr/m/n/10.95 +/- 
+[85]
+Underfull \vbox (badness 5637) has occurred while \output is active []
+
+
+
+
+Overfull \hbox (387.26624pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 86 \TU/lmr/m/sl/10.95 CHAPTER 6.  SOCIAL AND CULTURAL RESPONSIVITY IN THE RESEARCH ENVIRONMENT: GRADUATE STUDENT PERSPECTIVES AND RECOMMENDATIONS
  []
-
-
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1549--1550
- []|\TU/lmr/m/n/10.95 +/- 
- []
-
-
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1555--1556
- []|\TU/lmr/bx/n/10.95 +/- 
- []
-
-
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1559--1560
- []|\TU/lmr/bx/n/10.95 +/- 
- []
-
-
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1564--1565
- []|\TU/lmr/m/n/10.95 +/- 
- []
-
-
-Overfull \hbox (2.91687pt too wide) in paragraph at lines 1566--1567
- []|\TU/lmr/m/n/10.95 NA| 
- []
-
-
-Overfull \hbox (2.91687pt too wide) in paragraph at lines 1568--1569
- []|\TU/lmr/m/n/10.95 NA| 
- []
-
-
-Overfull \hbox (2.91687pt too wide) in paragraph at lines 1570--1571
- []|\TU/lmr/m/n/10.95 NA| 
- []
-
-
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1572--1573
- []|\TU/lmr/m/n/10.95 +/- 
- []
-
-
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1573--1574
- []|\TU/lmr/bx/n/10.95 +/- 
- []
-
-
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1575--1576
- []|\TU/lmr/m/n/10.95 +/- 
- []
-
-
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1576--1577
- []|\TU/lmr/m/n/10.95 +/- 
- []
-
-
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1577--1578
- []|\TU/lmr/bx/n/10.95 +/- 
- []
-
-
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1578--1579
- []|\TU/lmr/m/n/10.95 +/- 
- []
-
-[82] [83] [84] [85]
 
 [86]
-Underfull \hbox (badness 10000) in paragraph at lines 1612--1614
-
- []
-
-
 
 [87]
+
+
+Overfull \hbox (387.26624pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 88 \TU/lmr/m/sl/10.95 CHAPTER 6.  SOCIAL AND CULTURAL RESPONSIVITY IN THE RESEARCH ENVIRONMENT: GRADUATE STUDENT PERSPECTIVES AND RECOMMENDATIONS
+ []
 
 [88]
 
 [89]
 
+
+Overfull \hbox (387.26624pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 90 \TU/lmr/m/sl/10.95 CHAPTER 6.  SOCIAL AND CULTURAL RESPONSIVITY IN THE RESEARCH ENVIRONMENT: GRADUATE STUDENT PERSPECTIVES AND RECOMMENDATIONS
+ []
+
 [90]
 
 [91]
 
+
+Overfull \hbox (387.26624pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 92 \TU/lmr/m/sl/10.95 CHAPTER 6.  SOCIAL AND CULTURAL RESPONSIVITY IN THE RESEARCH ENVIRONMENT: GRADUATE STUDENT PERSPECTIVES AND RECOMMENDATIONS
+ []
+
 [92]
 
 [93]
-Overfull \hbox (4.13231pt too wide) in paragraph at lines 1991--1992
+
+
+Overfull \hbox (387.26624pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 94 \TU/lmr/m/sl/10.95 CHAPTER 6.  SOCIAL AND CULTURAL RESPONSIVITY IN THE RESEARCH ENVIRONMENT: GRADUATE STUDENT PERSPECTIVES AND RECOMMENDATIONS
+ []
+
+[94]
+
+[95]
+
+
+Overfull \hbox (387.26624pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 96 \TU/lmr/m/sl/10.95 CHAPTER 6.  SOCIAL AND CULTURAL RESPONSIVITY IN THE RESEARCH ENVIRONMENT: GRADUATE STUDENT PERSPECTIVES AND RECOMMENDATIONS
+ []
+
+[96]
+
+[97]
+
+
+Overfull \hbox (387.26624pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10.95 98 \TU/lmr/m/sl/10.95 CHAPTER 6.  SOCIAL AND CULTURAL RESPONSIVITY IN THE RESEARCH ENVIRONMENT: GRADUATE STUDENT PERSPECTIVES AND RECOMMENDATIONS
+ []
+
+[98]
+Chapter 7.
+
+Underfull \vbox (badness 1817) has occurred while \output is active []
+
+
+
+[99
+
+]
+
+[100]
+
+[101]
+
+[102]
+
+[103]
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1892--1893
  []\TU/lmr/m/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 1997--1998
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1898--1899
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 2000--2001
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1901--1902
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1903--1904
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1909--1910
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 2002--2003
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1913--1914
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 2008--2009
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1918--1919
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (2.91687pt too wide) in paragraph at lines 1920--1921
+ []|\TU/lmr/m/n/10.95 NA| 
+ []
+
+
+Overfull \hbox (2.91687pt too wide) in paragraph at lines 1922--1923
+ []|\TU/lmr/m/n/10.95 NA| 
+ []
+
+
+Overfull \hbox (2.91687pt too wide) in paragraph at lines 1924--1925
+ []|\TU/lmr/m/n/10.95 NA| 
+ []
+
+
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1926--1927
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1927--1928
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 2012--2013
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1929--1930
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1930--1931
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 1931--1932
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 2026--2027
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 1932--1933
+ []|\TU/lmr/m/n/10.95 +/- 
+ []
+
+[104] [105] [106] [107]
+
+[108]
+Underfull \hbox (badness 10000) in paragraph at lines 1966--1968
+
+ []
+
+
+
+[109]
+
+[110]
+
+[111]
+
+[112]
+
+[113]
+
+[114]
+
+[115]
+Overfull \hbox (4.13231pt too wide) in paragraph at lines 2345--2346
+ []\TU/lmr/m/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 2351--2352
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
 
-Overfull \hbox (6.77126pt too wide) in paragraph at lines 2030--2031
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 2354--2355
  []|\TU/lmr/bx/n/10.95 +/- 
  []
 
-[94] [95] [96]
 
-[97]
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 2356--2357
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
 
-[98
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 2362--2363
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 2366--2367
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 2380--2381
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+
+Overfull \hbox (6.77126pt too wide) in paragraph at lines 2384--2385
+ []|\TU/lmr/bx/n/10.95 +/- 
+ []
+
+[116]
+Overfull \hbox (3.83853pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10.95 7.8.  SUGGESTIONS FOR PRACTICE, FURTHER LEARNING, AND/OR CONVERSATION \TU/lmr/m/n/10.95 117
+ []
+
+[117] [118]
+
+
+Overfull \hbox (3.83853pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10.95 7.8.  SUGGESTIONS FOR PRACTICE, FURTHER LEARNING, AND/OR CONVERSATION \TU/lmr/m/n/10.95 119
+ []
+
+[119]
+
+[120
 
 ]
-Chapter 7.
-
-
-[99]
-
-[100]
 Chapter 8.
 
 
-[101
+[121]
+
+[122]
+Chapter 9.
+
+
+[123
 
 ]
 
-[102
+[124
 
 ] (./TransformingResearchMethods.bbl
 
-[103]
+[125]
 
-[104
+[126
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 13--15
@@ -1377,163 +1506,172 @@ Underfull \hbox (badness 1661) in paragraph at lines 34--40
  []
 
 
-Underfull \hbox (badness 7379) in paragraph at lines 47--50
+Underfull \hbox (badness 7379) in paragraph at lines 52--55
 []\TU/lmr/m/n/10.95 GitHub, July 2022a.  URL [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [] [] [][][][][] [] [][][] [] [][][][][] [] [][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 56--59
+Underfull \hbox (badness 1558) in paragraph at lines 61--64
 []\TU/lmr/m/n/10.95 Mendeley, June 2022c.  URL [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [] [] [][][][][] [] [][][] [] [][][][][] [] [][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--64
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
 []\TU/lmr/m/n/10.95 Open science, May 2022d.  URL [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [] [] [][][][][] [] [][][] [] [][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 5878) in paragraph at lines 71--74
+Underfull \hbox (badness 5878) in paragraph at lines 76--79
 []\TU/lmr/m/n/10.95 RStudio, July 2022f.  URL [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [] [] [][][][][] [] [][][] [] [][][][][] [] [][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 76--83
+
+[127]
+Underfull \hbox (badness 2088) in paragraph at lines 93--100
 []\TU/lmr/m/n/10.95 George Alter and Richard Gonzalez.  Responsible practices for data sharing.  \TU/lmr/m/it/10.95 Amer-
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 76--83
+Underfull \hbox (badness 2401) in paragraph at lines 93--100
 \TU/lmr/m/it/10.95 ican Psychologist\TU/lmr/m/n/10.95 , 73(2):146–156, February 2018.  ISSN 0003-066X.  doi: $[][] [] [][][][] []
  []
 
-
-
-[105]
 Missing character: There is no ‟ (U+201F) in font [lmroman10-regular]:mapping=tex-text;!
 
-Underfull \hbox (badness 1748) in paragraph at lines 109--116
+Underfull \hbox (badness 1748) in paragraph at lines 126--133
 []\TU/lmr/m/n/10.95 Mark Appelbaum, Harris Cooper, Rex B. Kline, Evan Mayo-Wilson, Arthur M. Nezu,
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 109--116
+Underfull \hbox (badness 2486) in paragraph at lines 126--133
 \TU/lmr/m/n/10.95 and Stephen M. Rao.  Journal article reporting standards for quantitative research
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 109--116
+Underfull \hbox (badness 1917) in paragraph at lines 126--133
 \TU/lmr/m/n/10.95 in psychology: The APA Publications and Communications Board task force report.
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 109--116
+Underfull \hbox (badness 1917) in paragraph at lines 126--133
 \TU/lmr/m/it/10.95 American Psychologist\TU/lmr/m/n/10.95 , 73(1):3–25, January 2018.  ISSN 0003-066X.  doi: $[][] [] [][][][] []
  []
 
 
 
-[106]
-Underfull \hbox (badness 1297) in paragraph at lines 157--164
+[128]
+Underfull \hbox (badness 1297) in paragraph at lines 174--181
 \TU/lmr/m/n/10.95 titative research in psychology: Report of the joint psychological societies preregistra-
  []
 
 
-Underfull \hbox (badness 2293) in paragraph at lines 157--164
+Underfull \hbox (badness 2293) in paragraph at lines 174--181
 [][][][] [] [][][][][][][][][][]$\TU/lmr/m/n/10.95 .  URL [][]$[][][][][] [] [] [] [][][][][][][] [] [][][] [] [][][] [] [][][][][] [] [][][] [] [][][][][] [] [] [] [][][][][][] [] [][][][][][][][][] [] [][][] []
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 174--181
+Underfull \hbox (badness 1354) in paragraph at lines 215--222
 \TU/lmr/m/it/10.95 chologist\TU/lmr/m/n/10.95 , 38(4):414–423, April 1983.  ISSN 0003-066X.  doi: $[][] [] [][][][] [] [][][][] [][] [][][][] [] [][] [] [] []
  []
 
 
 
-[107]
+[129]
 
-[108]
-Underfull \hbox (badness 1102) in paragraph at lines 338--345
+[130]
+
+[131]
+Underfull \hbox (badness 1102) in paragraph at lines 440--447
 []\TU/lmr/m/n/10.95 Judith L. Gibbons.  Inaugural editorial.  \TU/lmr/m/it/10.95 International Perspectives in Psychology: Re-
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 364--371
+Underfull \hbox (badness 1231) in paragraph at lines 480--487
 \TU/lmr/m/it/10.95 ioral Medicine\TU/lmr/m/n/10.95 , 10(1):1–21, December 2022.  ISSN null.  doi: $[][] [] [][][][] [] [][][][][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 5939) in paragraph at lines 405--412
+
+[132]
+Underfull \hbox (badness 5939) in paragraph at lines 529--536
 []\TU/lmr/m/n/10.95 Yu-Te Huang and Randolph C. H. Chan.  Effects of sexual orientation conceal-
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 405--412
+Underfull \hbox (badness 1406) in paragraph at lines 529--536
 \TU/lmr/m/n/10.95 ment on well-being among sexual minorities: How and when does concealment hurt?
  []
 
 
-Underfull \hbox (badness 3690) in paragraph at lines 405--412
+Underfull \hbox (badness 3690) in paragraph at lines 529--536
 \TU/lmr/m/it/10.95 Journal of Counseling Psychology\TU/lmr/m/n/10.95 , June 2022.  ISSN 0022-0167.  doi: $[][] [] [][][][] []
  []
 
 
 
-[109]
-Underfull \hbox (badness 1694) in paragraph at lines 466--473
+[133]
+
+[134]
+Underfull \hbox (badness 1694) in paragraph at lines 691--698
 [][][][] [][] [][][][] [] [][] [] [] [] [][][]$\TU/lmr/m/n/10.95 .  URL [][]$[][][][][] [] [] [] [][][][][][][] [] [][][] [] [][][] [] [][][][][] [] [][][] [] [][][][] [] [] [] [][][][][][] [] [][][][][][][][][] [] [][][] []
  []
 
 
 
-[110]
-Underfull \hbox (badness 10000) in paragraph at lines 517--524
+[135]
+
+[136]
+Underfull \hbox (badness 10000) in paragraph at lines 810--817
 [] [] [][][][][][] [] [][][][][][][][][] [] [][][] [] [][][][][] [] [][][][] [] [][][][][][] [] [][][][][][][][][][][][][] [] [][][][][] [] [][][][][][][] [] [][][][] [][] [][][][][] [][]
  []
 
 
 
-[111]
-Underfull \hbox (badness 6658) in paragraph at lines 592--596
+[137]
+Underfull \hbox (badness 6658) in paragraph at lines 893--897
 []\TU/lmr/m/n/10.95 J. Ponterotto.  Qualitative Research Training in Counseling Psychology: A Sur-
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 592--596
+Underfull \hbox (badness 2698) in paragraph at lines 893--897
 \TU/lmr/m/n/10.95 vey of Directors of Training.  \TU/lmr/m/it/10.95 Teaching of Psychology\TU/lmr/m/n/10.95 , 2005.  URL [][]$[][][][][] [] [] [] [][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 592--596
+Underfull \hbox (badness 10000) in paragraph at lines 893--897
 [][][][][][][][][][][][][][][] [] [][][] [] [][][][][] [] [][][][][][][][][][][] [][] [][][][][][][][] [][] [][][][][][][][] [][] [][] [][] [][][][][][][][][][] [][] [] [][] [][] [][] [][] [][] [][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 598--605
+Underfull \hbox (badness 1038) in paragraph at lines 915--922
 []\TU/lmr/m/n/10.95 Robert Rosenthal.  The file drawer problem and tolerance for null results.  \TU/lmr/m/it/10.95 Psychologi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 607--614
+Underfull \hbox (badness 10000) in paragraph at lines 924--931
 [] [] [][][][][][] [] [][][][][][][][][] [] [][][] [] [][][][][] [] [][][][] [] [][][][][][] [] [][][][][][][][][][][][][] [] [][][][][] [] [][][][][][][] [] [][][][] [][] [][][][][] [][]
  []
 
 
 
-[112])
+[138]
 
-[113] (./TransformingResearchMethods.aux)
+[139])
+
+[140] (./TransformingResearchMethods.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 18511 strings out of 476234
- 342522 string characters out of 5785539
+ 18721 strings out of 476234
+ 347936 string characters out of 5785539
  1971612 words of memory out of 5000000
- 40843 multiletter control sequences out of 15000+600000
+ 41053 multiletter control sequences out of 15000+600000
  564518 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 90i,7n,123p,2594b,699s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,7n,123p,2594b,795s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on TransformingResearchMethods.pdf (113 pages).
+Output written on TransformingResearchMethods.pdf (140 pages).

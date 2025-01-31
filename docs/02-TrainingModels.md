@@ -4,7 +4,7 @@
 *Rachel M. Chickerella (she/her) PhD, Antioch University New England*\
 *Karen Meteyer (she/her), PhD, Antioch University New England*\
 
-*Placeholder for land acknowledgement.*\ 
+*Antioch University New England is located on the traditional homelands of N’dakinna, the ancestral homeland of the Abenaki people along the Kwanitekw (Connecticut) and Ashuelot watersheds.*\ 
 </center>
 <br>
 

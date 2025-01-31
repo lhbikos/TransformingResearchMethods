@@ -4,7 +4,7 @@ title: 'Transforming Research Methods in Health Services Psychology: Application
 author:
 - Lynette H. Bikos, PhD, ABPP & Cirleen DeBlaere, PhD, Editors
 - Kiana Clay, Editorial Assistant
-date: "20 Jan 2025"
+date: "30 Jan 2025"
 documentclass: book
 site: bookdown::bookdown_site
 bibliography: TRM.bib
@@ -42,7 +42,7 @@ All materials used in creating this OER are available at its [GitHub repo](https
 
 # PREFACE {-}
 
-**If you are viewing this document, you should know that this is a book-in-progress.  Early drafts are released for the Transforming Counseling Psychology Curriculum Showcase at APA 2022, for peer review, and for generating interest in collaboration. The document was last updated on 20 Jan 2025**.  
+**If you are viewing this document, you should know that this is a book-in-progress.  Early drafts are released for the Transforming Counseling Psychology Curriculum Showcase at APA 2022, for peer review, and for generating interest in collaboration. The document was last updated on 30 Jan 2025**.  
 
 In her 2021-2022 term as President of the Society of Counseling Psychology, one of Dr. Amy Reynolds' Presidential Initiatives was *Transforming Counseling Psychology Curriculum and Praxis.* Dr. Reynolds invited counseling psychology faculty, practitioners, and doctoral students "to critically examine and deconstruct how various competencies, courses, and content are taught; how we socialize our students; and then re-imagine, dream, and reconstruct new and transformative ways to teach and train."
 
