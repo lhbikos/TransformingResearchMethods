@@ -51,15 +51,17 @@
 \makesavenoteenv{longtable}
 \usepackage{graphicx}
 \makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
 % Set default figure placement to htbp
-\makeatletter
 \def\fps@figure{htbp}
 \makeatother
 \setlength{\emergencystretch}{3em} % prevent overfull lines
@@ -67,9 +69,6 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
 \usepackage{booktabs}
-\ifLuaTeX
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
 \usepackage[]{natbib}
 \bibliographystyle{plainnat}
 \usepackage{bookmark}
@@ -87,7 +86,7 @@
 
 \title{Transforming Research Methods in Health Services Psychology: Applications for the Advocate \textasciitilde{} Practitioner \textasciitilde{} Scientist}
 \author{Lynette H. Bikos, PhD, ABPP \& Cirleen DeBlaere, PhD, Editors \and Kiana Clay, Editorial Assistant}
-\date{30 Jan 2025}
+\date{06 Jun 2025}
 
 \begin{document}
 \maketitle
@@ -102,7 +101,7 @@
 
 \begin{figure}
 \centering
-\includegraphics{images/bookcover.png}
+\pandocbounded{\includegraphics[keepaspectratio]{images/bookcover.png}}
 \caption{An image of the book cover. It includes three overlapping, pastel-colored, circles representing advocacy, practice, and science. These are surrounded by a handful of statistical symbols and formulae. methods.}
 \end{figure}
 
@@ -125,7 +124,7 @@ All materials used in creating this OER are available at its \href{https://githu
 \chapter*{PREFACE}\label{preface}
 
 
-\textbf{If you are viewing this document, you should know that this is a book-in-progress. Early drafts are released for the Transforming Counseling Psychology Curriculum Showcase at APA 2022, for peer review, and for generating interest in collaboration. The document was last updated on 30 Jan 2025}.
+\textbf{If you are viewing this document, you should know that this is a book-in-progress. Early drafts are released for the Transforming Counseling Psychology Curriculum Showcase at APA 2022, for peer review, and for generating interest in collaboration. The document was last updated on 06 Jun 2025}.
 
 In her 2021-2022 term as President of the Society of Counseling Psychology, one of Dr.~Amy Reynolds' Presidential Initiatives was \emph{Transforming Counseling Psychology Curriculum and Praxis.} Dr.~Reynolds invited counseling psychology faculty, practitioners, and doctoral students ``to critically examine and deconstruct how various competencies, courses, and content are taught; how we socialize our students; and then re-imagine, dream, and reconstruct new and transformative ways to teach and train.''
 
@@ -563,13 +562,13 @@ Instruction in research methods, both quantitative and qualitative, is a complic
 To better understand the impact of training models on the doctoral students research training, we encourage you to examine websites of 10 APA-accredited programs in clinical, counseling, and school psychology. Seek a diversity of programs (PhD and PsyD with differing training models). Complete this table and then reflect on the similarities and differences you noted. Did there seem to be patterns according to training model?
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.0827}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.0677}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1053}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1353}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1278}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.2857}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1955}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.0827}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.0677}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1053}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1353}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1278}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.2857}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1955}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Institution
@@ -1428,7 +1427,7 @@ In this section, scholarship that accesses minoritized graduate students' voices
 \subsection{Studies Using Multiple BIPOC Graduate Student Groups}\label{studies-using-multiple-bipoc-graduate-student-groups}
 
 \begin{quote}
-In my department (in the sciences) there's fewer females than males, but in science in general, and I guess the higher you go toward pursuing the PhD, there tend to be fewer, at least, African American females. And so in a way that has actually deterred me because, I mean, sometimes you feel like you're the only one. \citep[238]{levin_graduate_2013}
+In my department (in the sciences) there's fewer females than males, but in science in general, and I guess the higher you go toward pursuing the PhD, there tend to be fewer, at least, African American females. And so in a way that has actually deterred me because, I mean, sometimes you feel like you're the only one. \citep[p.~238]{levin_graduate_2013}
 \end{quote}
 
 The challenges faced by graduate students, including students of color, are discussed extensively in the literature. These challenges include structural isolation; the significant time commitment required to obtain a degree; stress; and financial concerns including low salaries and high debt \citep{maton_experiences_2011}. Underrepresented minority graduate students encounter the same challenges as their European American counterparts, along with additional hurdles associated with their ethnic backgrounds. These additional challenges include negative perceptions of academic merit, prejudice and discrimination, alienation and isolation, cultural bias, lack of accurate portrayals, and stereotyping \citep{curry_systematized_2020, maton_experiences_2011}.
@@ -1479,7 +1478,7 @@ Runner-Rioux et al. \citeyearpar{runner-rioux_influence_2018} identified that In
 \subsection{Graduate Students Who Identify as Latinx}\label{graduate-students-who-identify-as-latinx}
 
 \begin{quote}
-So, the conflict is when I go home, I am faced with the environment that made me who I once was, and I no longer fit in that environment. I kind of have to deal with that, with my parents and the way they think. I do not think that way anymore. And as much as I want to be there, I know I cannot stay there for very long, so it's almost like academia de-culturated me from them and it's a bit of a challenge because I know I can never fully participate in that world again if I'm going to be the person I'm striving to be as an academic. So, the biggest struggle has been shedding the person I used to be. I wanted to cling to my previous identity for a very long time and it was not until I could let go of the old identity that I could reinvent myself and move into a phase where I can actually call myself an emerging scholar. (Jaqueline). \citep[383]{ramos_conociendo_2020}
+So, the conflict is when I go home, I am faced with the environment that made me who I once was, and I no longer fit in that environment. I kind of have to deal with that, with my parents and the way they think. I do not think that way anymore. And as much as I want to be there, I know I cannot stay there for very long, so it's almost like academia de-culturated me from them and it's a bit of a challenge because I know I can never fully participate in that world again if I'm going to be the person I'm striving to be as an academic. So, the biggest struggle has been shedding the person I used to be. I wanted to cling to my previous identity for a very long time and it was not until I could let go of the old identity that I could reinvent myself and move into a phase where I can actually call myself an emerging scholar. (Jaqueline). \citep[p.~383]{ramos_conociendo_2020}
 \end{quote}
 
 Latinx graduate students continue to be underrepresented in graduate programs and report experiencing significant challenges in academic spaces. Predominantly, these challenges tend to be linked to integration of their cultural identities with their academic and professional identities in graduate school \citep{crumb_fostering_2022, locke_counterstory_2022, ramos_conociendo_2020}. For example, in qualitative research interviews with Latinx doctoral students, students shared about their experiencing microaggressions from faculty and students, faculty dehumanizing and undervaluing Latinx research populations, feeling isolated and underrepresented, having difficulty navigating White academic spaces, and integrating cultural identities with professional identity \citep{crumb_fostering_2022, ramos_conociendo_2020}. When Latinx students are made to feel invisible, underrepresented, and undervalued in research by their peers in academic spaces, it can negatively impact their mental health and access to research opportunities. Latinx graduate students report experiencing anxiety, feeling isolated from both family and academia, and stressors related to academic language expectations and financial stress \citep{crumb_fostering_2022, locke_counterstory_2022, ramos_conociendo_2020}. Further, students have reported experiencing somatic symptoms of these psychological stressors as well (i.e.~stomach ulcers and heartburn; \citet{ramos_conociendo_2020}).
@@ -1880,9 +1879,9 @@ Utilization of the JARS should begin with its \href{https://apastyle.apa.org/jar
 \textbf{Table 1}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.5051}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4646}}
-  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.0303}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.5051}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4646}}
+  >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.0303}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 JARS Element
@@ -2333,9 +2332,9 @@ The three recommendations that emerge from these personal examples include the f
 \textbf{Table 1}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.5051}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4646}}
-  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.0303}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.5051}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4646}}
+  >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.0303}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Element
@@ -2389,6 +2388,384 @@ Generalizability taking into consideration target population and contextual issu
 Implications for future research, program, policy & & \\
 \end{longtable}
 
+\chapter{Institutional Review Boards and IRB Applications/Approval}\label{IRB}
+
+\emph{Emily Coombs, (she/they) \& Meredith R. Maroney\(^{1}\) (she/her), University of Calgary }\\
+
+\emph{We respectfully acknowledge that the University of Calgary is located on the traditional territories of the people of the Treaty 7 region in Southern Alberta, which includes the Blackfoot Confederacy (comprising the Siksika, Piikani, and Kainai First Nations), the Tsuut'ina First Nation, and the Stoney Nakoda (including the Chiniki, Bearspaw, and Wesley First Nations). The City of Calgary is also home to the Métis Nation of Alberta, Region III.}\\
+
+\emph{\(^{1}\) Meredith R. Maroney is now at the University of Massachusetts Boston, Department of Counseling and School Psychology}\\
+
+\textbf{IS THIS FORTHCOMING? IF IT IS DELAYED, SHOULD I DELETE THIS LINE? Supplementary podcast: {[}link will be inserted here{]}}
+
+The supplementary podcast will provide a collection of narratives from academics at various points in their career. They will discuss their experiences working alongside the Institutional Review Board (IRB). As well as how their areas of research influence their IRB experience. This podcast aims to provide the listener with a comprehensive chronology of how one navigates IRBs throughout their career.
+
+The focus of this lesson is to provide an overview of the foundational elements of the Institutional Review Board (IRB). We discuss the Belmont Report, the role of OHRP, what it means to have Federal Wide Assurance, and essential elements of informed consent. We conclude with a summary and recommendations for conducting research with understudied populations, along with considerations for researchers throughout the IRB application process.
+
+\section{Learning Objectives}\label{learning-objectives-7}
+
+Learning objectives for this chapter include the following:
+
+\begin{itemize}
+\tightlist
+\item
+  Explain the importance of ethical principles in research, including protecting participants from harm, ensuring confidentiality, and maintaining integrity.
+\item
+  Evaluate potential ethical considerations that may arise during the IRB application process and identify ways to address this with populations of interest.
+\item
+  Reflect on how personal values and implicit biases (at both the individual and systemic level) may impact research design and participant experiences\\
+\item
+  Articulate how IRB requirements arose from researcher harms
+\end{itemize}
+
+\section{Recommended Readings and Resources}\label{recommended-readings-and-resources-4}
+
+The following four articles served as critical references in the development of this chapter. The subsequent two videos discuss or present recent exceptional, thought-provoking examples of community-engaged and community-based research. We encourage you to review them.
+
+The following served as critical references in the development of this chapter. We encourage learners to review them.
+
+\begin{itemize}
+\tightlist
+\item
+  Bell, D. J., \& Hausman, E. M. (2014). Training Models in Professional Psychology Doctoral Programs (Chapter 3). In W. B. Johnson \& N. Kaslow (Eds.), \emph{The Oxford Handbook of Education and Training in Professional Psychology}.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This chapter is an excellent review of the origin of training models, their defining characteristics, and how they strengthen as well as challenge our training programs. The authors have both been long-involved in the issue of training models and accreditation.
+  \end{itemize}
+\item
+  McCracken, J. (2020). Ethics as obligation: Reconciling diverging research practices with marginalized communities. \emph{International Journal of Qualitative Methods}, \emph{19}, 1-11. \url{https://doi.org/10.1177/1609406920964336}.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The article is a valuable resource for learners conducting research with marginalized communities as it offers practical guidance on ethical considerations. It provides insights into how to conduct research in a way that is responsible, ethical, and respectful. The article can also help students develop a more reflexive and collaborative approach to research ethics, grounded in an understanding of the needs and perspectives of the communities they are studying.
+  \end{itemize}
+\item
+  Sullivan, T., Martin, W. L., \& Handelsman, M. M. (1993). Practical benefits of an informed-consent procedure: An empirical investigation. \emph{Professional Psychology: Research and Practice}, \emph{24}(2), 160--163. \url{https://doi.org/10.1037/0735-7028.24.2.160}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This article is useful as it skillfully introduces the concept of informed consent in psychological research, provides empirical evidence of its practical benefits, and presents the study's findings clearly and concisely. It is also accessible to undergraduate students who may not have a strong background in psychology or research methods. Overall, the article offers a valuable introduction to informed consent and its ethical importance in research.
+  \end{itemize}
+\item
+  Waltz, M. (2007). The relationship of ethics to quality: A particular case of research in autism. \emph{International Journal of Research \& Method in Education}, \emph{30}(3), 353--361. \url{https://doi.org/10.1080/17437270701614840}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This article explores the relationship between ethics and research quality in autism research, offering practical suggestions for addressing ethical considerations. It provides a case study of ethical issues in research with vulnerable populations and can be practical for university students interested in research methods or ethics.
+  \end{itemize}
+\item
+  Drolet, M.-J., Rose-Derouin, E., Leblanc, J.-C., Ruest, M., \& Williams-Jones, B. (2022). Ethical issues in research: Perceptions of researchers, Research Ethics Board members and Research Ethics Experts. \emph{Journal of Academic Ethics}, \emph{21}. \url{https://doi.org/10.1007/s10805-022-09455-3}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This article examines the ethical issues in research and provides insights into the perceptions of different stakeholders involved in the research process. It highlights the importance of obtaining informed consent, ensuring confidentiality and privacy, and avoiding conflicts of research interest. For university students interested in research methods or ethics, the article offers practical insights into navigating ethical issues that may arise in their research or when serving on an REB. By understanding the importance of ethical considerations in research practices, students can ensure that their research is conducted ethically and with integrity.
+  \end{itemize}
+\end{itemize}
+
+\section{Institutional Review Boards}\label{institutional-review-boards}
+
+Institutional review boards (IRBs), also known as research ethics committees or research ethics boards (REBS), protect human subjects involved in research. To conduct research with human participants, researchers must seek approval from a review board comprising members with varying backgrounds and areas of expertise \textbf{THESE REFS MISSING (Grady, 2015; FDA, 2019)}. Before collecting data, researchers must submit a detailed proposal of the research plan, emphasizing possible risks and benefits to research and what will be explicitly communicated to and asked of participants. The IRB reviews the research proposal, which includes recruitment materials, informed consent documents, interview protocols, measures, and study design \textbf{MISSING REF (FDA, 2019)}. After reviewing materials, researchers may be asked to modify or revise aspects of the proposed research, particularly if additional detail is needed or there is concern about the welfare or rights of the participants. If researchers do not satisfy the review board that the benefits of the proposed research outweigh the risks, the research project may not be approved. Researchers must keep the IRB updated if challenges arise, if they choose to modify their study design, and provide periodic updates before the agreed-upon expiry date (e.g., once a year). It is also the responsibility of researchers to communicate with IRBs once a study has concluded and is closed to new participants.
+
+\section{The Belmont Report}\label{the-belmont-report}
+
+The Belmont Report was published in 1979 by the National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research, prompted by the signing of the National Research Act in 1974 \citep{national_commission_for_the_protection_of_human_subjects_of_biomedical_and_behavioral_research_belmont_1979}. The committee was tasked with outlining specific guidelines and principles that should inform research with human subjects to prevent ethical violations and ensure the protection of human research subjects. The Belmont Report discusses the boundaries between ethics and research and reviews three ethical principles and applications of informed consent, participant selection, and assessing benefits and risks. Several key events led to the creation of the National Research Act and the subsequent development of The Belmont Report, which are detailed below.
+
+\subsection{Key Events}\label{key-events}
+
+The Tuskegee Syphilis Study began in 1932 as the United States Public Health Service set out to ``determine the natural course of untreated, latent syphilis in black males,'' \citep[p.~21]{brandt_racism_1978}. This research study was conducted in Macon County, Alabama, and the participants were Black men with syphilis (N = 399) and control participants (N = 201). Although initially proposed to last between six and nine months, the experiment continued for 40 years. A series of papers were published between the 1930s and 1960s, but the study did not receive public attention until it was written about in the public media in 1972. After a yearlong review process, there were several ethical concerns with the proposed research, which was found to be ``ethically unjustified'' by the Department of Health, Education, and Welfare. The real purpose of the study was concealed, and researchers coerced a vulnerable population with the promise of resources (Equal Justice Initiative, 2020). Essentially, participants who were infected with syphilis were not educated or treated by researchers and were prevented from accessing treatment, even when it was widely accessible, so researchers could continue to observe how the disease would progress. This resulted in the death of 128 participants from syphilis or related complications and the infection of partners and children \citep{equal_justice_institute_tuskegee_2020}.
+
+The Nuremberg Code consists of 10 ethical research principles developed in 1947 as part of the Nuremberg Medical Trials and has informed current research principles \citep{shuster_fifty_1997}. The Nuremberg Medical Trials were carried out following unethical medical experimentation in Germany during World Word II. Human rights were violated, even when participants protested harmful experiments \citep[see][for a detailed discussion]{gallin_nuremberg_2022} A major point emerging from the Nuremberg Code is the importance of voluntary consent to research by human participants. In addition, the Nuremberg Code details when medical experimentation is justified and what conditions must be met \citep{shuster_fifty_1997}.
+
+\subsection{Basic Principles of The Belmont Report}\label{basic-principles-of-the-belmont-report}
+
+The three principles outlined in The Belmont Report are: respect for persons, beneficence, and justice \citep{national_commission_for_the_protection_of_human_subjects_of_biomedical_and_behavioral_research_belmont_1979}. Respect for persons details that ``individuals should be treated as autonomous agents, and second, that persons with diminished autonomy are entitled to protection''). Beneficence is understood through two main principles: ``(1) do not harm and (2) maximize possible benefits and minimize possible harms.'' Finally, justice refers to the potential benefits of research and is guided by these formulations ``(1) to each person an equal share, (2) to each person according to individual need, (3) to each person according to individual effort, (4) to each person according to societal contribution, and (5) to each person according to merit.''
+
+\section{The Role of the Office for Human Research Protections}\label{the-role-of-the-office-for-human-research-protections}
+
+The Office for Human Research Protections (OHRP) is part of the Department of Health and Human Services (HHS) and ``provide{[}s{]} leadership for all federal agencies that conduct or support human subjects research'' \citep{office_for_human_research_protections_about_2016}. This includes developing educational programs and publications, advising and consulting on research, and overseeing research out of U.S.-based and worldwide institutions \citep{office_for_human_research_protections_ohrp_2020}. All institutions registered or approved to conduct research under OHRP's purview can be found at \href{https://ohrp.cit.nih.gov/search/search.aspx?styp=bsc}{this link}.
+
+\section{Federalwide Assurance}\label{federalwide-assurance}
+
+In order to be recognized by OHRP as engaged in research, institutions must submit an assurance of compliance noting the commitment to following the regulations that are required to protect human participants. The written document approved by OHRP is known as a federalwide assurance (FWA), and must be updated by each institution every five years \citep{office_for_human_research_protections_federalwide_2017}.
+
+\subsection{Essential Elements of Informed Consent}\label{essential-elements-of-informed-consent}
+
+\subsection{Summary of the Consent Process}\label{summary-of-the-consent-process}
+
+The founding principle of informed consent requires researchers to obtain participants' explicit and voluntary agreement to participate in research \citep{american_psychological_association_ethical_2017}. Informed consent documents are a critical component of this process, as they help ensure that potential participants understand the nature of the study and its potential risks and benefits \citep[Section 3.10]{american_psychological_association_ethical_2017}. The researchers are responsible for providing sufficient information to make an informed decision about participation and answering participants' questions \citep[Section 3.10 (a)]{american_psychological_association_ethical_2017}. Historically participants must provide written consent before participating in the study. However, with the advent of online research, informed consent is being obtained in less stringent ways, such as simply pressing ``Yes, I agree'' \citep{rothwell_informed_2021}.
+
+Obtaining participants' consent, either verbal or written, is a central step in the overall consent process \citep{roache_why_2014}, and ensures that participants are equally aware of the important facts of the research, duration, purpose, confidentiality, risk and benefits \citep[Section 3.10, 2017]{american_psychological_association_ethical_2017}. This is vital as the consent process can continue after research is underway; that is participants have the right to ask questions and withdraw at any point \citep[Section 3.10]{american_psychological_association_ethical_2017}.
+
+\section{Key Aspects of Informed Consent}\label{key-aspects-of-informed-consent}
+
+In the Belmont Report, we are asked to consider how the informed consent document and process might be a ``necessary part of showing respect for all persons'' \citep[Part C]{national_commission_for_the_protection_of_human_subjects_of_biomedical_and_behavioral_research_belmont_1979}. Moreover, the report makes clear that all subjects, ``to the degree that they are capable,'' must be granted the opportunity to choose to what they are or not subjected. Under these recommendations, researchers must make reasonable efforts to consider both the sufficient information about the research procedure and the limits of their participants: maturity, capacity for understanding, language and literacy, which, in turn, may directly affect the mode in which informed consent is given.
+
+\subsection{Information}\label{information}
+
+Informed consent helps to protect the rights and welfare of research participants by promoting transparency and accountability in research by requiring researchers to clearly communicate the purpose, procedures, and potential risks and benefits of the study to participants. The Belmont Report asks that we consider how much information should be given to the participants. In some instances, incomplete disclosure is crucial; such instances are only permissible given that there is an adequate plan for ensuring participant wellness post-research, for example, debriefing subjects \citep[Part C]{national_commission_for_the_protection_of_human_subjects_of_biomedical_and_behavioral_research_belmont_1979}. Equally as important, researchers should never withhold information about risks to gain compliance from participants, a point I elaborate more on later in the section.
+
+\subsection{Comprehension}\label{comprehension}
+
+Researchers are responsible for ensuring that their participants comprehend the information. This is especially true for the understanding of informed consent. In order to ascertain participant's correct interpretation of what is being asked of them, it may be suitable to provide diverse modes of communication, for instance, oral or written tests of comprehension \citep[Part C]{national_commission_for_the_protection_of_human_subjects_of_biomedical_and_behavioral_research_belmont_1979}. In cases where special provisions are warranted, there may also be the additional consideration of third-party authorization. Ensuring that third parties also comprehend what they are asked is equally vital as gaining participant consent. They act on the participant's behalf, which must appear to be in the participant's best interest.
+
+\subsection{Voluntariness}\label{voluntariness}
+
+A salient point of informed consent is ensuring the lack of coercion or undue influence. Such is expressed by explicit wishes of consent voluntarily given. Though we will speak on this point more throughout the section, it is important to re-emphasize that any participant should come to research on their own free will and under no stress of repercussions \citep[Part C]{national_commission_for_the_protection_of_human_subjects_of_biomedical_and_behavioral_research_belmont_1979}. In short, informed consent is essential to ensure that research is conducted ethically and responsibly, respecting the rights and dignity of human participants.
+
+\section{General Requirements of Informed Consent}\label{general-requirements-of-informed-consent}
+
+A written informed consent document has long been the standard used \citep{rothwell_informed_2021}. Often in the form of a prewritten fill-in-the-blank manuscript provided by a given institution. Participants are to sign and date said form to ensure they understand what they read. However, with the dawn of globalized internet connection, we are seeing a migration away from written to online informed consent documents \citep{rothwell_informed_2021, salmons_doing_2016}. Regardless of what method informed consent is obtained it might be wise to think about informed consent as two distinct but related parts: first, the formally verified consent achieved through documentation of some sort, and second, the ongoing process of informing participants \citep{salmons_doing_2016}. Below we will discuss multiple general requirements that one should consider when conceptualizing informed consent broadly. Such reflections will ensure that the researcher has built a strong notional understanding to bolster all that they have learnt thus far.
+
+\subsection{Exemptions of Informed Consent}\label{exemptions-of-informed-consent}
+
+There are only a few instances where informed consent is not required. Such would include: (a) when there is a reasonable assumption that the research would not cause any distress or harm to participants, (b) when interfering with observation would negatively affect the study, such as in examining normal classroom curricula, (c) when studies involve anonymous questionnaires, (d) when the use of archival data presents no risk to participants financial standing, employability or reputation, and (e) in circumstances where deception is embedded in the research design; however, these instances must obtain informed consent in the debriefing \citep[Section 8.03]{american_psychological_association_ethical_2017}.
+
+\subsection{Coercion}\label{coercion}
+
+The conditions in which informed consent is obtained are equally crucial to the document itself. As explained in the Belmont Report (see above section), coercion can occur to ensure compliance. In order to have a sound study, one must ensure that participants wish to participate voluntarily. A few examples of common, coercive influences include: (a) a penalty for maturation, (b) a close relationship with a participant, (c) overstated benefits without a focus on risks, (d) and deception. Ultimately, coercion violates the participant's autonomy as the ``underlying principle and justification of informed consent requirements \ldots{} is a moral principle of respect for autonomy'' \textbf{MISSING REFERENCE (Faden \& Beauchamp, 1986, p.~216)}. With coerced consent, the prospective participant may perceive that they have no option other than to participate due to fear of penalty \citep{wendler_why_2017}.
+
+\subsection{Language Understandable to the Participant or the Legally Authorized Representative}\label{language-understandable-to-the-participant-or-the-legally-authorized-representative}
+
+The informed consent document must ensure that the language used is ``reasonably understandable to that person or persons \citep[Section 8.03]{american_psychological_association_ethical_2017}.'' Researchers who are used to communicating in professional jargon through peer-reviewed journals may overlook the concept of ``reasonably understandable.'' Thus, what seems reasonable to the researcher may be complex to the participant. With that in mind, the aim is to ensure the informed consent process is easily understood \citep{roache_why_2014}. One recommendation is embodying a ``friendly'' exchange between the researcher participant \citep[p.~435]{roache_why_2014}, followed by a written summary of the information most salient to the study. Additionally, verbal and written consent should remain brief and simply phrased at a reading level that all can understand \citep[p.~435]{roache_why_2014}. A good rule of thumb is grade 8th grade or middle school reading level \citep{foe_reading_2016, paasche-orlow_readability_2003}. This recommendation stems from data showing that, on average, North Americans read at an eighth-grade level \citep{noauthor_skills_nodate, taub_informed_1986} \textbf{MISSING REFERENCE (Burton, 2020)} . Moreover, it is good practice to tailor one's informed consent document to the study population; this may appear as removing complex jargon and referring to the specific information that will be collected from participants in your study. See the below example.
+
+\textbf{Ideal}
+
+\begin{quote}
+\ldots.Only the research team members will have access to your data. Electronic data will be archived and stored on a password-protected server only accessible to the researchers. Files will be stored for approximately 10 years, after which it will be erased.
+\end{quote}
+
+\textbf{Not Ideal}
+
+\begin{quote}
+\ldots.Researchers will have access to your data, including demographic and personal information, as well as survey results, which will be stored on a separate computer server in a secure location, which will be protected via an encrypted password and have several layers of internet and data security. The data in question will be kept in digital storage for approximately 10 years, as per University Policy, after which time the data will be erased.
+\end{quote}
+
+\section{Basic Elements of an Informed Consent Form}\label{basic-elements-of-an-informed-consent-form}
+
+The study description should provide participants with an overview of the study and what participation will entail. However, in some cases, informing the participant of the full nature of the study may influence their behavior, such is the case in research that relies on deception.
+
+Regarding deception, the description may take two routes, indirect or direct \citep{boynton_exploring_2013}. The indirect deception explains to the participant that they will not know all the study facts until the end. Through this, participants can choose to participate with the knowledge that some information is being withheld. Direct deception is when the researcher knowingly lies or deceives participants, leaving the participants without honest facts. However, this mode of deception has been linked to adverse emotional states and lower participant self-esteem \citep{boynton_exploring_2013}.
+
+Regardless of whether or not the research involves deception. The description section should include the following:
+
+\subsection{The purpose of the research}\label{the-purpose-of-the-research}
+
+These three to four sentences may be the most important to the informed consent because it grounds the participant in the academic significance of the study. This includes a clear statement about the research, why the research is important, and if potential participants meet the inclusion criteria for the project. In some ways, the purpose statement is an extension of the researcher, as it focuses on why the researcher created this study and why the researcher thinks it is important. See the below example:
+
+\begin{quote}
+The purpose of this study is to explore the lived experience of those who are autistic, women/femme, and are a part of the LGBTQ+ communities. We intend to focus on participants' experiences with well-being. The attached survey (which is one component of the study) will allow us to gather demographic data, as it is a common criticism of researchers studying autism that we do not capture diverse samples in our studies. To help us recruit a diverse selection of participants, we ask that you describe yourself and salient identities to your comfort level.
+\end{quote}
+
+\subsection{Expected duration}\label{expected-duration}
+
+Priming the participants for the expected duration of study activities can reduce participant drop-out \citep{oneil_web-based_2003}, as they are more cognizant of their expected effort. For many, research participation must include incentives, mainly in the form of compensation. Though funding may not allow the researcher to compensate the participants, the researcher can pose the time commitment as a means to invoke buy-in from the participants. By being concise and providing a time range, the participants may be more likely to engage. See the below example:
+
+\begin{quote}
+If you consent to participate in this research voluntarily, your participation will include completing a 5-15-minute questionnaire . This one-time commitment can be completed by computer and at your own pace.
+\end{quote}
+
+\subsection{Study Procedures}\label{study-procedures}
+
+Regardless of the method of inquiry the researcher intends to use, the procedure must be outlined to the participant. The informed consent should outline the length of time required for the elements in the study, where they will take place, or generally what will be asked. Because of this, the researcher may find that participants are confused or unwilling to participate. Though the researcher may understand what is expected to happen during this study, the participant may not. Therefore, it is incumbent upon the researcher to make this section as detailed as possible (while also writing in a style that is clear and comprehensible).
+
+\subsection{Risks and/or Discomforts}\label{risks-andor-discomforts}
+
+The responsibility of articulating any and all risks in an accurate and understandable manner rests on the research. Though many minor risks may be no more than experienced on a typical day, it is important that participants make the voluntary choice to take on said risks. Some participants may make a rational decision that the experience of participating in the study would be ``too stressful, risky, or unpleasant for some idiosyncratic reason that applies to them''(Melton et al., 1988). Especially in cases where it may be overwhelming to read, all possible risks do not need to be cited on the informed consent form.The information presented should describe what risks are most likely to occur and call attention to those that are serious in nature. Furthermore, information on what actions may be taken to mitigate risks should be considered for inclusion in this section; this often appears as the offering of mental health resources. See the below example.
+
+\begin{quote}
+There are no known or anticipated risks to participating in this study; however, this questionnaire includes asking about topics related to your salient identities such as ethnicity, gender orientation, mental health diagnoses, and financial status. Should this become distressing, you can stop the survey immediately and access counseling services and other provided resources.
+\end{quote}
+
+\begin{quote}
+All risks pertaining to anonymity will be mitigated by the survey and interview results being unidentifiable to a specific name, city, or experience.
+\end{quote}
+
+\subsection{Potential Benefits}\label{potential-benefits}
+
+Equally as important as disclosing risks is the highlighting the benefits. Robust communication of benefits and risks is a key feature of a comprehensive informed consent document. It can be as simple as including a sentence that expresses possible positive outcomes regardless of the topic of study, and some research indicates that even including potential benefits may lead to more positive outcomes post-study \citep{nusbaum_communicating_2017, sullivan_practical_1993, weston_evaluating_1997}. The description should be clear, balanced, and based on information relatable to the study \citep{nusbaum_communicating_2017}. Note that compensation should not be labeled as a benefit, as it should be outlined in a separate section. See the below example.
+
+\begin{quote}
+You may experience positive emotions related to expressing your identity and sharing your experience.
+\end{quote}
+
+\subsection{Confidentiality}\label{confidentiality}
+
+Per the APA's Principle E: Respect for People's Rights and Dignity \citep{american_psychological_association_ethical_2017}, confidentiality is explicitly mentioned as an inherent right that all psychologists (researchers included) must respect. In this, the researcher ensures safeguards are put in place to protect the rights and welfare of the participants, including the communities to which they may belong. Often research asks for the personal information of participants. This may include information that participants might not disclose to others in their life. Anonymizing data is considered the best practice, whether through removing direct identifiers (i.e., address and generalizing geographic regions), using pseudonyms, and/or removing or re-coding variables that pose a direct risk of being identifiable. Moreover, the discussion of confidentiality may not capture the participant's attention until they are posed with some personal questions. By explicitly stating methods of maintaining confidentiality within the informed consent, the researcher will be able to mitigate participant focus, anxiety, or worry. See the below example.
+
+\begin{quote}
+\textbf{Anonymity} Your responses are entirely anonymous, and data are not connected to you in any way. Once you initiate the survey, your responses will be linked to a randomly generated ID number that is not connected to any personal identifying information.
+\end{quote}
+
+\begin{quote}
+\textbf{Confidentiality and Data} Your confidentiality and the confidentiality of the data will be protected by storing the anonymized data on a password-protected server, only accessible to the research team members named on the IRB application. Survey questions and responses will be stored only in the United States. Qualtrics XM employees and subcontractors will not access the Survey Data from outside the United States except (a) when authorized by the Customer for the purpose of implementing, maintaining, repairing, troubleshooting or upgrading the customer's account or the Services (``Customer Support Services''), or (b) for data recovery purposes in the event of a system failure. Servers were built to comply with The Family Educational Rights and Privacy Act of 1974 (FERPA). Only the research team members will have access to your data. Electronic data will be archived and stored on a password server only accessible to the researchers. Files will be stored for approximately 10 years and then be erased. Data will be analyzed by (the principal researcher) and research team members named on the IRB application.
+\end{quote}
+
+\subsection{Compensation}\label{compensation}
+
+Compensation can come in many forms, gift cards, draws, cash, and course credit. In the event that the researcher has the means to compensate participants, doing so symbolizes an acknowledgement of the time and effort the participants have given to the study. Additionally, compensation can appear as reimbursements, which seek to reflect out-of-pocket expenses acquired by the participant during the research study (e.g., transportation or parking). The informed consent should outline the requirements to achieve compensation (complete interview or provide a parking stub) and detail the means of compensation (gift card, cash , prize draw) and the currency, particularly for international research. The compensation section of the informed consent is a form of a contract for payment where the participant expects payment for meeting the research studies standards. If said standards are vague, then the researcher may be subject to a complaint or appeal.
+
+\subsection{Contacts}\label{contacts}
+
+The consent process must provide research team contact information should participants want an explanation pertaining to the study protocol, data collection, or ethical guidelines. This information should include contact names, telephone numbers, emails, or mailing addresses. There may be instances in which a participant does not wish to identify possible concerns to the research team; thus, the informed consent should include appropriate contact information for the IRB. All information should be easily indefinable and up to date. See the example below.
+
+\begin{quote}
+Feel free to contact any of the following with questions, comments, or concerns:
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  Principal Investigator (\href{mailto:PI@university.com}{\nolinkurl{PI@university.com}}) (123-321-0987) (Tower 333, 999 University Drive, Somewhere, Some State, 12345)
+\item
+  Co-Principal Investigator (\href{mailto:studyspecificemail@univerity.com}{\nolinkurl{studyspecificemail@univerity.com}}) (098-765-1234) (Tower 321, 999 University Drive, Somewhere, Some State, 12345)
+\end{itemize}
+
+\begin{quote}
+If you have any concerns about how you have been treated as a participant, please contact the Institutional Review Board, University, at 456-987-1357 or \href{mailto:ethics@univerity.com}{\nolinkurl{ethics@univerity.com}}
+\end{quote}
+
+\section{Voluntary Participation}\label{voluntary-participation}
+
+At no point during the informed consent, research study, or analysis should a participant feel that their participation is not voluntary \citetext{\citealp[Section 8.03]{american_psychological_association_ethical_2017}; \citealp[Part C]{national_commission_for_the_protection_of_human_subjects_of_biomedical_and_behavioral_research_belmont_1979}}. Ensuring that participants understand this sentiment is an integral element of informed consent. Through explicit statements, participants must know that they may withdraw at any time without penalty. Any language limiting the participant's ability to decline participation directly conflicts with APA's general principles. Additionally, it is essential that when working with vulnerable populations, the researcher takes care to ensure that there is no pressure to participate. Practically, this exists as straightforward statements made throughout the informed consent. Moreover, a statement related to the expected dissemination of results is encouraged as it will help inform the participant if they wish to continue.
+
+\section{What May Be Holding Up The IRB Application}\label{what-may-be-holding-up-the-irb-application}
+
+Navigating the IRB review process can sometimes feel like a journey filled with twists and turns. In the quest for a successful application, understanding the avoidable stumbling blocks that can lead to delays and resubmissions becomes crucial. This discussion delves into the first category of these hurdles, shedding light on the often-overlooked issue of application incompleteness.
+
+\subsection{Incomplete Applications}\label{incomplete-applications}
+
+\textbf{Missing Supporting Document.} Typically researchers are asked to upload supporting documents as part of their IRB application. Determining what documents to include can be overwhelming, particularly for new investigators. As research has become more integrated with the online world, a whole host of supporting documents, which should be listed in the institution's IRB manual or instructions, must follow \citep{rothwell_informed_2021, salmons_doing_2016}. For instance, when advertising a study on social media, submitting a specific ad and the expected caption is wise. To ensure they have all the supporting documents, one must reflect on how much participant contact they will have, where they will connect with participants, and the specific messaging they will use.
+
+\textbf{Vague Description of Objectives and Processes.} Ensuring that the statement of objectives clearly describes the research is vital. Thai includes comprehensive descriptions of the study outcomes and the importance of this specific research. Additionally, giving clear and explicit detail about the processes of recruiting and every interaction researchers may have with participants will ensure the IRB reviewers are not left guessing about the breadth of the studies' impact on the public.
+
+Even though the study might be ``minimal risk,'' participants have the right to know how and why the contribution of their time is important. When the objectives and purpose of the study are clearly and comprehensively described, the IRB reviewers will have greater confidence in their own assessment of the viability of the proposed project.
+
+\textbf{Generic Informed Consent Letter.} There is a perception that informed consent letters are ``legalistic,'' ``formulaic,'' and that ``no one reads them anyways'' \citep[p.~19]{drolet_ethical_2023}. However, this is not the case; the informed consent process is a conversation between the participant and the researcher. This open dialogue will ensure that participants are informed about how their participation contributes to further knowledge. The objective should be to ensure that the informed consent document makes the research as understandable as possible. Pictures, diagrams, accessible language (Try to write them at a grade 8 level), white space, and bullet points will ensure ease of understanding. If the research is using equipment, for instance, an electroencephalogram (EEG), take the opportunity to show the participant photographs. This may demystify the research process and make participants more inclined to engage and clearly show what is being asked of them.
+
+Often research processes are filled with a lot of jargon and acronyms. Such language is likely easily understandable by those who know the research; however, the average participant is not usually ``in the know'' regarding technical or method-specific knowledge. Avoid the use of complex and technical language. Endeavor to write the informed consent using lay language. When in doubt, try explaining the study to someone who lacks knowledge about the research. Consider how they might explain the study to their grandmother or their cousin. If they can understand it, then the informed consent is on the right track.
+
+\textbf{Term Confusion.} Defining and clarifying the terms used in one's application is essential. This is achieved by providing precise and concise definitions for uncommonly used terms. For instance, explain what it means for the study to be ``exploratory.'' For qualitative researchers, this is relatively straightforward and commonplace. However, looking at ``exploratory'' through a quantitative lens may lead to confusion---additionally, endeavor to use consistent terminology throughout the application. It is crucial to keep in mind the audience of the IRB application, which may include individuals who need to become more familiar with the specific terminology used in the field.
+
+Anonymous and anonymized data are terms that often spark confusion for students or researchers who are new to the IRB process. These terms are often used interchangeably, which is not in accordance with their definitions. Anonymous implies that the researcher will never know who the participant is, whereas anonymized data is the process of de-identifying data for analysis or dissemination purposes. When submitting the application, it is important to explain all research-specific terms and clearly understand the distinguishing features of closely associated terms.
+
+\textbf{Inconsistent and Inaccurate Information.} At some point within a budding academic career, students and/or researchers may be asked to complete an IRB application for a faculty member. While this can be an exciting prospect, such delegation may be given to someone who does not know the research intimately or at all. Lack of familiarity with the research may contribute to reasonable errors in defining inclusion and exclusion criteria, forgetting to include the time commitments required of participants, or needing more clarity concerning remuneration. In these cases, there are a few steps that might be helpful: Firstly, it is integral to place one's self in the participant's position, what they would wish to know about the study, what would be essential information, and how it would impact the researcher willingness to participate. Secondly, it may also be helpful to inquire into institution-specific IRB manuals and guidelines; for instance, the University of Massachusetts Boston has a series of investigator manuals to guide researchers through the IRB process \citep{u_mass_boston_hrp-103_2022}. Thirdly, one should ask established researchers at their institution for hints and examples of past IRB applications. Lastly, knowing the Office for Human Research Protections (OHRP) guidelines and resource books is invaluable as it provides the knowledge necessary to make strong arguments to IRBs when necessary. Secondly, it may also be helpful to inquire into institution specific IRB manuals and guidelines, for instance the University of Massachusetts Boston has a series of investigator manuals aimed at guiding researchers through IRB process (\citet{u_mass_boston_hrp-103_2022}{]}. Thirdly, one should ask established researchers at thier institution for hints and examples of past IRB applications. Lastly, knowing the Office for Human Research Protections (OHRP) guidelines and resource books is an invaluable tool as it provides the knowledge necessary to make strong arguments to IRB's when necessary.
+
+Having addressed potential issues in the IRB application process, the focus now shifts to challenges that may arise during the IRB review stage. Navigating through the intricate landscape of IRB review feedback poses its own obstacles, necessitating a careful examination of potential problems and effective strategies for resolution.
+
+\subsection{IRB Review Feedback Problems}\label{irb-review-feedback-problems}
+
+\textbf{Failure to Disclose Magnitude of Risks and the Impacts of Research.} Minimal risk does not imply that the participant risk is zero. Further, just because the perception that risks have a low magnitude of harm does not ensure they do not have a probability of occurring. the researcher must ensure that they appropriately assess the balance between risks and benefits, that all risks are adequately described, and that the occurrence and probability of harm are fully described. For example, a risk may have a significant magnitude if it occurs but a small chance of occurring. If only the magnitude is described, the benefits may not be perceived to outweigh the risks. Comparatively, ensure that the researcher has not overstated the risks, as this may negatively impact recruitment or cause IRB reviewers to question the accuracy of the statement.
+
+No person is always vulnerable or invulnerable. With this in mind, consider risks and vulnerability from the participants' perspective by reading the application, information, and consent letter as though the researcher are a participant. This will ensure that they understand that vulnerability is assessed related to the research question.
+
+\textbf{Failure to Consider Undue Influence.} It is prudent to ensure that recruitment happens in a neutral environment free of undue influence. Research may be initiated by academics who have a personal connection with their study population. Though this is not unethical, recruiting from personal connections can lead to unique challenges. Take steps to mitigate potential conflicts of interest by employing neutral recruiting methods. Practically this could appear as a standardized recruitment email that explicitly states, `` it will not negatively affect our relationship should you not advertise this study.'' The researcher could also limit recruitment to being purely online, which may reduce the risk of influencing any potential participants.
+
+Additionally, taking deliberate steps to mitigate coercion is an integral role of any researcher. For instance, asking a community agency to share a flyer so that people can opt-in can reduces a perceived sense of pressure experienced by potential participants. In contrast, directly contacting people the researcher knows who would meet study criteria may help increase the sample size, but may result in IRB concerns about coercive recruitment methods \citep{klitzman_how_2013}.
+
+\textbf{The Reviewer is Unfamiliar with Proposed Research Methodology.} A key source of delay is that most submissions must respond to at least one request for further information or clarification from the Human Research Ethics Committee \citep{brandenburg_what_2021}. This may be due in part to a disconnect in understanding between the IRB reviewer and the researcher. Researchers may sometimes be asked to clarify terms related to their proposed methodology or analytic plan. For example, an expert in qualitative research methods may understand specific qualitative research terms. Additionally, reviewers may express hesitance for approving a study if they have not worked with patient data, while a IRB reviewer with a health research background may be able to give feedback on the best way to safely transfer clinical data. However, it is essential to remember that the IRB reviewers will come with differing areas of expertise.
+
+It is likewise important not to assume that the reviewer understands the study method. In some cases, it helps to operationally define key terms, provide more information and explain the data collection and study procedures extensively. Providing ample citations of sources related to the chosen research design and methodology may increase reviewers' confidence in the proposed methods.
+
+\section{Summary, Conclusions, and/or Recommendations: Ethical Considerations for Emerging Challenges}\label{summary-conclusions-andor-recommendations-ethical-considerations-for-emerging-challenges}
+
+We began this chapter with an overview of the history of policies and procedures related to IRBs. In our second section, we identified common challenges new researchers may encounter when completing the IRB application process. To conclude our chapter we detail a few considerations for navigating IRB applications based on our research interests and positionalities. In the first section, MM describes her process of navigating IRB applications in a manner that centers the experiences of autistic participants. In the second section, we share considerations for conducting research with online communities. Finally, we conclude with a research method that has been increasingly discussed in supervisory settings: autoethnographies. Although the examples we provide are specific to our shared research interests at the intersection of autism and LGBTQ identities, we hope the considerations and suggestions that we offer can be adapted to additional specific populations of interest.
+
+\subsection{Destigmatizing the area of study}\label{destigmatizing-the-area-of-study}
+
+Autism is a stigmatized area of study. This bias can manifest through stereotypes and misconceptions about autistic people particularly subgroups not immediately thought of when hearing the term autism (e.g., White, heterosexual, cisgender boys). These perceptions may also be held by IRB reviewers responsible for making decisions for research studying autism. When conducting research focused on the experiences of intersectional autistic participants, I (MM) have found that part of my job as a researcher is to provide education and justification for my research decisions. In these examples, I am not talking about a particular institution but sharing examples across multiple institutions informed by my experiences and conversations with colleagues. For instance, reviewers' biases about how autism manifests can inform the sort of feedback they provide about the study design, such as asking about the presence of a legal guardian for autistic adults over the age of 18, or expressing worry about asking about sexual and gender identity among an autistic sample. Although we want to ensure all participants have the capacity to consent to participation in research, only when conducting a study with autistic adults have I been required to state this at the outset and as participation criteria. In a discussion among a group of autistic autism researchers navigating the IRB was mentioned several times, particularly concerning this tension between centering autistic voices versus protecting a ``vulnerable population'' \citep[p.~215]{dwyer_expert_2021}. As stated by Dr.~Sandra Jones, ``We need to make sure autistic people are able to actively participate in research: that we are not protected by IRBs so much that we are actually silenced'' \citep[p.~215]{dwyer_expert_2021}
+
+As a neurotypical, queer researcher who conducts research at the intersection of autism, sexuality, and gender, I have found it necessary to frame my area of study in anticipation of possible critiques, particularly starting from a space of naming that there are many biases about autistic people and that yes, autistic people are also LGBTQ+ and can talk about experiences related to identity development and self-awareness.
+
+The way autism presents itself can vary significantly across individuals, making exploring how to best support individual participation needs and preferences in each study design essential. For example, revising an informed consent form to use bullet points and white space may make it easier for participants to review key information but may be presented in a different format than reviewers are used to. By stating this upfront, researchers can educate reviewers and demonstrate how they communicate risks and participation criteria while attending to participants' differences.
+
+There is a history of excluding people with disabilities from research because it is assumed that they cannot provide consent, which is inaccurate \citep{marshall_navigating_2012}. Marshall and colleagues \citeyearpar{marshall_navigating_2012} explored ethical concerns related to research with LGBTQ individuals with intellectual disabilities, highlighting the importance of managing the risk of coercion, consenting to participating in the study, and navigating issues of confidentiality and disclosure. Increasingly, researchers are partnering with communities in meaningful ways; this is a positive shift. By collaborating with community partners or co-researchers early in the research process, researchers can better ensure that what we are studying is meaningful and that study materials are presented to meet populations' needs. Unfortunately, academic systems are often inflexible, and many barriers in place reflect ableism on both interpersonal and structural levels. For instance, there are a number of challenges that emerge when conducting community based participatory action research \citep[see][ for an overview]{mccracken_ethics_2020}. As stated by Dr.~Dora Raymaker, ``even the things that we have to do with the IRB (institutional review board) to include autistic collaborators butt up against ableist systems---the fact that we exist and that we have these needs is going to make the rest of the field change to accommodate us and make room for us for what we are doing'' \citep[p.~214]{dwyer_expert_2021}.
+
+This example can be applied to research with understudied populations or populations who may be labeled as vulnerable. We encourage researchers-in-training to consider the populations with whom they are most interested in working and what aspects of the research design will likely require advocacy. For instance, in this textbook's Community Based Participatory Research chapter , one will find an interview that MM conducted with Dr.~Roberto Abreu. He details how he advocates throughout the IRB process to reduce barriers to participation with Latinx transgender individuals. When considering a study with LGBTQ youth, researchers may wish to ask for a waiver of parental consent to ensure that students are not outed if they wish to participate in their research \citep[see][]{flores_obtaining_2018}. Such practices require researchers to share more detail about their rationale; in support of their advocacy efforts, researchers may find it helpful to consult and reference previously completed studies.
+
+\subsection{Navigating research in online communities}\label{navigating-research-in-online-communities}
+
+As researchers have increasingly collected data via online platforms, a host of possible ethical considerations and critical questions have emerged. Social media and online communities can be great ways to increase access for hard-to-reach populations. Yet, these communities must be approached thoughtfully, as they are designed by-and-for their members as a way to provide support and share resources. When conducting research with online communities, researchers should ask for permission to share recruitment information and follow the guidelines of that online community. Certain groups may be closed to people who hold particular identities, so researchers should be prepared to be transparent about their positionality, the purpose of the study, and possibly their stance on particular topics as a way to share power with potential participants. Researchers may also extract data from publicly available sites such as comments from social media platforms or public blogs (like Reddit, YouTube, Twitter, and Tumblr), which likely will not require a full IRB application, although researchers should plan to discuss their research proposal with their institution's IRB. It is more likely that researchers will receive a letter from their IRB noting that IRB approval was waived, which the researcher will need when publishing in most peer-reviewed journals.
+
+Considering informed consent can be particularly challenging when researching online communities, as using pseudonyms or anonymous profiles is commonplace (Wormald, 2019). Although the researcher may not be required to seek consent from individuals, researchers should be mindful of practices that protect their participants. In writing this chapter, we were impressed with how Harmens and colleagues \citeyearpar{harmens_quest_2022} approached their thematic analysis of online blogs written by autistic women. Although not in direct contact with participants, this study team sought approval from their IRB and took steps to disguise quotes taken from the blogs so they could not be directly linked with specific bloggers. In our own research, we have approached this by talking with our IRB as a first step and then taking steps to de-identify social media handles to avoid directly identifying participants commenting on social media platforms (i.e., TikTok) who have not opted in to study participation. We acknowledge that this is an area that is rapidly changing, and practices will likely evolve and change, and share this with the hopes of encouraging dialogue and reflection when conducting research with online communities
+
+\subsection{Approaching autoethnography}\label{approaching-autoethnography}
+
+Autoethnography is a qualitative method in which an academic researcher draws on and analyzes their lived experience to provide insights into self-identity, cultural norms, communication practices, traditions, symbols, societal rules, felt sense, meaning-making, emotions, values and larger social, cultural, and political issues \citep[p.~2]{adams_chapter_2014}. In recent years, institutional research boards have shifted towards requiring IRB approval for some autoethnographic studies, often determined on a case-by-case basis, which has led to new considerations and challenges in the IRB application process. Writing an autoethnography is not as easy as putting ``pen to paper.'' Since autoethnography involves studying oneself, it may raise ethical considerations requiring an ethics committee's approval. Like any research involving human subjects, autoethnography must adhere to ethical principles and obtain ethical approval from the relevant institutional review board (IRB) before conducting the research. The IRB review process can lead to delays, challenges, or tensions, particularly regarding protecting the individual when they wish to share their story openly \textbf{MISSING REFERENCE (Maxwell, 2019)}. One primary concern that IRBs may have is the need to obtain consent from others who are mentioned in the study. To ensure that personal information is kept confidential and maintain objectivity while interpreting their experiences. To illustrate such a need, we turn to Edwards' \citeyearpar{edwards_ethical_2021} autoethnography, wherein they reflect on an experience in which they were identified in a colleague's published autoethnographic report. The publication gave rise to feelings of hurt and disdain as it was circulated around campus. This example depicts the need for autoethnographic researchers to be cognizant of their plans for publication as they may need to consider issues related to privacy, anonymity, and potential harm to themselves or others. Though some institutions may not require IRB approval for all autoethnogaphic studies, others may require it for autoethnographic doctoral dissertations \textbf{MISSING REFERENCE (see Muscente \& Lucero, 2021)} when researchers are still learning best practices; seeking consultation before conducting autoethnographic research is vital.
+
+\subsection{In closing}\label{in-closing}
+
+As we conclude this chapter on ethical applications, it's evident that the landscape of research ethics is both intricate and essential. Successfully navigating the terrain of IRB applications requires not only a comprehensive understanding of the guidelines and regulations but also a commitment to upholding the principles that underpin them. The ethical application process is not merely a bureaucratic requirement but a testament to our dedication to producing knowledge that benefits society at large while minimizing harm. By embracing ethical considerations as the cornerstone of our research endeavors, we ensure the integrity, validity, and societal impact of our work. As they continue their academic and professional journey, may the insights shared in this chapter serve as a compass, guiding them towards ethically sound and socially responsible research practices.
+
+\section{Suggestions for Practice, Further Learning, and/or Conversation (Formatted ``Heading 1'' on Home/Styles)}\label{suggestions-for-practice-further-learning-andor-conversation-formatted-heading-1-on-homestyles}
+
+\subsection{Checking Understanding and Reflection Exercise}\label{checking-understanding-and-reflection-exercise}
+
+\textbf{Purpose}: This activity gives students critical insight into the multiple considerations and roles while completing an IRB application. By engaging students in the ethics applicant and investigator role, they may gain perspicuity into the multidimensionality of the IRB application process. Overall, the students' perceived insight determines success in this activity. They will gain a practical understanding of navigating ethical issues that may arise in their research or when serving on an IRB. Moreover, they will be able to engage in thoughtful, ethical analysis and discussion, preparing them to conduct research with the highest level of integrity.
+
+\begin{itemize}
+\tightlist
+\item
+  Have students read a brief overview of institutional review boards (IRBs) and their role in research, such as this chapter, which would function well as an overview.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Provide examples of key areas IRBs typically review, such as informed consent, confidentiality, and risks and benefits to participants.
+  \end{itemize}
+\item
+  Next, ask students to reflect on their own research experiences or interests.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Have they ever conducted research that required IRB approval, or do they plan to in the future?
+  \item
+    What populations do they hope to study? What ethical considerations have they addressed or will they need to address in their research?
+  \end{itemize}
+\item
+  After reflecting on their experiences, have students read a case study {[}see supplementary materials{]} involving ethical considerations and IRB approval. Ask students to work in small groups to discuss the case study and the ethical considerations involved.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    What are the potential risks and benefits of the study?
+  \item
+    What might be alternative approaches taken to address the ethical concerns?
+  \end{itemize}
+\item
+  Finally, bring the class together and have each group share their thoughts and insights. Discuss the perspectives and ethical considerations involved, and explore how IRBs might approach the case study.
+\end{itemize}
+
+\section{Supplementary Materials}\label{supplementary-materials}
+
+\subsection{Case Study: Investigating Life Satisfaction in Autistic Elders}\label{case-study-investigating-life-satisfaction-in-autistic-elders}
+
+\textbf{Research Question}: What factors contribute to life satisfaction in autistic elders?
+
+\textbf{Research Design}: A qualitative study involving interviews with autistic individuals aged 55 to 99+.
+
+\textbf{Background:} Autistic elders, like other aging adults, experience a range of life stratification, which refers to the unique experiences of systematic differences in life ventures, opportunities, and outcomes based on age, gender, race, ethnicity, socioeconomic status, and other social and cultural factors \citep{bishop-fitzpatrick_autism_2019, gothelf_intersection_2019, munnell_aging_2017}. However, autistic elders may face additional challenges and complexities due to their autism diagnosis, affecting their health, social connectedness, and quality of life \citep[p.~8]{bishop-fitzpatrick_autism_2019}.
+
+Some research suggests that autistic adults may experience greater social isolation, difficulties with daily living skills, and higher rates of comorbid medical and mental health conditions as they age (Bishop-Fitzpatrick, 2019, p.~8). Autistic elders may also face challenges in accessing appropriate healthcare and support services and navigating social and communication barriers in their communities \citep{munnell_aging_2017}.
+
+In addition, autistic elders may face discrimination and stigma based on their age, disability status, and other factors, which may impact their social and economic opportunities and overall well-being \citep{munnell_aging_2017}. However, it is essential to note that a range of experiences exists; thus, there is potential that not all autistic elders experience adverse outcomes or challenges, and some may exhibit resilience and positive adaptation in later life. Presently a limited body of literature exists; more research is needed to better understand the life stratification experiences of autistic elders and to develop effective interventions and support services to promote their health, well-being, and social inclusion in later life.
+
+\textbf{Methodology}: We aim to recruit 16 to 18 participants to partake in semi-structured interviews expected to take anywhere from 45 minutes to an hour. Interviews will take place over Zoom and will be recorded and transcribed. Interviews will be coded and transcribed using password-protected software (e.g., Nvivo, Otter.ti). Notes, memos, and interview transcripts will be stored in a password-protected folder with data encryption (electronic) or in locked file cabinets in the PI's office (physical). Participant names and emails will only be used to share the results with individual participants and invite individual participants to future research-related events. Names and emails will not be linked to specific data after the complete research. The identity of participants will be stored in a password-protected drive that is only accessible to the researchers. Interviews will be conducted by the PI, graduate student research assistant and undergraduate research assistant, all trained in qualitative research methods. Semi-structured questions and probes will be used for clarification purposes or further exploration in a non-leading manner.
+
+Interviews will only be offered in English.
+
+Participants will be informed of the interviewer's positionality as this may increase the comfortability of participants. During the interview portion of the study, semi-structured questions will be focused on three different yet interrelated categories. Firstly, participants will describe their lived experiences with their autism diagnosis. This aims to build rapport with the participant and get them talking about themselves. Secondly, they will be asked questions about how they define life satisfaction within their own lives, describe their overall well-being and quality of life, and highlight where disparities and inequalities arise in their life.
+
+\textbf{Risks and discomforts associated with the research}: The present research study has minimal risks and discomforts. Participants may feel uncomfortable reflecting on challenges and negative experiences
+
+\textbf{Describe the potential, direct benefits}: We anticipate no potential benefits.
+
 \chapter{Coming Soon}\label{coming-soon}
 
 The following is a listing of planned chapters and authors who have committed to writing them. Please suggest missing chapters and consider locating a co-author(s) and contributing one yourself(ves).
@@ -2435,23 +2812,7 @@ The following is a listing of planned chapters and authors who have committed to
   \begin{itemize}
   \tightlist
   \item
-    Jenny Vaydich, Jacob Bentley, \& Oscar Baldelomar
-  \end{itemize}
-\item
-  Institutional Review Boards
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Meredith Maroney \& Emily Coombs-Montanez
-  \end{itemize}
-\item
-  Research environment \& culture
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Sally Stabb
+    Jenny Lee Vaydich, Jacob Bentley, \& Oscar Baldelomar
   \end{itemize}
 \end{itemize}
 
@@ -2485,9 +2846,7 @@ The following is a listing of planned chapters and authors who have committed to
   Lists of additional resources
 \end{itemize}
 
-\chapter{References}\label{references-2}
-
-\chapter*{REFERENCES}\label{references-3}
+\chapter*{REFERENCES}\label{references-2}
 
 
   \bibliography{TRM.bib}

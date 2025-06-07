@@ -13,11 +13,8 @@ The following is a listing of planned chapters and authors who have committed to
 * Program evaluation
   - Maryam Jernigan-Noesi
 * Internationalizing and decolonizing psychological research
-  - Jenny Vaydich, Jacob Bentley, & Oscar Baldelomar
-* Institutional Review Boards
-  - Meredith Maroney & Emily Coombs-Montanez
-* Research environment & culture
-  - Sally Stabb
+  - Jenny Lee Vaydich, Jacob Bentley, & Oscar Baldelomar
+
 
 ## Desired Chapters
 
@@ -34,4 +31,3 @@ The following is a listing of planned chapters and authors who have committed to
 * Grading rubrics for research-related assignments
 * Lists of additional resources
 
-# References
