@@ -50,7 +50,7 @@ In her 2021-2022 term as President of the Society of Counseling Psychology, one 
 
 This open education resource (OER) is a product of the group devoted to *research*. There are a number of strategies we used to ensure that the OER moves in the direction of being socially and culturally responsive.
 
-* Our authors committed to using the guidelines for a liberated syllabus found in the CCTC: Social Responsiveness in [Health Services Psychology Education & Training Toolkit](https://pr4tb8rrj317wdwt3xlafg2p-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/CCTC_Socially-Responsive-HSP-Ed-Training_v7.pdf). 
+* Our authors committed to using the guidelines for a liberated syllabus found in the CCTC: Social Responsiveness in [Health Services Psychology Education & Training Toolkit](https://www.cctcpsychology.org/resources-for-cctc-members-and-liaisons/). 
 * We chose the format of OER because provides a zero-cost *textbook* to faculty and students. 
 * We sought authors and co-author teams that represent the diversity of health services psychology including discipline (counseling, clinical, educational),stage in career (students, early career professionals, mid- and late- career professionals), and identities that have been  marginalized in higher education and our discipline. 
 * Each chapter works its way through an open peer review process where the chapter (with authors clearly identified)is hosted in a shared drive. At least two reviewers can mark up the same document and contribute to the same rubric. At any time the author(s) can see the review and, if desired, dialogue with the reviewers. At the outset, we specified the tone to be "formative not summative."
@@ -60,12 +60,7 @@ This open education resource (OER) is a product of the group devoted to *researc
 
 This book is being formatted in R Markdown, rendered into its "book" format with Bookdown, hosted on GitHub, and pushed to the internet (in its html format) through GitHub Pages. This set of tools allows the book to be *perpetually-in-progress.* This means that our authors can update their chapters at-any-time. It also means that we can add chapters at-any-time. If you are interested in contributing to the book, please contact us. It is one of our greatest hopes that this flexibility contributes to the socially and culturally responsive pedagogy that we intend.
 
-## Under Construction {-}
-
-At this stage in the OER's development, authors are still writing and revising chapters. The following designations will identify the chapters that have not been through the review process:
-
-* *In-progress* means that the chapter is partially written (or perhaps outlined) and that the author(s) are continuing to work on the chapter.
-* *Under review* means that the chapter is being (or has been) peer-reviewed. 
+At times, you may encounter copy-editing chatter (e.g., "MISSING REFERENCE"). This means that the chapter has passed through peer review. However, in the process of converting the chapter to the RMarkdown/Bookdown format, we recognized copyediting errors. Rather than delay the publication of the chapter, we have chosen to include it while we finalize correspondence with the authors.
 
 ## Acknowledgements {-}
 
