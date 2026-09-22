@@ -4,27 +4,25 @@ The following is a listing of planned chapters and authors who have committed to
 
 ## Planned Chapters
 
-* Philosophy of science
-  - Nuha Alshabani & Nathan Bitecofer
 * Psychometrics/scale development
   - Cirleen DeBlaere & Casey Hinger
 * Qualitative research methods
   - Ashley MacPherson & Pearis Bellamy
 * Program evaluation
   - Maryam Jernigan-Noesi
-* Internationalizing and decolonizing psychological research
-  - Jenny Lee Vaydich, Jacob Bentley, & Oscar Baldelomar
-
+* Single-Case Experimental Designs
+  - Joaquin Borrego
 
 ## Desired Chapters
 
 * Experimental design
 * Non-experimental design
-* Case study/single case design
 * Action Research
+* Philosophy of science
+* AI in research
 * Other chapters that *you* think would be important to include
 
-## Appendices Plans
+## Appendices Aspirations
 
 * Research methods syllabus
 * Proposed assignments (beyond those embedded in the chapter)
